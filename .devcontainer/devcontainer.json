@@ -1,0 +1,28 @@
+{
+  "name": "みずみち（冠水アラートアプリ）開発環境",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "lts" }
+  },
+
+  // コンテナ作成時に、ツールに必要なライブラリを自動で入れる。
+  // これが終われば iPad からでも python3 tools/doctor.py が動く。
+  "postCreateCommand": "pip install --user -r tools/requirements.txt",
+
+  // Codespaces が自動で転送するポート。ブラウザの別タブで開ける。
+  "forwardPorts": [8000, 8765],
+  "portsAttributes": {
+    "8000": { "label": "プロトタイプ（みずみち）", "onAutoForward": "notify" },
+    "8765": { "label": "危険箇所レビュー画面", "onAutoForward": "notify" }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-python.vscode-pylance"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.encoding": "utf8"
+      }
+    }
+  }
+}

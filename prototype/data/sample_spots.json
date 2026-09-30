@@ -1,0 +1,22 @@
+{
+  "_warning": "★このファイルは動作確認用のダミーデータです。実在の危険箇所を示すものではありません。実データは国交省『道路冠水注意箇所マップ』等から作成してください（docs/02, docs/05-4-2 参照）。",
+  "version": "0.1.0-sample",
+  "generated_at": "2026-08-19",
+  "area": "千葉市周辺（サンプル）",
+  "spots": [
+    { "id": "S-01", "name": "サンプル地下道 A", "kind": "underpass_gravity", "lon": 140.1065, "lat": 35.6108, "dz": -2.4, "hist": 4, "sample": true, "note": "自然排水の地下道を想定。最も感度が高い設定" },
+    { "id": "S-02", "name": "サンプル地下道 B", "kind": "underpass_pump",    "lon": 140.1231, "lat": 35.6042, "dz": -1.6, "hist": 2, "sample": true, "note": "排水ポンプありを想定" },
+    { "id": "S-03", "name": "サンプル地下道 C", "kind": "underpass_gravity", "lon": 140.0872, "lat": 35.5951, "dz": -1.9, "hist": 3, "sample": true },
+    { "id": "S-04", "name": "サンプル低地交差点 D", "kind": "lowland",       "lon": 140.1412, "lat": 35.6215, "dz": -1.1, "hist": 1, "sample": true },
+    { "id": "S-05", "name": "サンプル低地区間 E", "kind": "lowland",         "lon": 140.0654, "lat": 35.6321, "dz": -0.8, "hist": 0, "sample": true },
+    { "id": "S-06", "name": "サンプル橋詰め F", "kind": "bridge_approach",   "lon": 140.1590, "lat": 35.5878, "dz": -0.5, "hist": 1, "sample": true },
+    { "id": "S-07", "name": "サンプル地下道 G", "kind": "underpass_pump",    "lon": 140.0448, "lat": 35.6602, "dz": -2.0, "hist": 3, "sample": true },
+    { "id": "S-08", "name": "サンプル河川隣接路 H", "kind": "river_adjacent","lon": 140.1748, "lat": 35.6450, "dz": -0.3, "hist": 2, "sample": true, "note": "本来は河川水位で判定（docs/04-4-4）。ここでは雨量で近似" },
+    { "id": "S-09", "name": "サンプル低地 I", "kind": "lowland",             "lon": 140.1102, "lat": 35.6480, "dz": -1.4, "hist": 2, "sample": true },
+    { "id": "S-10", "name": "サンプル地下道 J", "kind": "underpass_gravity", "lon": 140.0330, "lat": 35.5820, "dz": -2.8, "hist": 5, "sample": true, "note": "最悪ケース。低い雨量でレベルが上がる" },
+    { "id": "S-11", "name": "サンプル高台交差点 K", "kind": "lowland",       "lon": 140.1955, "lat": 35.6120, "dz": 1.5,  "hist": 0, "sample": true, "note": "比較用。高台なので閾値が上がり危険になりにくい" },
+    { "id": "S-12", "name": "サンプル地下道 L", "kind": "underpass_pump",    "lon": 140.0790, "lat": 35.6740, "dz": -1.2, "hist": 1, "sample": true },
+    { "id": "S-13", "name": "サンプル低地 M", "kind": "lowland",             "lon": 140.1520, "lat": 35.6690, "dz": -1.7, "hist": 3, "sample": true },
+    { "id": "S-14", "name": "サンプル橋詰め N", "kind": "bridge_approach",   "lon": 140.0985, "lat": 35.5680, "dz": -0.9, "hist": 0, "sample": true }
+  ]
+}

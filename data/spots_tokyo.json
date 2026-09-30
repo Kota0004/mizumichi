@@ -1,0 +1,3609 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "tokyo",
+  "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "tokyo-0001",
+      "name": "本町アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.772003,
+      "lat": 35.670601,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号",
+      "road_type": "国道",
+      "address": "東京都中央区本町アンダー",
+      "locality": "本町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0002",
+      "name": "蒲田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.719849,
+      "lat": 35.565697,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "15号",
+      "road_type": "国道",
+      "address": "東京都大田区蒲田アンダー",
+      "locality": "蒲田アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0003",
+      "name": "仲宿アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.709854,
+      "lat": 35.755383,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号",
+      "road_type": "国道",
+      "address": "東京都板橋区仲宿アンダー",
+      "locality": "仲宿アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0004",
+      "name": "北町アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.65184,
+      "lat": 35.735641,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号BP",
+      "road_type": "国道",
+      "address": "東京都練馬区・板橋区北町アンダー",
+      "locality": "北町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0005",
+      "name": "赤塚アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.65184,
+      "lat": 35.735641,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号BP",
+      "road_type": "国道",
+      "address": "東京都練馬区・板橋区赤塚アンダー",
+      "locality": "赤塚アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0006",
+      "name": "徳丸アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.65184,
+      "lat": 35.735641,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号BP",
+      "road_type": "国道",
+      "address": "東京都練馬区・板橋区徳丸アンダー",
+      "locality": "徳丸アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0007",
+      "name": "大門アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.648834,
+      "lat": 35.783646,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号BP",
+      "road_type": "国道",
+      "address": "東京都板橋区大門アンダー",
+      "locality": "大門アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0008",
+      "name": "馬坂アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.709229,
+      "lat": 35.751221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号BP",
+      "road_type": "国道",
+      "address": "東京都板橋区馬坂アンダー",
+      "locality": "馬坂アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0009",
+      "name": "新宿御苑トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.71225,
+      "lat": 35.689556,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20号",
+      "road_type": "国道",
+      "address": "東京都新宿区新宿御苑トンネル",
+      "locality": "新宿御苑トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0010",
+      "name": "初台アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.686279,
+      "lat": 35.679787,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20号",
+      "road_type": "国道",
+      "address": "東京都渋谷区初台アンダー",
+      "locality": "初台アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0011",
+      "name": "大原アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.663757,
+      "lat": 35.668846,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20号",
+      "road_type": "国道",
+      "address": "東京都世田谷区大原アンダー",
+      "locality": "大原アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0012",
+      "name": "渋谷駅ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.704285,
+      "lat": 35.661812,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "東京都渋谷区渋谷駅ガード下",
+      "locality": "渋谷駅ガード下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0013",
+      "name": "南平台アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.695938,
+      "lat": 35.653839,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "東京都渋谷区南平台アンダー",
+      "locality": "南平台アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0014",
+      "name": "瀬田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.632645,
+      "lat": 35.614594,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "東京都世田谷区瀬田アンダー",
+      "locality": "瀬田アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0015",
+      "name": "羽田空港トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.756943,
+      "lat": 35.554813,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号",
+      "road_type": "国道",
+      "address": "東京都大田区羽田空港トンネル",
+      "locality": "羽田空港トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0016",
+      "name": "空港北トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.716019,
+      "lat": 35.561211,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号",
+      "road_type": "国道",
+      "address": "東京都大田区空港北トンネル",
+      "locality": "空港北トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0017",
+      "name": "空港南トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.716019,
+      "lat": 35.561211,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号",
+      "road_type": "国道",
+      "address": "東京都大田区空港南トンネル",
+      "locality": "空港南トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0018",
+      "name": "東京港トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.817047,
+      "lat": 35.67318,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号",
+      "road_type": "国道",
+      "address": "東京都江東区・品川区東京港トンネル",
+      "locality": "東京港トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0019",
+      "name": "瑞穂南地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.354111,
+      "lat": 35.771923,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "東京都瑞穂町瑞穂南地下道",
+      "locality": "瑞穂南地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0020",
+      "name": "瑞穂中央立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.354111,
+      "lat": 35.771923,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "東京都瑞穂町瑞穂中央立体",
+      "locality": "瑞穂中央立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0021",
+      "name": "八高線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.354111,
+      "lat": 35.771923,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "東京都瑞穂町八高線高架下",
+      "locality": "八高線高架下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0022",
+      "name": "中央線立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.362137,
+      "lat": 35.62722,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号(八王子BP)",
+      "road_type": "国道",
+      "address": "東京都八王子市中央線立体",
+      "locality": "中央線立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0023",
+      "name": "大和田八高線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.356567,
+      "lat": 35.655396,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号(八王子BP)",
+      "road_type": "国道",
+      "address": "東京都八王子市大和田八高線高架下",
+      "locality": "大和田八高線高架下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0024",
+      "name": "20号南浅川アンダーボックス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.315623,
+      "lat": 35.666726,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20号",
+      "road_type": "国道",
+      "address": "東京都八王子市20号南浅川アンダーボックス",
+      "locality": "20号南浅川アンダーボックス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 21m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 20.8,
+          "matched": "道路トンネル",
+          "osm_id": 758765150,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（21m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0025",
+      "name": "JR常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.80452,
+      "lat": 35.745026,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道461号",
+      "road_type": "都道",
+      "address": "東京都足立区千住東一丁目掃部宿アンダーパス",
+      "locality": "千住東一丁目(JR常磐線下)掃部宿アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0026",
+      "name": "JR貨物線下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.768387,
+      "lat": 35.732876,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道58号",
+      "road_type": "都道",
+      "address": "東京都荒川区西日暮里五丁目道潅山アンダーパス",
+      "locality": "西日暮里五丁目(JR貨物線下)道潅山アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0027",
+      "name": "JR常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.768387,
+      "lat": 35.732876,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道58号",
+      "road_type": "都道",
+      "address": "東京都荒川区西日暮里五丁目西日暮里アンダーパス",
+      "locality": "西日暮里五丁目(JR常磐線下)西日暮里アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0028",
+      "name": "隅田川スーパー堤防",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.809692,
+      "lat": 35.736832,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道314号",
+      "road_type": "都道",
+      "address": "東京都荒川区南千住八丁目胡禄トンネル",
+      "locality": "南千住八丁目胡禄トンネル(隅田川スーパー堤防)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0029",
+      "name": "隅田川スーパー堤防",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.809692,
+      "lat": 35.736832,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道314号",
+      "road_type": "都道",
+      "address": "東京都荒川区南千住八丁目瑞光トンネル",
+      "locality": "南千住八丁目瑞光トンネル(隅田川スーパー堤防)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0030",
+      "name": "JR貨物線下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.802734,
+      "lat": 35.734295,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道464号",
+      "road_type": "都道",
+      "address": "東京都荒川区南千住四丁目南千住アンダーパス",
+      "locality": "南千住四丁目(JR貨物線下)南千住アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0031",
+      "name": "熊野町アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.704056,
+      "lat": 35.741459,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道317号",
+      "road_type": "都道",
+      "address": "東京都板橋区中丸町地内",
+      "locality": "中丸町地内(熊野町アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0032",
+      "name": "南常盤台アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.68924,
+      "lat": 35.756393,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都板橋区南常盤台一丁目地内",
+      "locality": "南常盤台一丁目地内(南常盤台アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0033",
+      "name": "向原トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.681808,
+      "lat": 35.74052,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道441号",
+      "road_type": "都道",
+      "address": "東京都板橋区向原二丁目地内",
+      "locality": "向原二丁目地内(向原トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0034",
+      "name": "JR東海道線ガード下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.716019,
+      "lat": 35.561211,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道11号",
+      "road_type": "都道",
+      "address": "東京都大田区JR東海道線ガード下アンダーパス",
+      "locality": "JR東海道線ガード下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0035",
+      "name": "東急多摩川線ガード下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.720291,
+      "lat": 35.55262,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都大田区東急多摩川線ガード下アンダーパス",
+      "locality": "東急多摩川線ガード下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0036",
+      "name": "大和大橋下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.72467,
+      "lat": 35.577538,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都大田区大和大橋下アンダーパス",
+      "locality": "大和大橋下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0037",
+      "name": "平和ずい道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.740189,
+      "lat": 35.57967,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都大田区平和ずい道",
+      "locality": "平和ずい道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0038",
+      "name": "湾岸道路下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.716019,
+      "lat": 35.561211,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都大田区湾岸道路下アンダーパス",
+      "locality": "湾岸道路下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0039",
+      "name": "新小岩アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.8589,
+      "lat": 35.717337,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道308号",
+      "road_type": "都道",
+      "address": "東京都葛飾区新小岩一丁目地内",
+      "locality": "新小岩一丁目地内(新小岩アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 496m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 495.8,
+          "matched": "道路トンネル",
+          "osm_id": 62207682,
+          "osm_name": "平和橋通り",
+          "confidence": "中",
+          "why": "路線番号が一致（308）。ただし出発点が市区町村の中心で、そこから 496m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0040",
+      "name": "首都高速王子線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.739349,
+      "lat": 35.754356,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道306号",
+      "road_type": "都道",
+      "address": "東京都北区王子一丁目尾長橋トンネル",
+      "locality": "王子一丁目(首都高速王子線下)尾長橋トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0041",
+      "name": "境川アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.826233,
+      "lat": 35.681244,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道474号",
+      "road_type": "都道",
+      "address": "東京都江東区北砂二丁目地内",
+      "locality": "北砂二丁目地内(境川アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0042",
+      "name": "第一大久保ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.698066,
+      "lat": 35.699959,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道302号",
+      "road_type": "都道",
+      "address": "東京都新宿区百人町1丁目",
+      "locality": "百人町1丁目(第一大久保ガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 106m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 105.5,
+          "matched": "道路トンネル",
+          "osm_id": 98726946,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 106m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0043",
+      "name": "井荻トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.612579,
+      "lat": 35.716805,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都杉並区今川一丁目地内",
+      "locality": "今川一丁目地内(井荻トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0044",
+      "name": "四面道アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.617401,
+      "lat": 35.710159,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都杉並区清水一丁目",
+      "locality": "清水一丁目(四面道アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0045",
+      "name": "荻窪アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.612823,
+      "lat": 35.706997,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都杉並区上荻二丁目地内",
+      "locality": "上荻二丁目地内(荻窪アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0046",
+      "name": "方南八幡アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.653351,
+      "lat": 35.680042,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都杉並区和泉4丁目",
+      "locality": "和泉4丁目(方南八幡アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0047",
+      "name": "白鬚東地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.814667,
+      "lat": 35.733963,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道461号",
+      "road_type": "都道",
+      "address": "東京都墨田区堤通二丁目地内",
+      "locality": "堤通二丁目地内(白鬚東地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0048",
+      "name": "玉川通り旭陸橋下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.630203,
+      "lat": 35.609329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都世田谷区玉川通り旭陸橋下アンダーパス",
+      "locality": "玉川通り旭陸橋下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0049",
+      "name": "世田谷通り常盤陸橋下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.649231,
+      "lat": 35.641434,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都世田谷区世田谷通り常盤陸橋下アンダーパス",
+      "locality": "世田谷通り常盤陸橋下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0050",
+      "name": "淡島通り若林陸橋下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.653183,
+      "lat": 35.64595,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都世田谷区淡島通り若林陸橋下アンダーパス",
+      "locality": "淡島通り若林陸橋下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0051",
+      "name": "目黒通り等々力不動陸橋下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.653183,
+      "lat": 35.64595,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都世田谷区目黒通り等々力不動陸橋下アンダーパス",
+      "locality": "目黒通り等々力不動陸橋下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0052",
+      "name": "江戸橋地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.776235,
+      "lat": 35.682536,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道316号",
+      "road_type": "都道",
+      "address": "東京都中央区日本橋1丁目~日本橋2丁目",
+      "locality": "日本橋1丁目~日本橋2丁目(江戸橋地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 90m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 90.2,
+          "matched": "道路トンネル",
+          "osm_id": 92223188,
+          "osm_name": "昭和通り",
+          "confidence": "高",
+          "why": "路線番号が一致（316）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0053",
+      "name": "八重洲地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.775624,
+      "lat": 35.681544,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道316号",
+      "road_type": "都道",
+      "address": "東京都中央区日本橋2丁目~京橋1丁目",
+      "locality": "日本橋2丁目~京橋1丁目(八重洲地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 127m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 126.8,
+          "matched": "道路トンネル",
+          "osm_id": 92223188,
+          "osm_name": "昭和通り",
+          "confidence": "高",
+          "why": "路線番号が一致（316）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0054",
+      "name": "宝町地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.77206,
+      "lat": 35.675791,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道316号",
+      "road_type": "都道",
+      "address": "東京都中央区京橋2丁目~銀座1丁目",
+      "locality": "京橋2丁目~銀座1丁目(宝町地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 122m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 122.1,
+          "matched": "道路トンネル",
+          "osm_id": 92223189,
+          "osm_name": "昭和通り",
+          "confidence": "高",
+          "why": "路線番号が一致（316）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0055",
+      "name": "東銀座地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.771406,
+      "lat": 35.674739,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道316号",
+      "road_type": "都道",
+      "address": "東京都中央区銀座1丁目~銀座7丁目",
+      "locality": "銀座1丁目~銀座7丁目(東銀座地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 159m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 158.7,
+          "matched": "道路トンネル",
+          "osm_id": 92223189,
+          "osm_name": "昭和通り",
+          "confidence": "高",
+          "why": "路線番号が一致（316）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0056",
+      "name": "新橋地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.772003,
+      "lat": 35.670601,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道316号",
+      "road_type": "都道",
+      "address": "東京都中央区中・銀座7丁目~港・新橋2丁目",
+      "locality": "中・銀座7丁目~港・新橋2丁目(新橋地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0057",
+      "name": "日比谷地下自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.752151,
+      "lat": 35.684052,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道304号",
+      "road_type": "都道",
+      "address": "東京都千代田区千・日比谷公園~中・銀座5丁目",
+      "locality": "千・日比谷公園~中・銀座5丁目(日比谷地下自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0058",
+      "name": "野方アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.655884,
+      "lat": 35.717426,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道318号",
+      "road_type": "都道",
+      "address": "東京都中野区野方三丁目",
+      "locality": "野方三丁目(野方アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0059",
+      "name": "練馬トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.629562,
+      "lat": 35.742317,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都練馬区貫井四丁目地内",
+      "locality": "貫井四丁目地内(練馬トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0060",
+      "name": "練馬春日町トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.64241,
+      "lat": 35.749893,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道311号",
+      "road_type": "都道",
+      "address": "東京都練馬区春日町三丁目地内",
+      "locality": "春日町三丁目地内(練馬春日町トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0061",
+      "name": "小竹トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.676086,
+      "lat": 35.739773,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道441号",
+      "road_type": "都道",
+      "address": "東京都練馬区小竹町ニ丁目地内",
+      "locality": "小竹町ニ丁目地内(小竹トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0062",
+      "name": "谷原アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.613258,
+      "lat": 35.749485,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道443号",
+      "road_type": "都道",
+      "address": "東京都練馬区高野台四丁目地内",
+      "locality": "高野台四丁目地内(谷原アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 397m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 397.0,
+          "matched": "道路トンネル",
+          "osm_id": 813403541,
+          "osm_name": "谷原横断地下道",
+          "confidence": "中",
+          "why": "名称が一致（谷原横断地下道）。ただし出発点が市区町村の中心で、そこから 397m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0063",
+      "name": "目黒通り下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.710938,
+      "lat": 35.636093,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道317号",
+      "road_type": "都道",
+      "address": "東京都目黒区目黒通り下アンダーパス",
+      "locality": "目黒通り下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0064",
+      "name": "駒沢通り下アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.686829,
+      "lat": 35.657032,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道317号",
+      "road_type": "都道",
+      "address": "東京都目黒区駒沢通り下アンダーパス",
+      "locality": "駒沢通り下アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0065",
+      "name": "築地虎ノ門トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.751663,
+      "lat": 35.658054,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特405号外濠環状線",
+      "road_type": "都道",
+      "address": "東京都港区築地虎ノ門トンネル",
+      "locality": "築地虎ノ門トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0066",
+      "name": "中神立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.378254,
+      "lat": 35.708423,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道59号",
+      "road_type": "都道",
+      "address": "東京都昭島市中神立体",
+      "locality": "中神立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 458m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 457.6,
+          "matched": "道路トンネル",
+          "osm_id": 74144918,
+          "osm_name": "八王子武蔵村山線",
+          "confidence": "中",
+          "why": "路線番号が一致（59）。ただし出発点が市区町村の中心で、そこから 458m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0067",
+      "name": "昭島つつじヶ丘立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.369816,
+      "lat": 35.710733,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "162号",
+      "road_type": "都道",
+      "address": "東京都昭島市昭島つつじヶ丘立体",
+      "locality": "昭島つつじヶ丘立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 319m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 319.2,
+          "matched": "道路トンネル",
+          "osm_id": 53514509,
+          "osm_name": "三ツ木八王子線",
+          "confidence": "中",
+          "why": "路線番号が一致（162）。ただし出発点が市区町村の中心で、そこから 319m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0068",
+      "name": "松原立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.353608,
+      "lat": 35.715645,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "220号",
+      "road_type": "都道",
+      "address": "東京都昭島市松原立体",
+      "locality": "松原立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 342m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 342.0,
+          "matched": "道路トンネル",
+          "osm_id": 76068306,
+          "osm_name": "昭島停車場熊川線",
+          "confidence": "中",
+          "why": "路線番号が一致（220）。ただし出発点が市区町村の中心で、そこから 342m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0069",
+      "name": "JR五日市線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.297348,
+      "lat": 35.720116,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "176号",
+      "road_type": "都道",
+      "address": "東京都あきる野市雨間立体",
+      "locality": "雨間立体(JR五日市線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0070",
+      "name": "稲城市押立",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.513458,
+      "lat": 35.647476,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道9号",
+      "road_type": "都道",
+      "address": "東京都稲城市押立",
+      "locality": "稲城市押立",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0071",
+      "name": "河辺立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.285751,
+      "lat": 35.783207,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "194号",
+      "road_type": "都道",
+      "address": "東京都青梅市河辺町5丁目・7丁目",
+      "locality": "青梅市河辺町5丁目・7丁目(河辺立体)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0072",
+      "name": "芝山立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.526855,
+      "lat": 35.785275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道40号",
+      "road_type": "都道",
+      "address": "東京都清瀬市芝山立体",
+      "locality": "芝山立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0073",
+      "name": "清瀬立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.526855,
+      "lat": 35.785275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道40号",
+      "road_type": "都道",
+      "address": "東京都清瀬市清瀬立体",
+      "locality": "清瀬立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0074",
+      "name": "貫井立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.495682,
+      "lat": 35.690228,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "248号",
+      "road_type": "都道",
+      "address": "東京都小金井市貫井立体",
+      "locality": "貫井立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0075",
+      "name": "殿ヶ谷戸立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.469788,
+      "lat": 35.696728,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "133号",
+      "road_type": "都道",
+      "address": "東京都国分寺市殿ヶ谷戸立体",
+      "locality": "殿ヶ谷戸立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0076",
+      "name": "小平グリーンロード立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.454117,
+      "lat": 35.735847,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "248号",
+      "road_type": "都道",
+      "address": "東京都小平市小平グリーンロード立体",
+      "locality": "小平グリーンロード立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0077",
+      "name": "立川立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.407776,
+      "lat": 35.71389,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道16号",
+      "road_type": "都道",
+      "address": "東京都立川市立川立体",
+      "locality": "立川立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0078",
+      "name": "玉川上水立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.407776,
+      "lat": 35.71389,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道43号",
+      "road_type": "都道",
+      "address": "東京都立川市玉川上水立体",
+      "locality": "玉川上水立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0079",
+      "name": "小作立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.304068,
+      "lat": 35.775034,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "249号",
+      "road_type": "都道",
+      "address": "東京都羽村市小作台1丁目・5丁目",
+      "locality": "小作台1丁目・5丁目(小作立体)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 266m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 266.1,
+          "matched": "道路トンネル",
+          "osm_id": 27828820,
+          "osm_name": "吉野街道",
+          "confidence": "高",
+          "why": "路線番号が一致（249）。ただし 266m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0080",
+      "name": "一ノ宮立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.395004,
+      "lat": 35.671391,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道20号",
+      "road_type": "都道",
+      "address": "東京都日野市一ノ宮立体",
+      "locality": "一ノ宮立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0081",
+      "name": "平山地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388351,
+      "lat": 35.643295,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "155号",
+      "road_type": "都道",
+      "address": "東京都日野市平山地下道",
+      "locality": "平山地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0082",
+      "name": "高幡立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.415312,
+      "lat": 35.661724,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "503号",
+      "road_type": "都道",
+      "address": "東京都日野市高幡立体",
+      "locality": "高幡立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 176m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 175.8,
+          "matched": "道路トンネル",
+          "osm_id": 26083013,
+          "osm_name": "503",
+          "confidence": "高",
+          "why": "路線番号が一致（503）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0083",
+      "name": "四ツ谷立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.39565,
+      "lat": 35.682523,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "169号",
+      "road_type": "都道",
+      "address": "東京都日野市四ツ谷立体",
+      "locality": "四ツ谷立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 1239m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1239.2,
+          "matched": "道路トンネル",
+          "osm_id": 156628763,
+          "osm_name": "淵上日野線",
+          "confidence": "中",
+          "why": "路線番号が一致（169）。ただし出発点が市区町村の中心で、そこから 1239m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0084",
+      "name": "小柳立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.504074,
+      "lat": 35.665169,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道9号",
+      "road_type": "都道",
+      "address": "東京都府中市小柳立体",
+      "locality": "小柳立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0085",
+      "name": "府中栄町立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.480545,
+      "lat": 35.67498,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道14号",
+      "road_type": "都道",
+      "address": "東京都府中市府中栄町立体",
+      "locality": "府中栄町立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0086",
+      "name": "箱根ヶ崎アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.34724,
+      "lat": 35.768803,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道5号",
+      "road_type": "都道",
+      "address": "東京都瑞穂町箱根ヶ崎322番地",
+      "locality": "瑞穂町箱根ヶ崎322番地(箱根ヶ崎アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 212m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 212.1,
+          "matched": "道路トンネル",
+          "osm_id": 150382721,
+          "osm_name": "新青梅街道",
+          "confidence": "高",
+          "why": "路線番号が一致（5）。ただし 212m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0087",
+      "name": "三鷹立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.558931,
+      "lat": 35.702341,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "都道",
+      "address": "東京都三鷹市三鷹立体",
+      "locality": "三鷹立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2117m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2117.1,
+          "matched": "道路トンネル",
+          "osm_id": 26202063,
+          "osm_name": "三鷹通り",
+          "confidence": "中",
+          "why": "路線番号が一致（121）。ただし出発点が市区町村の中心で、そこから 2117m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0088",
+      "name": "桜木トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.642177,
+      "lat": 35.645584,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "補助128号線",
+      "road_type": "都道",
+      "address": "東京都世田谷区桜1丁目",
+      "locality": "桜1丁目(桜木トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 95m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 94.9,
+          "matched": "道路トンネル",
+          "osm_id": 639681226,
+          "osm_name": "桜木トンネル",
+          "confidence": "高",
+          "why": "名称が一致（桜木トンネル）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0089",
+      "name": "豊トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.722824,
+      "lat": 35.613228,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "420号",
+      "road_type": "都道",
+      "address": "東京都品川区豊トンネル",
+      "locality": "豊トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0090",
+      "name": "ふたばトンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.730225,
+      "lat": 35.608997,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "420号",
+      "road_type": "都道",
+      "address": "東京都品川区ふたばトンネル",
+      "locality": "ふたばトンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0091",
+      "name": "千駄ヶ谷ぎょえんトンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.710892,
+      "lat": 35.679253,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "明治通り",
+      "road_type": "都道",
+      "address": "東京都渋谷区千駄ヶ谷ぎょえんトンネル",
+      "locality": "千駄ヶ谷ぎょえんトンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0092",
+      "name": "打越町土入立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.348022,
+      "lat": 35.644127,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "173号",
+      "road_type": "都道",
+      "address": "東京都八王子市打越町土入立体",
+      "locality": "打越町土入立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 521m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 521.1,
+          "matched": "道路トンネル",
+          "osm_id": 592752832,
+          "osm_name": "北野街道",
+          "confidence": "中",
+          "why": "路線番号が一致（173）。ただし出発点が市区町村の中心で、そこから 521m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0093",
+      "name": "平和台トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.664581,
+      "lat": 35.758591,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特例都道441号",
+      "road_type": "都道",
+      "address": "東京都練馬区平和台トンネル",
+      "locality": "平和台トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0094",
+      "name": "諏訪通りトンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.703613,
+      "lat": 35.69389,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道25号",
+      "road_type": "都道",
+      "address": "東京都新宿区諏訪通りトンネル",
+      "locality": "諏訪通りトンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0095",
+      "name": "国領立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.556519,
+      "lat": 35.636326,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道11号",
+      "road_type": "都道",
+      "address": "東京都調布市国領立体",
+      "locality": "国領立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0096",
+      "name": "栗原アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.787224,
+      "lat": 35.782439,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "足立6号線(補助第258号線)",
+      "road_type": "区道",
+      "address": "東京都足立区栗原2~4丁目栗原立体交差",
+      "locality": "栗原2~4丁目栗原立体交差(栗原アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 211m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 211.3,
+          "matched": "道路トンネル",
+          "osm_id": 112699217,
+          "osm_name": "栗原立体交差",
+          "confidence": "高",
+          "why": "名称が一致（栗原立体交差）。ただし 211m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0097",
+      "name": "かんかん踏切",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.785394,
+      "lat": 35.779435,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "西新井323号線",
+      "road_type": "区道",
+      "address": "東京都足立区栗原3丁目",
+      "locality": "栗原3丁目(かんかん踏切)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 93m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 92.9,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 587793582,
+          "osm_name": "東武大師線",
+          "confidence": "低",
+          "why": "名前が一致せず 93m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0098",
+      "name": "千住旭町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.807159,
+      "lat": 35.748875,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "千住東336号線(区画街路第4号線)",
+      "road_type": "区道",
+      "address": "東京都足立区千住旭町",
+      "locality": "千住旭町",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0099",
+      "name": "加平谷中トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.830123,
+      "lat": 35.78164,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "足立6号線(補助第258号線)",
+      "road_type": "区道",
+      "address": "東京都足立区加平3丁目~谷中5丁目",
+      "locality": "加平3丁目~谷中5丁目(加平谷中トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 200m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 199.5,
+          "matched": "道路トンネル",
+          "osm_id": 57899134,
+          "osm_name": "加平谷中トンネル",
+          "confidence": "高",
+          "why": "名称が一致（加平谷中トンネル）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0100",
+      "name": "千住関屋町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.806564,
+      "lat": 35.741333,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "千住東265号線",
+      "road_type": "区道",
+      "address": "東京都足立区千住関屋町",
+      "locality": "千住関屋町",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0101",
+      "name": "千住旭町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.807159,
+      "lat": 35.748875,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "千住東135号線",
+      "road_type": "区道",
+      "address": "東京都足立区千住旭町",
+      "locality": "千住旭町",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0102",
+      "name": "JR常磐線&貨物線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.802734,
+      "lat": 35.734295,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特別区道荒298号線(補助第331号線)",
+      "road_type": "区道",
+      "address": "東京都荒川区南千住四丁目南千住北架道橋",
+      "locality": "南千住四丁目(JR常磐線&貨物線下)南千住北架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0103",
+      "name": "JR常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.795488,
+      "lat": 35.730687,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特別区道荒63号線",
+      "road_type": "区道",
+      "address": "東京都荒川区南千住二丁目第2南千住架道橋",
+      "locality": "南千住二丁目(JR常磐線下)第2南千住架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 122m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 121.5,
+          "matched": "道路トンネル",
+          "osm_id": 846015877,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 122m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0104",
+      "name": "赤塚8丁目22番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.644477,
+      "lat": 35.786246,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2943号線",
+      "road_type": "区道",
+      "address": "東京都板橋区赤塚8丁目22番",
+      "locality": "赤塚8丁目22番地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 137m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 137.3,
+          "matched": "道路トンネル",
+          "osm_id": 199068944,
+          "osm_name": "東京都道446号長後赤塚線",
+          "confidence": "低",
+          "why": "名前が一致せず 137m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0105",
+      "name": "小松川アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.850708,
+      "lat": 35.688053,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "補122",
+      "road_type": "区道",
+      "address": "東京都江戸川区小松川一丁目地内",
+      "locality": "小松川一丁目地内(小松川アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0106",
+      "name": "JR常磐線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.864304,
+      "lat": 35.765865,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "葛357号(補助276号線)",
+      "road_type": "区道",
+      "address": "東京都葛飾区金町四丁目",
+      "locality": "金町四丁目(JR常磐線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0107",
+      "name": "常磐線金町駅東側南北道路アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.847229,
+      "lat": 35.743332,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "葛360号",
+      "road_type": "区道",
+      "address": "東京都葛飾区常磐線金町駅東側南北道路アンダーパス",
+      "locality": "常磐線金町駅東側南北道路アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0108",
+      "name": "小田急線山谷架道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.696819,
+      "lat": 35.682086,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1052号",
+      "road_type": "区道",
+      "address": "東京都渋谷区代々木3丁目",
+      "locality": "代々木3丁目(小田急線山谷架道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 292m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 291.7,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 355800961,
+          "osm_name": "小田急小田原線",
+          "confidence": "高",
+          "why": "路線名が一致（小田急小田原線）。ただし 292m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0109",
+      "name": "JR山手線宮益架道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.705826,
+      "lat": 35.659611,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1046号",
+      "road_type": "区道",
+      "address": "東京都渋谷区渋谷2丁目",
+      "locality": "渋谷2丁目(JR山手線宮益架道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "資料は山手線なのに、別の路線（東京メトロ銀座線）しか近くにありません。座標は動かしていません — 地図で山手線を探して合わせてください",
+        "verified_at": null
+      },
+      "params": {
+        "snap_hint": {
+          "not_applied": true,
+          "nearby": "鉄道橋（ガード下の手がかり） 東京メトロ銀座線",
+          "distance_m": 104.7,
+          "why": "資料は山手線なのに、別の路線（東京メトロ銀座線）しか近くにありません",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0110",
+      "name": "東武伊勢崎線アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.81662,
+      "lat": 35.718945,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "墨119号",
+      "road_type": "区道",
+      "address": "東京都墨田区東向島二丁目",
+      "locality": "東向島二丁目(東武伊勢崎線アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0111",
+      "name": "都道蔵前通りアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.795029,
+      "lat": 35.700424,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "墨106号",
+      "road_type": "区道",
+      "address": "東京都墨田区横網二丁目",
+      "locality": "横網二丁目(都道蔵前通りアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0112",
+      "name": "JR明神坂ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.773605,
+      "lat": 35.699524,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "698号線",
+      "road_type": "区道",
+      "address": "東京都千代田区神田相生町",
+      "locality": "神田相生町(JR明神坂ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0113",
+      "name": "ビックリガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.711115,
+      "lat": 35.727285,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "12-680号線",
+      "road_type": "区道",
+      "address": "東京都豊島区南池袋1丁目",
+      "locality": "南池袋1丁目(ビックリガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 7m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 6.6,
+          "matched": "道路トンネル",
+          "osm_id": 1128023038,
+          "osm_name": "池袋駅 西武南口",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（7m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0114",
+      "name": "長光寺橋アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.61734,
+      "lat": 35.737679,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "練馬主要区道35号線",
+      "road_type": "区道",
+      "address": "東京都練馬区南田中三丁目",
+      "locality": "南田中三丁目(長光寺橋アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0115",
+      "name": "大泉学園駅前アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.590286,
+      "lat": 35.746025,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "練馬主要区道39号線",
+      "road_type": "区道",
+      "address": "東京都練馬区東大泉五丁目",
+      "locality": "東大泉五丁目(大泉学園駅前アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0116",
+      "name": "区立身障者センター南側、JR川口架道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.754776,
+      "lat": 35.650982,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "196号線",
+      "road_type": "区道",
+      "address": "東京都港区芝一丁目",
+      "locality": "芝一丁目(区立身障者センター南側、JR川口架道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0117",
+      "name": "浜松町ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.758513,
+      "lat": 35.656454,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1102号線",
+      "road_type": "区道",
+      "address": "東京都港区海岸一丁目3番",
+      "locality": "港区海岸一丁目3番先(浜松町ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 88m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 88.4,
+          "matched": "道路トンネル",
+          "osm_id": 177766247,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 88m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0118",
+      "name": "区街4号線こ道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「こ道橋」から推定",
+      "lon": 139.760574,
+      "lat": 35.663116,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1138号線",
+      "road_type": "区道",
+      "address": "東京都港区東新橋一丁目",
+      "locality": "東新橋一丁目(区街4号線こ道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0119",
+      "name": "百反隋道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.729652,
+      "lat": 35.620747,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線二級16号線",
+      "road_type": "区道",
+      "address": "東京都品川区大崎1丁目",
+      "locality": "大崎1丁目(百反隋道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 68m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 68.3,
+          "matched": "道路トンネル",
+          "osm_id": 331922708,
+          "osm_name": "首都高速中央環状線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（68m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0120",
+      "name": "八ッ山アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.739472,
+      "lat": 35.622195,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "II-92号線",
+      "road_type": "区道",
+      "address": "東京都品川区北品川1丁目",
+      "locality": "北品川1丁目(八ッ山アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 52m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 52.2,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 753355937,
+          "osm_name": "京浜急行電鉄連続立体交差事業",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（52m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0121",
+      "name": "JR高輪架道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.737732,
+      "lat": 35.637199,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "241号線",
+      "road_type": "区道",
+      "address": "東京都港区高輪二丁目",
+      "locality": "高輪二丁目(JR高輪架道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0122",
+      "name": "仲原ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.722946,
+      "lat": 35.769077,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特別区道北2010号線",
+      "road_type": "区道",
+      "address": "東京都北区中十条4丁目",
+      "locality": "中十条4丁目(仲原ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 19m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 18.6,
+          "matched": "道路トンネル",
+          "osm_id": 1109629511,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（19m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0123",
+      "name": "権現坂ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.736576,
+      "lat": 35.75454,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "特別区道北1154号線",
+      "road_type": "区道",
+      "address": "東京都北区王子1丁目",
+      "locality": "王子1丁目(権現坂ガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 251m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 251.1,
+          "matched": "道路トンネル",
+          "osm_id": 41591919,
+          "osm_name": "権現坂ガード",
+          "confidence": "高",
+          "why": "名称が一致（権現坂ガード）。ただし 251m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0124",
+      "name": "小島町3丁目地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.538673,
+      "lat": 35.647437,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道S218号線",
+      "road_type": "区道",
+      "address": "東京都調布市小島町3丁目",
+      "locality": "小島町3丁目地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 59m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 59.2,
+          "matched": "道路トンネル",
+          "osm_id": 1417208013,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（59m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0125",
+      "name": "平成橋西側下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.845775,
+      "lat": 35.684665,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6185号",
+      "road_type": "区有通路",
+      "address": "東京都江東区東砂二丁目15番",
+      "locality": "東砂二丁目15番(平成橋西側下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 95m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 94.8,
+          "matched": "道路トンネル",
+          "osm_id": 643692386,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 95m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0126",
+      "name": "みなみ野2-19-1毘沙門架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.329099,
+      "lat": 35.625406,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級46号線",
+      "road_type": "市道",
+      "address": "東京都八王子市みなみ野2-19-1毘沙門架道橋",
+      "locality": "みなみ野2-19-1毘沙門架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 113m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 113.2,
+          "matched": "道路トンネル",
+          "osm_id": 1420892902,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 113m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0127",
+      "name": "市道昭島17号八高線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.352157,
+      "lat": 35.715312,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "昭島17号",
+      "road_type": "市道",
+      "address": "東京都昭島市松原町2丁目2番",
+      "locality": "松原町2丁目2番(市道昭島17号八高線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 37.9,
+          "matched": "道路トンネル",
+          "osm_id": 310498214,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0128",
+      "name": "国道16号横断BOX下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.339401,
+      "lat": 35.695915,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "西424号",
+      "road_type": "市道",
+      "address": "東京都昭島市拝島町6丁目",
+      "locality": "拝島町6丁目(国道16号横断BOX下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0129",
+      "name": "明神町1-5-9番先明神架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.35042,
+      "lat": 35.655763,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級23号線",
+      "road_type": "市道",
+      "address": "東京都八王子市明神町1-5-9番先明神架道橋",
+      "locality": "明神町1-5-9番先明神架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 40m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 39.8,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 143174088,
+          "osm_name": "八高線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（40m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0130",
+      "name": "株",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.359468,
+      "lat": 35.650801,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級23号線",
+      "road_type": "市道",
+      "address": "東京都八王子市北野町586番地先浅川架道橋日本オイルターミナル横",
+      "locality": "北野町586番地先浅川架道橋日本オイルターミナル(株)横",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 102m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 102.4,
+          "matched": "道路トンネル",
+          "osm_id": 1393514136,
+          "osm_name": "浅川ゆったりロード",
+          "confidence": "低",
+          "why": "名前が一致せず 102m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0131",
+      "name": "明神町3-2-1番先横山架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.344528,
+      "lat": 35.654611,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級24号線",
+      "road_type": "市道",
+      "address": "東京都八王子市明神町3-2-1番先横山架道橋",
+      "locality": "明神町3-2-1番先横山架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 14m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 14.5,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 249149411,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（14m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0132",
+      "name": "散田町5-1-1散田架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.30284,
+      "lat": 35.651239,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級35号線",
+      "road_type": "市道",
+      "address": "東京都八王子市散田町5-1-1散田架道橋",
+      "locality": "散田町5-1-1散田架道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 10m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 9.5,
+          "matched": "道路トンネル",
+          "osm_id": 239276103,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（10m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0133",
+      "name": "石川町2975-9先国立府中37大星教会入口",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.372167,
+      "lat": 35.677752,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道八王子895号線",
+      "road_type": "市道",
+      "address": "東京都八王子市石川町2975-9先国立府中37大星教会入口",
+      "locality": "石川町2975-9先国立府中37大星教会入口",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 113m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 113.0,
+          "matched": "道路トンネル",
+          "osm_id": 839396616,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 113m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0134",
+      "name": "石川町943-1先国立府中35大星教会入口先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.365794,
+      "lat": 35.675438,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道八王子902号線",
+      "road_type": "市道",
+      "address": "東京都八王子市石川町943-1先国立府中35大星教会入口",
+      "locality": "石川町943-1先国立府中35大星教会入口先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 9m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 9.3,
+          "matched": "道路トンネル",
+          "osm_id": 132485550,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（9m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0135",
+      "name": "台町4-6先桜横町立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.323,
+      "lat": 35.65834,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "八王子市幹線1級31号線",
+      "road_type": "市道",
+      "address": "東京都八王子市台町4-6先桜横町立体",
+      "locality": "台町4-6先桜横町立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 49m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 49.0,
+          "matched": "道路トンネル",
+          "osm_id": 296060567,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（49m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0136",
+      "name": "羽加美栄立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 139.309921,
+      "lat": 35.771187,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "104号線",
+      "road_type": "市道",
+      "address": "東京都羽村市栄町2丁目",
+      "locality": "栄町2丁目(羽加美栄立体交差)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0137",
+      "name": "南平立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.406754,
+      "lat": 35.659416,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線市道I-11号線",
+      "road_type": "市道",
+      "address": "東京都日野市南平立体",
+      "locality": "南平立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0138",
+      "name": "新井橋地下道浅川左岸",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.419464,
+      "lat": 35.663475,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道C75-4号線",
+      "road_type": "市道",
+      "address": "東京都日野市新井橋地下道浅川左岸",
+      "locality": "新井橋地下道浅川左岸",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0139",
+      "name": "新井橋地下道浅川右岸",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.419464,
+      "lat": 35.663475,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道P64号線",
+      "road_type": "市道",
+      "address": "東京都日野市新井橋地下道浅川右岸",
+      "locality": "新井橋地下道浅川右岸",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0140",
+      "name": "武蔵台1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.464401,
+      "lat": 35.687317,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "武蔵台通り",
+      "road_type": "市道",
+      "address": "東京都府中市武蔵台1丁目",
+      "locality": "武蔵台1丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0141",
+      "name": "武蔵台1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.464401,
+      "lat": 35.687317,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "横街道",
+      "road_type": "市道",
+      "address": "東京都府中市武蔵台1丁目",
+      "locality": "武蔵台1丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0142",
+      "name": "矢崎町1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.47852,
+      "lat": 35.662656,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道4-138号",
+      "road_type": "市道",
+      "address": "東京都府中市矢崎町1丁目",
+      "locality": "矢崎町1丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 41m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 41.0,
+          "matched": "道路トンネル",
+          "osm_id": 155531495,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（41m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0143",
+      "name": "是政3丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.485535,
+      "lat": 35.6591,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "中央道側道",
+      "road_type": "市道",
+      "address": "東京都府中市是政3丁目",
+      "locality": "是政3丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0144",
+      "name": "是政6丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.478226,
+      "lat": 35.653996,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道4-280号",
+      "road_type": "市道",
+      "address": "東京都府中市是政6丁目",
+      "locality": "是政6丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0145",
+      "name": "南大谷ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.453491,
+      "lat": 35.555721,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町田152号線",
+      "road_type": "市道",
+      "address": "東京都町田市南大谷ガード下",
+      "locality": "南大谷ガード下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0146",
+      "name": "御殿山二丁目八丁地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.568146,
+      "lat": 35.701157,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第107号線",
+      "road_type": "市道",
+      "address": "東京都武蔵野市御殿山二丁目八丁地下道",
+      "locality": "御殿山二丁目八丁地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0147",
+      "name": "矢崎町1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.47852,
+      "lat": 35.662656,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道4-507号",
+      "road_type": "市道",
+      "address": "東京都府中市矢崎町1丁目",
+      "locality": "矢崎町1丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 41m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 41.0,
+          "matched": "道路トンネル",
+          "osm_id": 155531495,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（41m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0148",
+      "name": "矢崎町1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.47852,
+      "lat": 35.662656,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道4-198号",
+      "road_type": "市道",
+      "address": "東京都府中市矢崎町1丁目",
+      "locality": "矢崎町1丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 41m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 41.0,
+          "matched": "道路トンネル",
+          "osm_id": 155531495,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（41m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tokyo-0149",
+      "name": "湾岸アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.817047,
+      "lat": 35.67318,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "東京湾岸アンダー線",
+      "road_type": "臨港道路",
+      "address": "東京都江東区湾岸アンダー",
+      "locality": "湾岸アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0150",
+      "name": "臨海トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.716019,
+      "lat": 35.561211,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "東京港臨海道路",
+      "road_type": "臨港道路",
+      "address": "東京都大田区臨海トンネル",
+      "locality": "臨海トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0151",
+      "name": "第二航路海底トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.817047,
+      "lat": 35.67318,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "青海縦貫線",
+      "road_type": "臨港道路",
+      "address": "東京都江東区第二航路海底トンネル",
+      "locality": "第二航路海底トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0152",
+      "name": "青海トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.778732,
+      "lat": 35.625057,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "青海トンネル線",
+      "road_type": "臨港道路",
+      "address": "東京都江東区青海トンネル",
+      "locality": "青海トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tokyo-0153",
+      "name": "東京港海の森トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.801819,
+      "lat": 35.648418,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "南北線",
+      "road_type": "臨港道路",
+      "address": "東京都江東区東京港海の森トンネル",
+      "locality": "東京港海の森トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}

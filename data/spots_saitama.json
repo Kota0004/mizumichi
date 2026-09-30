@@ -1,0 +1,5880 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "saitama",
+  "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "saitama-0001",
+      "name": "国道122号、さいたま鳩ヶ谷線鳩ヶ谷地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.738495,
+      "lat": 35.826767,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "さいたま草加線",
+      "road_type": "県道",
+      "address": "埼玉県川口市坂下町四丁目",
+      "locality": "坂下町四丁目(国道122号、さいたま鳩ヶ谷線鳩ヶ谷地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0002",
+      "name": "東武東上線新倉地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.606308,
+      "lat": 35.787518,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "和光志木線",
+      "road_type": "県道",
+      "address": "埼玉県和光市本町",
+      "locality": "本町(東武東上線新倉地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0003",
+      "name": "東武東上線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.564346,
+      "lat": 35.840801,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "254号",
+      "road_type": "国道(県管理)",
+      "address": "埼玉県富士見市大字水子",
+      "locality": "大字水子(東武東上線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0004",
+      "name": "関越自動車道三角交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.495941,
+      "lat": 35.85342,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "さいたまふじみ野所沢線",
+      "road_type": "県道",
+      "address": "埼玉県ふじみ野市大井武蔵野",
+      "locality": "大井武蔵野(関越自動車道三角交差点)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0005",
+      "name": "狭山環状有料道路",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.418121,
+      "lat": 35.871719,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "所沢堀兼狭山線",
+      "road_type": "県道",
+      "address": "埼玉県狭山市大字上奥富",
+      "locality": "大字上奥富(狭山環状有料道路)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0006",
+      "name": "西武新宿線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.474304,
+      "lat": 35.794025,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "463号",
+      "road_type": "国道(県管理)",
+      "address": "埼玉県所沢市西新井町",
+      "locality": "西新井町(西武新宿線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0007",
+      "name": "JR武蔵野線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.504532,
+      "lat": 35.787865,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-973号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市大字下安松",
+      "locality": "大字下安松(JR武蔵野線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0008",
+      "name": "東武東上線坂戸中央地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.396774,
+      "lat": 35.965939,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "川越坂戸毛呂山線",
+      "road_type": "県道",
+      "address": "埼玉県坂戸市元町",
+      "locality": "元町(東武東上線坂戸中央地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0009",
+      "name": "JR高崎線六部ヶ池跨道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.205994,
+      "lat": 36.216057,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "花園本庄線",
+      "road_type": "県道",
+      "address": "埼玉県深谷市榛沢",
+      "locality": "榛沢(JR高崎線六部ヶ池跨道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0010",
+      "name": "東北縦貫自動車道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.595102,
+      "lat": 36.155643,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "三田ヶ谷礼羽線",
+      "road_type": "県道",
+      "address": "埼玉県加須市大字戸川",
+      "locality": "大字戸川(東北縦貫自動車道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 377m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 377.1,
+          "matched": "道路トンネル",
+          "osm_id": 55687707,
+          "osm_name": "三田ヶ谷礼羽線",
+          "confidence": "中",
+          "why": "名称が一致（三田ヶ谷礼羽線）。ただし出発点が市区町村の中心で、そこから 377m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0011",
+      "name": "JR宇都宮線蓮田地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.653931,
+      "lat": 35.9855,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "122号",
+      "road_type": "国道(県管理)",
+      "address": "埼玉県蓮田市上二丁目",
+      "locality": "上二丁目(JR宇都宮線蓮田地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0012",
+      "name": "JR線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.427017,
+      "lat": 35.915752,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0093号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市的場二丁目",
+      "locality": "的場二丁目(JR線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0013",
+      "name": "川越インターチェンジ下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.452286,
+      "lat": 35.89275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6059号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字南大塚",
+      "locality": "大字南大塚(川越インターチェンジ下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0014",
+      "name": "国道254号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.518341,
+      "lat": 35.895275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川越市大字木野目",
+      "locality": "大字木野目(国道254号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0015",
+      "name": "国道254号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.518341,
+      "lat": 35.895275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川越市大字木野目",
+      "locality": "大字木野目(国道254号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0016",
+      "name": "関越自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.488449,
+      "lat": 35.869041,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0051号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字下松原",
+      "locality": "大字下松原(関越自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0017",
+      "name": "関越自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.488449,
+      "lat": 35.869041,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0049号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字下松原",
+      "locality": "大字下松原(関越自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0018",
+      "name": "県道川越越生線小堤橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.440262,
+      "lat": 35.939556,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "9541号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字小堤",
+      "locality": "大字小堤(県道川越越生線小堤橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0019",
+      "name": "関越自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.457001,
+      "lat": 35.898308,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7044号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字豊田本",
+      "locality": "大字豊田本(関越自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0020",
+      "name": "国道16号線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.4935,
+      "lat": 35.9067,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "5155号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市仙波町四丁目",
+      "locality": "仙波町四丁目(国道16号線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0021",
+      "name": "上之地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30365号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市国道17号バイパス1号地下道",
+      "locality": "国道17号バイパス1号地下道(上之地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0022",
+      "name": "上之地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30290号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市国道17号バイパス2号地下道",
+      "locality": "国道17号バイパス2号地下道(上之地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0023",
+      "name": "肥塚地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30113号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市国道17号バイパス3号地下道",
+      "locality": "国道17号バイパス3号地下道(肥塚地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0024",
+      "name": "上之地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30368号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市国道125号バイパス1号地下道",
+      "locality": "国道125号バイパス1号地下道(上之地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0025",
+      "name": "上之地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "60572号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道熊谷・羽生線地下道",
+      "locality": "県道熊谷・羽生線地下道(上之地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0026",
+      "name": "弥生二丁目・宮前二丁目地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.340225,
+      "lat": 36.21368,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "113号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市市役所通立体交差地下道",
+      "locality": "市役所通立体交差地下道(弥生二丁目・宮前二丁目地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0027",
+      "name": "石原地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "40662号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市坪井地下道",
+      "locality": "坪井地下道(石原地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0028",
+      "name": "久保島地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.42659,
+      "lat": 36.163136,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "118号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市下川原地下道",
+      "locality": "下川原地下道(久保島地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0029",
+      "name": "御稜威ヶ原地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.29866,
+      "lat": 36.159801,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "40180号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市御稜威ヶ原地下道",
+      "locality": "御稜威ヶ原地下道(御稜威ヶ原地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0030",
+      "name": "御正新田地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南7227号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線1号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線1号ずい道(御正新田地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0031",
+      "name": "御正新田地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南5134号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線2号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線2号ずい道(御正新田地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0032",
+      "name": "御正新田地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南2186号線、江南3081号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線3号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線3号ずい道(御正新田地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0033",
+      "name": "御正新田地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南2182号線、江南3095号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線4号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線4号ずい道(御正新田地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0034",
+      "name": "樋春地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南2150号線、江南3062号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線5号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線5号ずい道(樋春地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0035",
+      "name": "樋春・押切地内",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "江南2108号線、江南3024号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市県道武蔵丘陵森林公園・広瀬線6号ずい道",
+      "locality": "県道武蔵丘陵森林公園・広瀬線6号ずい道(樋春・押切地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0036",
+      "name": "122号線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.725601,
+      "lat": 35.795742,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第8号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市本町一丁目",
+      "locality": "本町一丁目(122号線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0037",
+      "name": "JR金山町ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.718842,
+      "lat": 35.798164,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第1号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市川口一丁目",
+      "locality": "川口一丁目(JR金山町ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0038",
+      "name": "JR寿第2ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.717712,
+      "lat": 35.7976,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第2号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市川口二丁目",
+      "locality": "川口二丁目(JR寿第2ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0039",
+      "name": "JRリリアパークトンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.716101,
+      "lat": 35.804575,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第20号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市幸町三丁目",
+      "locality": "幸町三丁目(JRリリアパークトンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 216m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 215.6,
+          "matched": "道路トンネル",
+          "osm_id": 102695141,
+          "osm_name": "リリアパークトンネル",
+          "confidence": "高",
+          "why": "名称が一致（リリアパークトンネル）。ただし 216m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0040",
+      "name": "JR並木地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.712555,
+      "lat": 35.811596,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第17号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市並木一丁目",
+      "locality": "並木一丁目(JR並木地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0041",
+      "name": "東北道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.733951,
+      "lat": 35.858035,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "神根第584号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市石神508",
+      "locality": "石神508(東北道ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 61m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 61.0,
+          "matched": "道路トンネル",
+          "osm_id": 253263387,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（61m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0042",
+      "name": "JRガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.746948,
+      "lat": 35.873024,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線題59号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市戸塚二丁目けやき通り",
+      "locality": "戸塚二丁目(JRガード下)けやき通り",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0043",
+      "name": "JRガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.751648,
+      "lat": 35.874107,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "戸塚第639号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市戸塚東一丁目",
+      "locality": "戸塚東一丁目(JRガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0044",
+      "name": "JRガード下キリスト教会前",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.751648,
+      "lat": 35.874107,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "戸塚第612号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市戸塚東一丁目",
+      "locality": "戸塚東一丁目(JRガード下キリスト教会前)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0045",
+      "name": "JRガード下変電所前",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.758621,
+      "lat": 35.871986,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線第53号線",
+      "road_type": "市道",
+      "address": "埼玉県川口市戸塚東四丁目",
+      "locality": "戸塚東四丁目(JRガード下変電所前)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0046",
+      "name": "国道125号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.478546,
+      "lat": 36.159256,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道第4.3-227号線",
+      "road_type": "市道",
+      "address": "埼玉県行田市大字小見小見アンダーパス",
+      "locality": "大字小見小見アンダーパス(国道125号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0047",
+      "name": "秩父警察署西側、秩父鉄道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.090149,
+      "lat": 36.000946,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線52号線",
+      "road_type": "市道",
+      "address": "埼玉県秩父市上宮地町",
+      "locality": "上宮地町(秩父警察署西側、秩父鉄道ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0048",
+      "name": "武蔵野線跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.517746,
+      "lat": 35.797783,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2-1220号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市東所沢一丁目",
+      "locality": "東所沢一丁目(武蔵野線跨道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0049",
+      "name": "西武新宿線跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.460831,
+      "lat": 35.804218,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3-490号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市弥生町",
+      "locality": "弥生町(西武新宿線跨道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0050",
+      "name": "西武池袋線跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.45079,
+      "lat": 35.789928,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4-1162号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市上新井",
+      "locality": "上新井(西武池袋線跨道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0051",
+      "name": "西武池袋線跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.420425,
+      "lat": 35.80574,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4-1323号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市若狭一丁目",
+      "locality": "若狭一丁目(西武池袋線跨道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0052",
+      "name": "東北自動車道アンダーパス加須19、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.590591,
+      "lat": 36.148388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3390号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市下谷地内",
+      "locality": "下谷地内(東北自動車道アンダーパス加須19、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0053",
+      "name": "東北自動車道アンダーパス加須19、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.590591,
+      "lat": 36.148388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3389号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市下谷地内",
+      "locality": "下谷地内(東北自動車道アンダーパス加須19、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0054",
+      "name": "中通橋東、東北自動車道アンダーパス加須18、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3390号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣地内",
+      "locality": "上三俣地内(中通橋東、東北自動車道アンダーパス加須18、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0055",
+      "name": "中通橋東、東北自動車道アンダーパス加須18、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3389号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣地内",
+      "locality": "上三俣地内(中通橋東、東北自動車道アンダーパス加須18、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0056",
+      "name": "三俣橋西、東北自動車道アンダーパス加須17、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3390号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣地内",
+      "locality": "上三俣地内(三俣橋西、東北自動車道アンダーパス加須17、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0057",
+      "name": "三俣橋西、東北自動車道アンダーパス加須17、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3389号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣地内",
+      "locality": "上三俣地内(三俣橋西、東北自動車道アンダーパス加須17、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0058",
+      "name": "三俣橋東、東北自動車道アンダーパス加須14、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4076号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣地内",
+      "locality": "上三俣地内(三俣橋東、東北自動車道アンダーパス加須14、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0059",
+      "name": "三俣橋東、東北自動車道アンダーパス加須14、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.607742,
+      "lat": 36.138329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市上三俣",
+      "locality": "上三俣(三俣橋東、東北自動車道アンダーパス加須14、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0060",
+      "name": "東北自動車道アンダーパス加須12、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.615082,
+      "lat": 36.135014,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4076号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市北小浜地内",
+      "locality": "北小浜地内(東北自動車道アンダーパス加須12、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0061",
+      "name": "東北自動車道アンダーパス加須12、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.615082,
+      "lat": 36.135014,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市北小浜地内",
+      "locality": "北小浜地内(東北自動車道アンダーパス加須12、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0062",
+      "name": "葛西用水北西、東北自動車道アンダーパス加須10、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623032,
+      "lat": 36.13472,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4076号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市多門寺地内",
+      "locality": "多門寺地内(葛西用水北西、東北自動車道アンダーパス加須10、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0063",
+      "name": "葛西用水北西、東北自動車道アンダーパス加須10、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623032,
+      "lat": 36.13472,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市多門寺地内",
+      "locality": "多門寺地内(葛西用水北西、東北自動車道アンダーパス加須10、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0064",
+      "name": "葛西用水南東、東北自動車道アンダーパス加須9、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623032,
+      "lat": 36.13472,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4076号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市多門寺地内",
+      "locality": "多門寺地内(葛西用水南東、東北自動車道アンダーパス加須9、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0065",
+      "name": "葛西用水南東、東北自動車道アンダーパス加須9、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623032,
+      "lat": 36.13472,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市多門寺地内",
+      "locality": "多門寺地内(葛西用水南東、東北自動車道アンダーパス加須9、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0066",
+      "name": "加須インター付近、東北自動車道アンダーパス久喜26、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623535,
+      "lat": 36.116985,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4021号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市南篠崎地内",
+      "locality": "南篠崎地内(加須インター付近、東北自動車道アンダーパス久喜26、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0067",
+      "name": "加須インター付近、東北自動車道アンダーパス久喜26、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623535,
+      "lat": 36.116985,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市南篠崎地内",
+      "locality": "南篠崎地内(加須インター付近、東北自動車道アンダーパス久喜26、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0068",
+      "name": "普門寺付近、東北自動車道アンダーパス久喜25、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623535,
+      "lat": 36.116985,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4021号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市南篠崎地内",
+      "locality": "南篠崎地内(普門寺付近、東北自動車道アンダーパス久喜25、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0069",
+      "name": "普門寺付近、東北自動車道アンダーパス久喜25、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623535,
+      "lat": 36.116985,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "126号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市南篠崎地内",
+      "locality": "南篠崎地内(普門寺付近、東北自動車道アンダーパス久喜25、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0070",
+      "name": "東北自動車道アンダーパス久喜18、上り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.637634,
+      "lat": 36.096184,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "5108号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市水深地内",
+      "locality": "水深地内(東北自動車道アンダーパス久喜18、上り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0071",
+      "name": "東北自動車道アンダーパス久喜18、下り側",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.637634,
+      "lat": 36.096184,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "143号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市水深地内",
+      "locality": "水深地内(東北自動車道アンダーパス久喜18、下り側)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0072",
+      "name": "国道125バイパスアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.57988,
+      "lat": 36.142998,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2125号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市岡古井地内",
+      "locality": "岡古井地内(国道125バイパスアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0073",
+      "name": "天神橋南国道407号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.413162,
+      "lat": 36.048203,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第3502号線",
+      "road_type": "市道",
+      "address": "埼玉県東松山市大字松山",
+      "locality": "大字松山(天神橋南国道407号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0074",
+      "name": "国道407号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.415192,
+      "lat": 36.039661,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第3422号線",
+      "road_type": "市道",
+      "address": "埼玉県東松山市松本町二丁目",
+      "locality": "松本町二丁目(国道407号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0075",
+      "name": "国道407号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.420242,
+      "lat": 36.017643,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第8025号線",
+      "road_type": "市道",
+      "address": "埼玉県東松山市大字下野本",
+      "locality": "大字下野本(国道407号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0076",
+      "name": "滑川高校西通線東上線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.340607,
+      "lat": 36.033222,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第73号線",
+      "road_type": "市道",
+      "address": "埼玉県東松山市大字上唐子",
+      "locality": "大字上唐子(滑川高校西通線東上線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0077",
+      "name": "ゆりのき通りアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.761795,
+      "lat": 35.972767,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-24号線",
+      "road_type": "市道",
+      "address": "埼玉県春日部市南三丁目",
+      "locality": "南三丁目(ゆりのき通りアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0078",
+      "name": "入間野小・中学校南側西武新宿線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.429581,
+      "lat": 35.84214,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道B第203号線",
+      "road_type": "市道",
+      "address": "埼玉県狭山市大字北入曽",
+      "locality": "大字北入曽(入間野小・中学校南側西武新宿線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0079",
+      "name": "国道122号アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.531967,
+      "lat": 36.147324,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "8047号線、4102号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字砂山",
+      "locality": "大字砂山(国道122号アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0080",
+      "name": "国道122号アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.546509,
+      "lat": 36.148518,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0131号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字須影",
+      "locality": "大字須影(国道122号アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0081",
+      "name": "国道122号アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.539383,
+      "lat": 36.140572,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "8150号線、4295号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字下川崎、大字須影",
+      "locality": "大字下川崎、大字須影(国道122号アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0082",
+      "name": "国道125号バイパスアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.561279,
+      "lat": 36.142796,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0248号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字神戸",
+      "locality": "大字神戸(国道125号バイパスアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0083",
+      "name": "国道125号バイパスアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.520325,
+      "lat": 36.146671,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4333号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字下新郷",
+      "locality": "大字下新郷(国道125号バイパスアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0084",
+      "name": "東北自動車道アンダーパス・加須-30",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.581802,
+      "lat": 36.173641,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7369号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字喜右衛門新田",
+      "locality": "大字喜右衛門新田(東北自動車道アンダーパス・加須-30)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0085",
+      "name": "東北自動車道アンダーパス・加須-32",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.585556,
+      "lat": 36.180504,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7223号線、7222号線、7224号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字弥勒",
+      "locality": "大字弥勒(東北自動車道アンダーパス・加須-32)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0086",
+      "name": "東北自動車道アンダーパス・加須-33",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.585556,
+      "lat": 36.180504,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7142号線、7143号線、7232号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字弥勒",
+      "locality": "大字弥勒(東北自動車道アンダーパス・加須-33)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0087",
+      "name": "東北自動車道アンダーパス・加須-34",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.585556,
+      "lat": 36.180504,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3146号線、3084号線、3131号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字弥勒",
+      "locality": "大字弥勒(東北自動車道アンダーパス・加須-34)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0088",
+      "name": "東北自動車道アンダーパス・加須-35",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.57518,
+      "lat": 36.194378,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0119号線、3079号線、3150号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字上村君",
+      "locality": "大字上村君(東北自動車道アンダーパス・加須-35)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0089",
+      "name": "東北自動車道アンダーパス・加須-36",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.57518,
+      "lat": 36.194378,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3159号線、3157号線、3158号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字上村君",
+      "locality": "大字上村君(東北自動車道アンダーパス・加須-36)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0090",
+      "name": "東北自動車道アンダーパス・加須-37",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.57518,
+      "lat": 36.194378,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0220号線、3040号線、3298号線",
+      "road_type": "市道",
+      "address": "埼玉県羽生市大字上村君",
+      "locality": "大字上村君(東北自動車道アンダーパス・加須-37)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0091",
+      "name": "国道17号深谷バイパス、東方地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.319855,
+      "lat": 36.194305,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹-32号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市東方327",
+      "locality": "東方327地先(国道17号深谷バイパス、東方地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0092",
+      "name": "国道17号深谷バイパス、明戸地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.309255,
+      "lat": 36.209742,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹-24号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市明戸970-1",
+      "locality": "明戸970-1地先(国道17号深谷バイパス、明戸地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 95m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 95.3,
+          "matched": "道路トンネル",
+          "osm_id": 119717293,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 95m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0093",
+      "name": "国道17号深谷バイパス、戸森地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.275818,
+      "lat": 36.214329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹-18号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市戸森500",
+      "locality": "戸森500地先(国道17号深谷バイパス、戸森地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0094",
+      "name": "国道17号深谷バイパス、起会地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.272605,
+      "lat": 36.215479,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "B-182号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市内ヶ島70",
+      "locality": "内ヶ島70地先(国道17号深谷バイパス、起会地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 137m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 137.0,
+          "matched": "道路トンネル",
+          "osm_id": 554663227,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 137m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0095",
+      "name": "国道140号バイパス、永田地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.25401,
+      "lat": 36.13956,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-471号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市永田2025",
+      "locality": "永田2025地先(国道140号バイパス、永田地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 149m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 149.2,
+          "matched": "道路トンネル",
+          "osm_id": 485972411,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 149m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0096",
+      "name": "秩父鉄道、小前田ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.225527,
+      "lat": 36.12896,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹127号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市小前田1559",
+      "locality": "小前田1559地先(秩父鉄道、小前田ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 6m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 6.3,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 495767576,
+          "osm_name": "秩父鉄道",
+          "confidence": "高",
+          "why": "名称が一致（秩父鉄道）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0097",
+      "name": "国道140号バイパス、地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.240173,
+      "lat": 36.12925,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹150号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市荒川685",
+      "locality": "荒川685(国道140号バイパス、地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0098",
+      "name": "国道140号バイパス黒田交差点南側地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.251535,
+      "lat": 36.1298,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-275号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市黒田819",
+      "locality": "黒田819地先(国道140号バイパス黒田交差点南側地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 37.5,
+          "matched": "道路トンネル",
+          "osm_id": 565741455,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0099",
+      "name": "国道140号バイパス花園インター北側地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.252655,
+      "lat": 36.128422,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-279号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市黒田700",
+      "locality": "黒田700地先(国道140号バイパス花園インター北側地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0100",
+      "name": "国道140号バイパス花園インター南側地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.247292,
+      "lat": 36.124581,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-280号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市黒田588",
+      "locality": "黒田588地先(国道140号バイパス花園インター南側地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 132m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 131.7,
+          "matched": "道路トンネル",
+          "osm_id": 120015975,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 132m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0101",
+      "name": "関越自動車道花園インター地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.252655,
+      "lat": 36.128422,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-296号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市黒田1257-1",
+      "locality": "黒田1257-1地先(関越自動車道花園インター地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0102",
+      "name": "国道140号バイパス黒田交差点北側地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.251816,
+      "lat": 36.131533,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "V-219号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市黒田401",
+      "locality": "黒田401地先(国道140号バイパス黒田交差点北側地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 83m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 83.0,
+          "matched": "道路トンネル",
+          "osm_id": 1165080009,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 83m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0103",
+      "name": "はなみずき通り地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.586807,
+      "lat": 35.979401,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1053号線",
+      "road_type": "市道",
+      "address": "埼玉県上尾市上町二丁目",
+      "locality": "上町二丁目(はなみずき通り地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0104",
+      "name": "国道16号原市・西ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.629715,
+      "lat": 35.955803,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1038号線",
+      "road_type": "市道",
+      "address": "埼玉県上尾市大字原市字五番耕地",
+      "locality": "大字原市字五番耕地(国道16号原市・西ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0105",
+      "name": "東武スカイツリーラインガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.796075,
+      "lat": 35.807452,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2072号線",
+      "road_type": "市道",
+      "address": "埼玉県草加市谷塚2-26-1",
+      "locality": "谷塚2-26-1地先(東武スカイツリーラインガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 46m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 45.8,
+          "matched": "道路トンネル",
+          "osm_id": 111496222,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（46m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0106",
+      "name": "国道4号草加バイパスガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.798523,
+      "lat": 35.807949,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30704号線",
+      "road_type": "市道",
+      "address": "埼玉県草加市谷塚2-8-8",
+      "locality": "谷塚2-8-8地先(国道4号草加バイパスガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0107",
+      "name": "東武スカイツリーラインガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.798294,
+      "lat": 35.810414,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30636号線",
+      "road_type": "市道",
+      "address": "埼玉県草加市谷塚2-12-19",
+      "locality": "谷塚2-12-19地先(東武スカイツリーラインガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 7m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 6.7,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 800034274,
+          "osm_name": "東武伊勢崎線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（7m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0108",
+      "name": "川柳町地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.810547,
+      "lat": 35.87352,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2340号線",
+      "road_type": "市道",
+      "address": "埼玉県越谷市川柳町一丁目地内",
+      "locality": "川柳町一丁目地内(川柳町地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0109",
+      "name": "美女木三丁目、四丁目、美女木東一丁目、二丁目地内美女木東地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.643799,
+      "lat": 35.825302,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道第5002号線",
+      "road_type": "市道",
+      "address": "埼玉県戸田市美女木三丁目、四丁目、美女木東一丁目、二丁目地内美女木東地下道",
+      "locality": "美女木三丁目、四丁目、美女木東一丁目、二丁目地内美女木東地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0110",
+      "name": "仲町ポンプ場南、東上線下",
+      "kind": "underpass_pump",
+      "kind_source": "資料の「ポンプ」から推定",
+      "lon": 139.601151,
+      "lat": 35.78891,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "12号線",
+      "road_type": "市道",
+      "address": "埼玉県朝霞市栄町二丁目",
+      "locality": "栄町二丁目(仲町ポンプ場南、東上線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0111",
+      "name": "越戸隧道、東上線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.599045,
+      "lat": 35.794201,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1003号線",
+      "road_type": "市道",
+      "address": "埼玉県朝霞市本町三丁目",
+      "locality": "本町三丁目(越戸隧道、東上線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0112",
+      "name": "原畑隧道、東上線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.599045,
+      "lat": 35.794201,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1000号線",
+      "road_type": "市道",
+      "address": "埼玉県朝霞市本町三丁目",
+      "locality": "本町三丁目(原畑隧道、東上線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0113",
+      "name": "本町隧道、東上線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.599045,
+      "lat": 35.794201,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "8号線",
+      "road_type": "市道",
+      "address": "埼玉県朝霞市本町三丁目",
+      "locality": "本町三丁目(本町隧道、東上線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0114",
+      "name": "三原隧道、東上線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.580429,
+      "lat": 35.817467,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2356号線",
+      "road_type": "市道",
+      "address": "埼玉県朝霞市三原三丁目",
+      "locality": "三原三丁目(三原隧道、東上線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0115",
+      "name": "86号立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 139.576553,
+      "lat": 35.826153,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1096号線",
+      "road_type": "市道",
+      "address": "埼玉県志木市本町五丁目及び幸町一丁目地内",
+      "locality": "本町五丁目及び幸町一丁目地内(86号立体交差)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0116",
+      "name": "砂田橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.558563,
+      "lat": 35.82803,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1001号線",
+      "road_type": "市道",
+      "address": "埼玉県志木市館二丁目及び柏町六丁目地内",
+      "locality": "館二丁目及び柏町六丁目地内(砂田橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0117",
+      "name": "東武東上線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.611069,
+      "lat": 35.792889,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道475号線",
+      "road_type": "市道",
+      "address": "埼玉県和光市新倉一丁目",
+      "locality": "新倉一丁目(東武東上線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0118",
+      "name": "東武東上線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.619873,
+      "lat": 35.788368,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道4011号線",
+      "road_type": "市道",
+      "address": "埼玉県和光市下新倉二丁目",
+      "locality": "下新倉二丁目(東武東上線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0119",
+      "name": "国道254号下大和田3-3-15田中人形店脇",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.546066,
+      "lat": 35.808865,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道第1212号線",
+      "road_type": "市道",
+      "address": "埼玉県新座市大和田三、四丁目",
+      "locality": "大和田三、四丁目(国道254号下大和田3-3-15田中人形店脇)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0120",
+      "name": "富士見通りアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.564835,
+      "lat": 35.995094,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "12号線",
+      "road_type": "市道",
+      "address": "埼玉県桶川市若宮二丁目",
+      "locality": "若宮二丁目(富士見通りアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0121",
+      "name": "東武鉄道伊勢崎線野久喜アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.684158,
+      "lat": 36.072693,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜7034号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市野久喜字上宿",
+      "locality": "野久喜字上宿(東武鉄道伊勢崎線野久喜アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0122",
+      "name": "東北縦貫自動車道アンダーパスNo1",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.657486,
+      "lat": 36.059643,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜17号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市江面字宮前",
+      "locality": "江面字宮前(東北縦貫自動車道アンダーパスNo1)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0123",
+      "name": "東北縦貫自動車道アンダーパスNo5",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.657486,
+      "lat": 36.059643,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜218号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市江面字志部",
+      "locality": "江面字志部(東北縦貫自動車道アンダーパスNo5)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0124",
+      "name": "東北縦貫自動車道アンダーパスNo7",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.637924,
+      "lat": 36.079502,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜2519号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市六万部字東谷",
+      "locality": "六万部字東谷(東北縦貫自動車道アンダーパスNo7)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0125",
+      "name": "東北縦貫自動車道アンダーパスNo8",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.637924,
+      "lat": 36.079502,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜2290号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市六万部字谷田向",
+      "locality": "六万部字谷田向(東北縦貫自動車道アンダーパスNo8)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0126",
+      "name": "東北縦貫自動車道アンダーパスNo9",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.637924,
+      "lat": 36.079502,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜2503号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市六万部字谷田向",
+      "locality": "六万部字谷田向(東北縦貫自動車道アンダーパスNo9)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0127",
+      "name": "東北縦貫自動車道アンダーパスNo10",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.63913,
+      "lat": 36.087093,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜222号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市六万部字六所",
+      "locality": "六万部字六所(東北縦貫自動車道アンダーパスNo10)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0128",
+      "name": "東北縦貫自動車道アンダーパスNo11",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.63913,
+      "lat": 36.087093,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜2507号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市六万部字六所",
+      "locality": "六万部字六所(東北縦貫自動車道アンダーパスNo11)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0129",
+      "name": "東北縦貫自動車道アンダーパスNo12",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.646484,
+      "lat": 36.077991,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "久喜2509号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市上清久字関の上",
+      "locality": "上清久字関の上(東北縦貫自動車道アンダーパスNo12)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0130",
+      "name": "町人新田",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.690186,
+      "lat": 36.134766,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "栗橋27号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市伊坂",
+      "locality": "伊坂(町人新田)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0131",
+      "name": "西大輪地内川崎地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.678345,
+      "lat": 36.096066,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鷲宮68号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市西大輪地内川崎地下道",
+      "locality": "西大輪地内川崎地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0132",
+      "name": "国道125号下ずい道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.698685,
+      "lat": 36.123013,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "栗橋172号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市間鎌",
+      "locality": "間鎌(国道125号下ずい道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0133",
+      "name": "国道125号下ずい道、島田菓子店裏",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.688034,
+      "lat": 36.120323,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "栗橋176号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市佐間",
+      "locality": "佐間(国道125号下ずい道、島田菓子店裏)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0134",
+      "name": "国道125号下ずい道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.688034,
+      "lat": 36.120323,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "栗橋177号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市佐間",
+      "locality": "佐間(国道125号下ずい道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0135",
+      "name": "桜田三丁目地内西大輪地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.682281,
+      "lat": 36.089893,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鷲宮62号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市桜田三丁目地内西大輪地下道",
+      "locality": "桜田三丁目地内西大輪地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0136",
+      "name": "桜田四丁目地内宿地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.685211,
+      "lat": 36.086231,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鷲宮9号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市桜田四丁目地内宿地下道",
+      "locality": "桜田四丁目地内宿地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0137",
+      "name": "ふれあい桜橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.838257,
+      "lat": 35.802258,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0830号線",
+      "road_type": "市道",
+      "address": "埼玉県八潮市大字垳",
+      "locality": "大字垳(ふれあい桜橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0138",
+      "name": "東上線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.539078,
+      "lat": 35.865856,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "5126号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市勝瀬3185",
+      "locality": "勝瀬3185(東上線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0139",
+      "name": "市民プール側・国道254号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.539078,
+      "lat": 35.865856,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "225号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市勝瀬483",
+      "locality": "勝瀬483(市民プール側・国道254号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0140",
+      "name": "国道254号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.549008,
+      "lat": 35.860754,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3266号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市山室1-1397-1",
+      "locality": "山室1-1397-1(国道254号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 63m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 63.1,
+          "matched": "道路トンネル",
+          "osm_id": 845901164,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（63m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0141",
+      "name": "国道254号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.550949,
+      "lat": 35.85545,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "27号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市鶴馬1904-1",
+      "locality": "鶴馬1904-1(国道254号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0142",
+      "name": "国道254号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.568817,
+      "lat": 35.85648,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "653号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市下南畑285",
+      "locality": "下南畑285(国道254号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0143",
+      "name": "国道463号線前新田橋アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.577179,
+      "lat": 35.847569,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "32号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市下南畑2365-1",
+      "locality": "下南畑2365-1(国道463号線前新田橋アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0144",
+      "name": "外環自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.855621,
+      "lat": 35.838043,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3460号線",
+      "road_type": "市道",
+      "address": "埼玉県三郷市上口二丁目地先上口隧道",
+      "locality": "上口二丁目地先(外環自動車道下)上口隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0145",
+      "name": "外環自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.853119,
+      "lat": 35.842068,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3478号線",
+      "road_type": "市道",
+      "address": "埼玉県三郷市彦野二丁目地先彦野隧道",
+      "locality": "彦野二丁目地先(外環自動車道下)彦野隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0146",
+      "name": "外環自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.847931,
+      "lat": 35.843933,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3347号線",
+      "road_type": "市道",
+      "address": "埼玉県三郷市天神一丁目地先天神隧道",
+      "locality": "天神一丁目地先(外環自動車道下)天神隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0147",
+      "name": "JR武蔵野線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.877884,
+      "lat": 35.847366,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1061号線",
+      "road_type": "市道",
+      "address": "埼玉県三郷市仁蔵地先仁蔵隧道",
+      "locality": "仁蔵地先(JR武蔵野線下)仁蔵隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0148",
+      "name": "JR武蔵野線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.861343,
+      "lat": 35.860058,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3197号線",
+      "road_type": "市道",
+      "address": "埼玉県三郷市采女一丁目地先采女隧道",
+      "locality": "采女一丁目地先(JR武蔵野線下)采女隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0149",
+      "name": "国道122号線バイパス久伊豆地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.64241,
+      "lat": 36.004787,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3104号線",
+      "road_type": "市道",
+      "address": "埼玉県蓮田市大字閏戸地内",
+      "locality": "大字閏戸地内(国道122号線バイパス久伊豆地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0150",
+      "name": "国道122号線バイパス東谷地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.64241,
+      "lat": 36.004787,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県蓮田市大字閏戸地内",
+      "locality": "大字閏戸地内(国道122号線バイパス東谷地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0151",
+      "name": "薬師堂横断地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.525803,
+      "lat": 35.98698,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2176号線",
+      "road_type": "市道",
+      "address": "埼玉県桶川市川田谷",
+      "locality": "桶川市川田谷地先(薬師堂横断地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0152",
+      "name": "JR宇都宮線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.650157,
+      "lat": 35.976969,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "8号線",
+      "road_type": "市道",
+      "address": "埼玉県蓮田市御前橋一丁目",
+      "locality": "御前橋一丁目地先(JR宇都宮線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 290m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 289.7,
+          "matched": "道路トンネル",
+          "osm_id": 314553740,
+          "osm_name": "下蓮田地下道",
+          "confidence": "高",
+          "why": "路線番号が一致（8）。ただし 290m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0153",
+      "name": "首都圏中央連絡自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.446537,
+      "lat": 35.970329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第1929号線",
+      "road_type": "市道",
+      "address": "埼玉県坂戸市小沼888-1",
+      "locality": "小沼888-1地先(首都圏中央連絡自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 37m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 36.9,
+          "matched": "道路トンネル",
+          "osm_id": 1524455069,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（37m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0154",
+      "name": "中川右岸東武鉄道アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.71907,
+      "lat": 36.095995,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2-5号線",
+      "road_type": "市道",
+      "address": "埼玉県幸手市大字高須賀185-1",
+      "locality": "大字高須賀185-1地先(中川右岸東武鉄道アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 113m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 112.8,
+          "matched": "道路トンネル",
+          "osm_id": 1165003701,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 113m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0155",
+      "name": "中川左岸東武鉄道アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.719748,
+      "lat": 36.097877,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2号線",
+      "road_type": "市道",
+      "address": "埼玉県幸手市大字高須賀476",
+      "locality": "大字高須賀476地先(中川左岸東武鉄道アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 114m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 114.3,
+          "matched": "道路トンネル",
+          "osm_id": 121063446,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 114m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0156",
+      "name": "大字藤金地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.407898,
+      "lat": 35.944363,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号線",
+      "road_type": "市道",
+      "address": "埼玉県鶴ヶ島市藤金自治会館脇関越道アンダー",
+      "locality": "藤金自治会館脇関越道アンダー(大字藤金地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0157",
+      "name": "大字上広谷・富士見1丁目地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.415131,
+      "lat": 35.947685,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "547-1号線",
+      "road_type": "市道",
+      "address": "埼玉県鶴ヶ島市富士見通線東上線アンダー",
+      "locality": "富士見通線東上線アンダー(大字上広谷・富士見1丁目地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0158",
+      "name": "大字脚折地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.393066,
+      "lat": 35.934444,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3号線",
+      "road_type": "市道",
+      "address": "埼玉県鶴ヶ島市市役所通り関越道アンダー",
+      "locality": "市役所通り関越道アンダー(大字脚折地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0159",
+      "name": "JR武蔵野線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.842926,
+      "lat": 35.871719,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2-216号線",
+      "road_type": "市道",
+      "address": "埼玉県吉川市大字高富地内高富隧道",
+      "locality": "大字高富地内(JR武蔵野線下)高富隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0160",
+      "name": "ミニ工業団地北国道254号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.540558,
+      "lat": 35.874329,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "B-79号線",
+      "road_type": "市道",
+      "address": "埼玉県ふじみ野市福岡新田",
+      "locality": "福岡新田(ミニ工業団地北国道254号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0161",
+      "name": "花の木中学校北国道254号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.534683,
+      "lat": 35.876812,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "A-12号線",
+      "road_type": "市道",
+      "address": "埼玉県ふじみ野市中福岡",
+      "locality": "中福岡(花の木中学校北国道254号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0162",
+      "name": "三芳町境関越自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.495941,
+      "lat": 35.85342,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "F-55号線",
+      "road_type": "市道",
+      "address": "埼玉県ふじみ野市大井武蔵野",
+      "locality": "大井武蔵野(三芳町境関越自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0163",
+      "name": "自動車教習所北東武東上線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.524826,
+      "lat": 35.855362,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "D-72号線",
+      "road_type": "市道",
+      "address": "埼玉県ふじみ野市市沢一丁目",
+      "locality": "市沢一丁目(自動車教習所北東武東上線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0164",
+      "name": "JAいるま野共販センターそば",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.500366,
+      "lat": 35.831944,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道幹線13号線",
+      "road_type": "町道",
+      "address": "埼玉県三芳町大字上富地内関越自動車道ガード下",
+      "locality": "大字上富地内関越自動車道ガード下(JAいるま野共販センターそば)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0165",
+      "name": "滑川高校西通線東上線アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.34198,
+      "lat": 36.043453,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "231号線",
+      "road_type": "町道",
+      "address": "埼玉県滑川町月の輪四丁目",
+      "locality": "月の輪四丁目(滑川高校西通線東上線アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0166",
+      "name": "西武鉄道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.108719,
+      "lat": 35.969036,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号線",
+      "road_type": "町道",
+      "address": "埼玉県横瀬町大字横瀬字姿4190番3",
+      "locality": "大字横瀬字姿4190番3先(西武鉄道ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 109m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 109.4,
+          "matched": "道路トンネル",
+          "osm_id": 1377358355,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 109m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0167",
+      "name": "大字肥土地内JR八高線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.092514,
+      "lat": 36.226223,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "5180号線",
+      "road_type": "町道",
+      "address": "埼玉県神川町大字肥土地内JR八高線ガード下",
+      "locality": "大字肥土地内JR八高線ガード下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0168",
+      "name": "大光寺付近JR高崎線アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.12355,
+      "lat": 36.26186,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "105号線",
+      "road_type": "町道",
+      "address": "埼玉県上里町大字勅使河原地内",
+      "locality": "大字勅使河原地内(大光寺付近JR高崎線アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0169",
+      "name": "関越自動車道嘉美管理道路排水設備",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.152648,
+      "lat": 36.22943,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "202号線",
+      "road_type": "町道",
+      "address": "埼玉県上里町嘉美160番2",
+      "locality": "嘉美160番2地先(関越自動車道嘉美管理道路排水設備)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 30m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 30.1,
+          "matched": "道路トンネル",
+          "osm_id": 121989863,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（30m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0170",
+      "name": "国道140号高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.201819,
+      "lat": 36.12561,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3988号線",
+      "road_type": "町道",
+      "address": "埼玉県寄居町大字桜沢991番2",
+      "locality": "大字桜沢991番2地先(国道140号高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 70m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 69.6,
+          "matched": "道路トンネル",
+          "osm_id": 121858723,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（70m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0171",
+      "name": "関越自動車道ボックスカルバート・花園32下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.204208,
+      "lat": 36.164131,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1212号線",
+      "road_type": "町道",
+      "address": "埼玉県寄居町大字用土5174番6",
+      "locality": "大字用土5174番6地先(関越自動車道ボックスカルバート・花園32下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0172",
+      "name": "県道さいたま・栗橋線ボックスカルバート",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.652129,
+      "lat": 36.034359,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2148号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市篠津777-5",
+      "locality": "篠津777-5(県道さいたま・栗橋線ボックスカルバート)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 52m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 52.3,
+          "matched": "道路トンネル",
+          "osm_id": 132507508,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（52m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0173",
+      "name": "東北自動車道ボックスカルバート・岩槻43",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.667633,
+      "lat": 36.039173,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4025・4007・4006号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市野牛180-1",
+      "locality": "野牛180-1(東北自動車道ボックスカルバート・岩槻43)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0174",
+      "name": "東北自動車道ボックスカルバート・岩槻40",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.654007,
+      "lat": 36.031788,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4092・4093・4040号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市篠津3041",
+      "locality": "篠津3041(東北自動車道ボックスカルバート・岩槻40)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0175",
+      "name": "東北自動車道ボックスカルバート・野牛トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.66598,
+      "lat": 36.033822,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-3号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市野牛1391",
+      "locality": "野牛1391(東北自動車道ボックスカルバート・野牛トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 38.5,
+          "matched": "道路トンネル",
+          "osm_id": 777023079,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0176",
+      "name": "JR宇都宮線アンダーパス・野高地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.66864,
+      "lat": 36.034199,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-13号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市新白岡九丁目7番4",
+      "locality": "新白岡九丁目7番4(JR宇都宮線アンダーパス・野高地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0177",
+      "name": "東北自動車道ボックスカルバート・高岩トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.681656,
+      "lat": 36.036312,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-7号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市高岩82-1",
+      "locality": "高岩82-1(東北自動車道ボックスカルバート・高岩トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0178",
+      "name": "東北自動車道ボックスカルバート・岩槻33",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.67245,
+      "lat": 36.025191,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2-2・7514号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市寺塚290-1",
+      "locality": "寺塚290-1(東北自動車道ボックスカルバート・岩槻33)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "OSMの道路トンネルへ 87m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 86.9,
+          "matched": "道路トンネル",
+          "osm_id": 340212255,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 87m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0179",
+      "name": "東北自動車道ボックスカルバート・岩槻31",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.676514,
+      "lat": 36.018742,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6225・7536・7539号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市千駄野432",
+      "locality": "千駄野432(東北自動車道ボックスカルバート・岩槻31)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0180",
+      "name": "東北自動車道ボックスカルバート・岩槻29",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.675363,
+      "lat": 36.016898,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6161・7359・7358号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市千駄野1005-1",
+      "locality": "千駄野1005-1(東北自動車道ボックスカルバート・岩槻29)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 54m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 53.6,
+          "matched": "道路トンネル",
+          "osm_id": 120277614,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（54m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0181",
+      "name": "東北自動車道ボックスカルバート・岩槻27",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.674232,
+      "lat": 36.012118,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6180・8047・8048号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市千駄野563-10",
+      "locality": "千駄野563-10(東北自動車道ボックスカルバート・岩槻27)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 57m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 57.3,
+          "matched": "道路トンネル",
+          "osm_id": 120274229,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（57m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0182",
+      "name": "東北自動車道ボックスカルバート・岩槻24",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.67317,
+      "lat": 36.008614,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6193・8050・8049号線",
+      "road_type": "市道",
+      "address": "埼玉県白岡市小久喜494-1",
+      "locality": "小久喜494-1(東北自動車道ボックスカルバート・岩槻24)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 108m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 108.0,
+          "matched": "道路トンネル",
+          "osm_id": 120274031,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 108m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0183",
+      "name": "東武伊勢崎線みやしろ地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.731506,
+      "lat": 36.019539,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "春日部久喜線",
+      "road_type": "県道",
+      "address": "埼玉県宮代町道佛・中島",
+      "locality": "道佛・中島(東武伊勢崎線みやしろ地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0184",
+      "name": "吉野原・今羽線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.608475,
+      "lat": 35.947575,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30432号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市北区宮原町四丁目",
+      "locality": "さいたま市北区宮原町四丁目(吉野原・今羽線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0185",
+      "name": "市道10067号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.617844,
+      "lat": 35.929424,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "10067号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市北区東大成町二丁目",
+      "locality": "さいたま市北区東大成町二丁目(市道10067号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0186",
+      "name": "市道10057号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.615738,
+      "lat": 35.918484,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "10057号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市大宮区大成町三丁目",
+      "locality": "さいたま市大宮区大成町三丁目(市道10057号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0187",
+      "name": "中山道アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.622696,
+      "lat": 35.91547,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道鴻巣桶川さいたま線",
+      "road_type": "県道(市管理)",
+      "address": "埼玉県さいたま市大宮区土手町一丁目",
+      "locality": "さいたま市大宮区土手町一丁目(中山道アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0188",
+      "name": "吉敷町アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.630035,
+      "lat": 35.899876,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道新方須賀さいたま線",
+      "road_type": "県道(市管理)",
+      "address": "埼玉県さいたま市大宮区吉敷町二丁目",
+      "locality": "さいたま市大宮区吉敷町二丁目(吉敷町アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0189",
+      "name": "大和田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.649445,
+      "lat": 35.923496,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道さいたま菖蒲線",
+      "road_type": "県道(市管理)",
+      "address": "埼玉県さいたま市見沼区大和田町一丁目",
+      "locality": "さいたま市見沼区大和田町一丁目(大和田アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0190",
+      "name": "宮町本丸アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.706474,
+      "lat": 35.958791,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "イワ110号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区宮町二丁目",
+      "locality": "さいたま市岩槻区宮町二丁目(宮町本丸アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 278m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 278.3,
+          "matched": "道路トンネル",
+          "osm_id": 119611780,
+          "osm_name": "宮町本丸地下道",
+          "confidence": "高",
+          "why": "名称が一致（宮町本丸地下道）。ただし 278m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0191",
+      "name": "国道463号バイパス釣上アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.74231,
+      "lat": 35.900467,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6171号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字釣上",
+      "locality": "さいたま市岩槻区大字釣上(国道463号バイパス釣上アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0192",
+      "name": "東北縦貫アンダー(岩槻-8",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.663055,
+      "lat": 35.969162,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2090号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字馬込)",
+      "locality": "さいたま市岩槻区大字馬込(東北縦貫アンダー(岩槻-8))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0193",
+      "name": "東北縦貫アンダー(岩槻-6",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.681915,
+      "lat": 35.958313,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "イワ218号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字箕輪)",
+      "locality": "さいたま市岩槻区大字箕輪(東北縦貫アンダー(岩槻-6))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0194",
+      "name": "東北縦貫アンダー(岩槻-5",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.681915,
+      "lat": 35.958313,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2378号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字箕輪)",
+      "locality": "さいたま市岩槻区大字箕輪(東北縦貫アンダー(岩槻-5))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0195",
+      "name": "東北縦貫アンダー(岩槻-2",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.686401,
+      "lat": 35.957832,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2410号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字岩槻)",
+      "locality": "さいたま市岩槻区大字岩槻(東北縦貫アンダー(岩槻-2))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0196",
+      "name": "東北縦貫アンダー(浦和-16",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.698257,
+      "lat": 35.934402,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3322号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字柏崎)",
+      "locality": "さいたま市岩槻区大字柏崎(東北縦貫アンダー(浦和-16))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0197",
+      "name": "東北縦貫アンダー(浦和-14",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.700836,
+      "lat": 35.922466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3319号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字横根)",
+      "locality": "さいたま市岩槻区大字横根(東北縦貫アンダー(浦和-14))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0198",
+      "name": "東北縦貫アンダー(浦和-13",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.700836,
+      "lat": 35.922466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3370号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字横根)",
+      "locality": "さいたま市岩槻区大字横根(東北縦貫アンダー(浦和-13))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0199",
+      "name": "東北縦貫アンダー(浦和-11",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.700836,
+      "lat": 35.922466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "イワ225号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字横根)",
+      "locality": "さいたま市岩槻区大字横根(東北縦貫アンダー(浦和-11))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0200",
+      "name": "東北縦貫アンダー(浦和-10",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.700836,
+      "lat": 35.922466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3471号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字横根)",
+      "locality": "さいたま市岩槻区大字横根(東北縦貫アンダー(浦和-10))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0201",
+      "name": "東北縦貫アンダー(浦和-9",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.710968,
+      "lat": 35.914444,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3494号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市岩槻区大字笹久保新田)",
+      "locality": "さいたま市岩槻区大字笹久保新田(東北縦貫アンダー(浦和-9))",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0202",
+      "name": "新都心地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.631744,
+      "lat": 35.892609,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道さいたまふじみ野所沢線",
+      "road_type": "県道(市管理)",
+      "address": "埼玉県さいたま市中央区新都心",
+      "locality": "さいたま市中央区新都心(新都心地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0203",
+      "name": "第一久保入地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.659775,
+      "lat": 35.843712,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "F第182号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市南区根岸四丁目",
+      "locality": "さいたま市南区根岸四丁目(第一久保入地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0204",
+      "name": "大谷場地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.666814,
+      "lat": 35.849515,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "F第449号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市南区南本町二丁目",
+      "locality": "さいたま市南区南本町二丁目(大谷場地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 125m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 125.4,
+          "matched": "道路トンネル",
+          "osm_id": 42363439,
+          "osm_name": "大谷場地下道",
+          "confidence": "高",
+          "why": "名称が一致（大谷場地下道）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0205",
+      "name": "一ツ木地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.670397,
+      "lat": 35.845661,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "F第493号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市南区南本町二丁目",
+      "locality": "さいたま市南区南本町二丁目(一ツ木地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 483m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 482.9,
+          "matched": "道路トンネル",
+          "osm_id": 727126171,
+          "osm_name": "一ツ木地下道",
+          "confidence": "中",
+          "why": "名称が一致（一ツ木地下道）。ただし出発点が市区町村の中心で、そこから 483m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0206",
+      "name": "大谷口地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.69133,
+      "lat": 35.859741,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K第455号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市南区大字大谷口",
+      "locality": "さいたま市南区大字大谷口(大谷口地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0207",
+      "name": "第5見沼ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.717499,
+      "lat": 35.870579,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "N第619号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字下山口新田",
+      "locality": "さいたま市緑区大字下山口新田(第5見沼ガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0208",
+      "name": "大崎地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.710968,
+      "lat": 35.886734,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "N第269号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字大崎",
+      "locality": "さいたま市緑区大字大崎(大崎地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0209",
+      "name": "高畑地下道・浦和-7",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.707474,
+      "lat": 35.910507,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "O第340号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字高畑",
+      "locality": "さいたま市緑区大字高畑(高畑地下道・浦和-7)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0210",
+      "name": "中地下道・浦和-6",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.708603,
+      "lat": 35.906208,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "O第341号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字寺山",
+      "locality": "さいたま市緑区大字寺山(中地下道・浦和-6)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0211",
+      "name": "下地下道・浦和-5",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.708603,
+      "lat": 35.906208,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "O第343号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字寺山",
+      "locality": "さいたま市緑区大字寺山(下地下道・浦和-5)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0212",
+      "name": "明照寺地下道・浦和-3",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.717072,
+      "lat": 35.899685,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "O第347号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字中野田",
+      "locality": "さいたま市緑区大字中野田(明照寺地下道・浦和-3)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0213",
+      "name": "大門地下道・川口-8",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.731079,
+      "lat": 35.882477,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "N第539号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字大門",
+      "locality": "さいたま市緑区大字大門(大門地下道・川口-8)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0214",
+      "name": "学園地下道・川口-6",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.731079,
+      "lat": 35.882477,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "N第540号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字大門",
+      "locality": "さいたま市緑区大字大門(学園地下道・川口-6)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0215",
+      "name": "南方地下道・川口-4",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.731079,
+      "lat": 35.882477,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "P第418号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市緑区大字大門",
+      "locality": "さいたま市緑区大字大門(南方地下道・川口-4)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0216",
+      "name": "さいたま市辻一丁目辻地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.645676,
+      "lat": 35.861683,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市辻一丁目辻地下道[本線]",
+      "locality": "さいたま市辻一丁目辻地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0217",
+      "name": "田島地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.629929,
+      "lat": 35.841076,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市桜区田島六丁目~さいたま市田島五丁目",
+      "locality": "さいたま市桜区田島六丁目~さいたま市田島五丁目(田島地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0218",
+      "name": "浦和西地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.62616,
+      "lat": 35.88398,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市中央区中島二丁目~さいたま市中央区上峰三丁目",
+      "locality": "さいたま市中央区中島二丁目~さいたま市中央区上峰三丁目(浦和西地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0219",
+      "name": "川口市芝西二丁目芝地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.685211,
+      "lat": 35.841347,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県川口市芝西二丁目芝地下道[本線]",
+      "locality": "川口市芝西二丁目芝地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0220",
+      "name": "川口市大字道合神根地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.717667,
+      "lat": 35.850842,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県川口市大字道合神根地下道[本線]",
+      "locality": "川口市大字道合神根地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0221",
+      "name": "川口市大字西新井宿川口ジャンクション地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.732178,
+      "lat": 35.846832,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県川口市大字西新井宿川口ジャンクション地下道[本線]",
+      "locality": "川口市大字西新井宿川口ジャンクション地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0222",
+      "name": "川口市大字安行領家安行地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.76152,
+      "lat": 35.84539,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県川口市大字安行領家安行地下道[本線]",
+      "locality": "川口市大字安行領家安行地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0223",
+      "name": "草加市新善町新善町地下道[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.784637,
+      "lat": 35.848839,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県草加市新善町新善町地下道[本線]",
+      "locality": "草加市新善町新善町地下道[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0224",
+      "name": "三郷市大字谷口谷口立体[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.870361,
+      "lat": 35.826015,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県三郷市大字谷口谷口立体[本線]",
+      "locality": "三郷市大字谷口谷口立体[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0225",
+      "name": "三郷市鷹野三丁目鷹野立体[本線]",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.879562,
+      "lat": 35.803379,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県三郷市鷹野三丁目鷹野立体[本線]",
+      "locality": "三郷市鷹野三丁目鷹野立体[本線]",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0226",
+      "name": "原市立体地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.627502,
+      "lat": 35.967705,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県上尾市原市",
+      "locality": "上尾市原市地先(原市立体地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0227",
+      "name": "小渕立体地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.752869,
+      "lat": 35.993061,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県春日部市小渕",
+      "locality": "春日部市小渕地先(小渕立体地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0228",
+      "name": "戸田地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.655182,
+      "lat": 35.819115,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県戸田市笹目",
+      "locality": "戸田市笹目地先(戸田地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0229",
+      "name": "美女木地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.639557,
+      "lat": 35.829967,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県戸田市美女木",
+      "locality": "戸田市美女木地先(美女木地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0230",
+      "name": "南栗橋アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.714417,
+      "lat": 36.114017,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "栗橋1035号線",
+      "road_type": "市道",
+      "address": "埼玉県久喜市南栗橋",
+      "locality": "南栗橋(南栗橋アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0231",
+      "name": "壱丁目地下横断道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.5672,
+      "lat": 35.957233,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1071号線",
+      "road_type": "市道",
+      "address": "埼玉県上尾市壱丁目西",
+      "locality": "上尾市壱丁目西(壱丁目地下横断道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0232",
+      "name": "JR武蔵野線吉川美南地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.849747,
+      "lat": 35.872551,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "葛飾吉川松伏線",
+      "road_type": "県道",
+      "address": "埼玉県吉川市美南",
+      "locality": "美南(JR武蔵野線吉川美南地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0233",
+      "name": "県道東松山鴻巣線アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.43428,
+      "lat": 36.028965,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7940号線",
+      "road_type": "町道",
+      "address": "埼玉県吉見町大字西吉見",
+      "locality": "吉見町大字西吉見(県道東松山鴻巣線アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0234",
+      "name": "関越自動車道アンダーパス・花園52",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.17151,
+      "lat": 36.208168,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30号線",
+      "road_type": "町道",
+      "address": "埼玉県美里町大字下児玉1025-2",
+      "locality": "大字下児玉1025-2地先(関越自動車道アンダーパス・花園52)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 84m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 84.0,
+          "matched": "道路トンネル",
+          "osm_id": 120309236,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 84m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0235",
+      "name": "池上地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.388611,
+      "lat": 36.147221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "30445号線",
+      "road_type": "市道",
+      "address": "埼玉県熊谷市国道125号バイパス2号地下道",
+      "locality": "国道125号バイパス2号地下道(池上地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0236",
+      "name": "国道463号アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.468704,
+      "lat": 35.799648,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2-4号線",
+      "road_type": "市道",
+      "address": "埼玉県所沢市国道463号アンダー",
+      "locality": "国道463号アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0237",
+      "name": "JR高崎線アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.517548,
+      "lat": 36.069096,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "A-1033号線",
+      "road_type": "市道",
+      "address": "埼玉県鴻巣市鴻巣宿わっぷ地下道",
+      "locality": "鴻巣宿わっぷ地下道(JR高崎線アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0238",
+      "name": "関越自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.377472,
+      "lat": 35.978058,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第3841号線",
+      "road_type": "市道",
+      "address": "埼玉県坂戸市大字沢木",
+      "locality": "大字沢木(関越自動車道下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0239",
+      "name": "国道16号下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.530762,
+      "lat": 35.921471,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0031号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字古谷上字二の関",
+      "locality": "大字古谷上字二の関(国道16号下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0240",
+      "name": "国道16号下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.530762,
+      "lat": 35.921471,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4059号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字古谷上字堀ノ内",
+      "locality": "大字古谷上字堀ノ内(国道16号下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0241",
+      "name": "国道16号下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.530762,
+      "lat": 35.921471,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4108号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市大字古谷上字宿",
+      "locality": "大字古谷上字宿(国道16号下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0242",
+      "name": "大字台地内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.345749,
+      "lat": 35.890568,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線61号",
+      "road_type": "市道",
+      "address": "埼玉県日高市中央通り西武線アンダー",
+      "locality": "中央通り西武線アンダー(大字台地内)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0243",
+      "name": "国道125号バイパスアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.623032,
+      "lat": 36.13472,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4528号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市多門寺地内",
+      "locality": "多門寺地内(国道125号バイパスアンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0244",
+      "name": "東北自動車道アンダーパス加須23",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.596451,
+      "lat": 36.158855,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2014号線",
+      "road_type": "市道",
+      "address": "埼玉県加須市戸川地内",
+      "locality": "戸川地内(東北自動車道アンダーパス加須23)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0245",
+      "name": "国道254号バイパスアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.544586,
+      "lat": 35.848915,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3045号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市大字鶴馬",
+      "locality": "大字鶴馬地先(国道254号バイパスアンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0246",
+      "name": "国道463号アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.564346,
+      "lat": 35.840801,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "45号線",
+      "road_type": "市道",
+      "address": "埼玉県富士見市大字水子",
+      "locality": "大字水子地先(国道463号アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0247",
+      "name": "主要地方道伊勢崎深谷線中瀬地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.282272,
+      "lat": 36.242023,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "A-644号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市中瀬1654-1",
+      "locality": "中瀬1654-1地先(主要地方道伊勢崎深谷線中瀬地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0248",
+      "name": "黒野谷地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.273916,
+      "lat": 36.10846,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "R-331号線",
+      "road_type": "市道",
+      "address": "埼玉県深谷市本田6325-1",
+      "locality": "本田6325-1地先(黒野谷地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 101m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 100.9,
+          "matched": "道路トンネル",
+          "osm_id": 120140374,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 101m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0249",
+      "name": "さいたま市大宮区三橋二丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.602859,
+      "lat": 35.90065,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市大宮区三橋二丁目",
+      "locality": "さいたま市大宮区三橋二丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0250",
+      "name": "蕨市錦町一丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.677872,
+      "lat": 35.821896,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号",
+      "road_type": "国道",
+      "address": "埼玉県蕨市錦町一丁目",
+      "locality": "蕨市錦町一丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0251",
+      "name": "さいたま市南区内谷二丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.63501,
+      "lat": 35.832855,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市南区内谷二丁目",
+      "locality": "さいたま市南区内谷二丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0252",
+      "name": "さいたま市桜区町谷四丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.6194,
+      "lat": 35.854542,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "17号新大宮BP",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市桜区町谷四丁目",
+      "locality": "さいたま市桜区町谷四丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0253",
+      "name": "さいたま市岩槻区加倉",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.689713,
+      "lat": 35.945877,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市岩槻区加倉",
+      "locality": "さいたま市岩槻区加倉",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0254",
+      "name": "指扇高架橋側道部",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.579727,
+      "lat": 35.925198,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県さいたま市西区",
+      "locality": "さいたま市西区(指扇高架橋側道部)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0255",
+      "name": "高倉橋横断ボックス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.382095,
+      "lat": 35.818466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県入間市高倉",
+      "locality": "入間市高倉(高倉橋横断ボックス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0256",
+      "name": "越谷市南荻島",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.766968,
+      "lat": 35.90889,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号",
+      "road_type": "国道",
+      "address": "埼玉県越谷市南荻島",
+      "locality": "越谷市南荻島",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0257",
+      "name": "春日部市水角",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.796738,
+      "lat": 35.96785,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号BP",
+      "road_type": "国道",
+      "address": "埼玉県春日部市水角",
+      "locality": "春日部市水角",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0258",
+      "name": "幸手市上高野",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.718445,
+      "lat": 36.06723,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号",
+      "road_type": "国道",
+      "address": "埼玉県幸手市上高野",
+      "locality": "幸手市上高野",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0259",
+      "name": "本線・側道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.726578,
+      "lat": 35.852169,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道",
+      "address": "埼玉県川口市神戸",
+      "locality": "川口市神戸(本線・側道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0260",
+      "name": "二ツ家アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.548157,
+      "lat": 36.015602,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "東松山桶川線",
+      "road_type": "県道",
+      "address": "埼玉県北本市二ツ家",
+      "locality": "二ツ家(二ツ家アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0261",
+      "name": "西堀氷川トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.633696,
+      "lat": 35.858559,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "C第139号線",
+      "road_type": "市道",
+      "address": "埼玉県さいたま市桜区西堀八丁目",
+      "locality": "さいたま市桜区西堀八丁目(西堀氷川トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 134m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 134.1,
+          "matched": "道路トンネル",
+          "osm_id": 560324245,
+          "osm_name": "西堀氷川トンネル",
+          "confidence": "高",
+          "why": "名称が一致（西堀氷川トンネル）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0262",
+      "name": "坂戸西スマートインターチェンジ直下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.375549,
+      "lat": 35.964706,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "第6302号線",
+      "road_type": "市道",
+      "address": "埼玉県坂戸市塚崎",
+      "locality": "塚崎(坂戸西スマートインターチェンジ直下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0263",
+      "name": "春日部市下柳",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.788986,
+      "lat": 35.98695,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県春日部市下柳",
+      "locality": "春日部市下柳",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0264",
+      "name": "春日部市不動院野",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.767059,
+      "lat": 36.000137,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "埼玉県春日部市不動院野",
+      "locality": "春日部市不動院野",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0265",
+      "name": "レイクタウン北交差点付近",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.830032,
+      "lat": 35.886444,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4号東埼玉道路",
+      "road_type": "国道",
+      "address": "埼玉県越谷市大成町七丁目",
+      "locality": "越谷市大成町七丁目(レイクタウン北交差点付近)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0266",
+      "name": "南浦和越谷線北川口陸橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.717819,
+      "lat": 35.876518,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川口市行衛",
+      "locality": "川口市行衛(南浦和越谷線北川口陸橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0267",
+      "name": "南浦和越谷線北川口陸橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.73703,
+      "lat": 35.866283,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川口市北原台2丁目",
+      "locality": "川口市北原台2丁目(南浦和越谷線北川口陸橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0268",
+      "name": "霞ケ関駅地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.441925,
+      "lat": 35.923374,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "9339号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市霞ケ関駅地下道",
+      "locality": "霞ケ関駅地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0269",
+      "name": "国道254号バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.526688,
+      "lat": 35.895325,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川越市大字今泉",
+      "locality": "大字今泉(国道254号バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0270",
+      "name": "東武東上線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.466129,
+      "lat": 35.920646,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1084号線",
+      "road_type": "市道",
+      "address": "埼玉県川越市今成4丁目",
+      "locality": "今成4丁目(東武東上線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 171m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 171.1,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 1092932355,
+          "osm_name": "東武東上線",
+          "confidence": "高",
+          "why": "路線名が一致（東武東上線）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "saitama-0271",
+      "name": "新河岸駅地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.480759,
+      "lat": 35.902931,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "",
+      "road_type": "認定外道路",
+      "address": "埼玉県川越市新河岸駅地下道",
+      "locality": "新河岸駅地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0272",
+      "name": "東武東上線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.312302,
+      "lat": 36.053909,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-23号",
+      "road_type": "町道",
+      "address": "埼玉県嵐山町大字志賀",
+      "locality": "大字志賀(東武東上線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "saitama-0273",
+      "name": "松高前通線東上線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.397928,
+      "lat": 36.038799,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0074号線",
+      "road_type": "市道",
+      "address": "埼玉県東松山市箭弓町三丁目、松葉町一丁目",
+      "locality": "箭弓町三丁目、松葉町一丁目(松高前通線東上線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 271m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 271.3,
+          "matched": "道路トンネル",
+          "osm_id": 1314560384,
+          "osm_name": "松高前通線",
+          "confidence": "高",
+          "why": "路線名が一致（松高前通線）。ただし 271m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}

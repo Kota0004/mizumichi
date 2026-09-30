@@ -1,0 +1,156 @@
+# 雨量を取り込んでアプリを公開する。
+#
+#   https://kota0004.github.io/mizumichi/
+#
+# 公開するのは prototype/ の中身だけ。企画書やツールは載らない。
+#
+# 危険度（risk_latest.json）は毎回ここで作り、リポジトリにはコミットしない。
+# 全国に広げると1回あたり約1MBになり、毎時コミットすると年間GB単位で
+# 履歴が膨らんで無料の範囲を超えるため（docs/09 参照）。
+name: アプリを公開
+
+on:
+  # 毎時0分。雨量を取り直して公開しなおす。
+  schedule:
+    - cron: "0 * * * *"
+
+  # アプリ本体・データ・ツールを変えたとき
+  push:
+    branches: [main]
+    paths:
+      - "prototype/**"
+      - "data/**"
+      - "tools/**"
+      - ".github/workflows/pages.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 公開中に次の更新が重なっても、最新のものが最後に残るようにする。
+# 進行中を打ち切らないのは、中途半端な状態で公開されるのを避けるため。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 依存を入れる
+        run: pip install -r tools/requirements.txt
+
+      # 観測点表（約1MB）は毎回取りに行かない。気象庁への無駄な負荷を避ける。
+      - name: 観測点表のキャッシュ
+        uses: actions/cache@v4
+        with:
+          path: data/amedastable_cache.json
+          key: amedastable-${{ github.run_id }}
+          restore-keys: amedastable-
+
+      # 雨量が取れなくても公開は続ける。地点と閾値だけでも使えるため。
+      - name: 雨量を取り込み危険度を計算する
+        run: |
+          set -o pipefail
+          # 全県ぶんをまとめた取り込み対象があればそれを、無ければ千葉単体を使う
+          src=data/spots_chiba.json
+          [ -f data/_amedas_targets.json ] && src=data/_amedas_targets.json
+          echo "雨量の対象: $src"
+          if python3 tools/fetch_amedas.py \
+               --spots "$src" \
+               --out prototype/data/risk_latest.json 2>&1 | tee /tmp/out.txt; then
+            status="取り込み成功"
+          else
+            status="⚠️ 取り込み失敗（雨量なしで公開します）"
+            rm -f prototype/data/risk_latest.json
+          fi
+          {
+            echo "### $status"
+            echo '```'
+            cat /tmp/out.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 公開するファイルを確かめる
+        working-directory: prototype
+        run: |
+          test -f index.html   || { echo "index.html がない"; exit 1; }
+          test -f risk.js      || { echo "risk.js がない"; exit 1; }
+          ls data/spots*.json >/dev/null 2>&1 || { echo "危険箇所データがない"; exit 1; }
+          echo "公開するファイル:"
+          find . -type f | sort
+
+      # Pages がまだ有効になっていないかを先に見る。
+      #
+      # ワークフローの GITHUB_TOKEN では Pages サイトを「新規作成」できない
+      # （Resource not accessible by integration）。有効化だけは人が一度だけ
+      # 押す必要があるので、それまではここで理由を言って正常終了する。
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          code=$(curl -s -o /tmp/pages.json -w '%{http_code}' \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages")
+          if [ "$code" = "404" ]; then
+            echo "ready=no" >> "$GITHUB_OUTPUT"
+            {
+              echo "### 公開を始めるにはスイッチを1回入れてください"
+              echo
+              echo "1. https://github.com/${{ github.repository }}/settings/pages を開く"
+              echo "2. **Build and deployment** の **Source** を **GitHub Actions** にする"
+              echo "3. このワークフローを Re-run する（以後は自動）"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "Pages が未設定です。上の手順のあと再実行してください。"
+            exit 0
+          fi
+          if [ "$code" != "200" ]; then
+            echo "Pages の状態を取得できませんでした (HTTP $code)"
+            cat /tmp/pages.json
+            exit 1
+          fi
+          echo "ready=yes" >> "$GITHUB_OUTPUT"
+
+      - if: steps.check.outputs.ready == 'yes'
+        uses: actions/configure-pages@v5
+
+      - if: steps.check.outputs.ready == 'yes'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: prototype
+
+      - if: steps.check.outputs.ready == 'yes'
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      # 「成功」は GitHub が受理したという意味でしかない。
+      # 公開された実物を開いて、危険箇所が読み込まれて地図が出るところまで見る。
+      - if: steps.check.outputs.ready == 'yes'
+        name: 公開されたサイトが動くか確かめる
+        env:
+          BASE_URL: ${{ steps.deploy.outputs.page_url }}
+        working-directory: tools
+        run: |
+          npm i playwright
+          npx playwright install --with-deps chromium
+          # 配信が行き渡るまで少し待つ
+          for i in 1 2 3 4 5 6; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$BASE_URL" || true)
+            [ "$code" = "200" ] && break
+            echo "まだ $code。10秒待って再確認 ($i/6)"
+            sleep 10
+          done
+          node verify_deployed.js

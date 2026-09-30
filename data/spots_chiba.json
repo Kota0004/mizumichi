@@ -1,0 +1,2642 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "chiba",
+  "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "chiba-0001",
+      "name": "袖ケ浦1丁目11番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.016967,
+      "lat": 35.673968,
+      "dz": 0.93,
+      "hist": 0,
+      "road": "市道00-002号線",
+      "road_type": "市道",
+      "address": "千葉県習志野市袖ケ浦1丁目11番",
+      "locality": "袖ケ浦1丁目11番地先",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0002",
+      "name": "津田沼3丁目11番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.025888,
+      "lat": 35.686592,
+      "dz": -4.53,
+      "hist": 0,
+      "road": "市道00-003号線",
+      "road_type": "市道",
+      "address": "千葉県習志野市津田沼3丁目11番",
+      "locality": "津田沼3丁目11番地先",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0003",
+      "name": "鷺沼台1丁目1番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.029088,
+      "lat": 35.68393,
+      "dz": -0.01,
+      "hist": 0,
+      "road": "市道00-005号線",
+      "road_type": "市道",
+      "address": "千葉県習志野市鷺沼台1丁目1番",
+      "locality": "鷺沼台1丁目1番地先",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0004",
+      "name": "五井アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.085892,
+      "lat": 35.518326,
+      "dz": -0.16,
+      "hist": 0,
+      "road": "297号",
+      "road_type": "国道(県管理)",
+      "address": "千葉県市原市五井",
+      "locality": "五井(五井アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0005",
+      "name": "廿五里アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.083315,
+      "lat": 35.489804,
+      "dz": -0.28,
+      "hist": 0,
+      "road": "茂原五井線",
+      "road_type": "県道",
+      "address": "千葉県市原市廿五里",
+      "locality": "廿五里(廿五里アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0006",
+      "name": "五井本仲ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.091414,
+      "lat": 35.514564,
+      "dz": -5.63,
+      "hist": 0,
+      "road": "10号線",
+      "road_type": "市道",
+      "address": "千葉県市原市五井中央西3丁目",
+      "locality": "五井中央西3丁目(五井本仲ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0007",
+      "name": "市原ICアンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.093031,
+      "lat": 35.49641,
+      "dz": -3.32,
+      "hist": 0,
+      "road": "2084号線",
+      "road_type": "市道",
+      "address": "千葉県市原市村上",
+      "locality": "村上(市原ICアンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0008",
+      "name": "西広アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.105344,
+      "lat": 35.485233,
+      "dz": 2.3,
+      "hist": 0,
+      "road": "2110号線",
+      "road_type": "市道",
+      "address": "千葉県市原市西広",
+      "locality": "西広(西広アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0009",
+      "name": "古町橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.141906,
+      "lat": 35.543569,
+      "dz": 0.19,
+      "hist": 0,
+      "road": "3529号線",
+      "road_type": "市道",
+      "address": "千葉県市原市古市場",
+      "locality": "古市場(古町橋下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0010",
+      "name": "市川3丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.90256,
+      "lat": 35.736403,
+      "dz": 1.45,
+      "hist": 0,
+      "road": "市川松戸線",
+      "road_type": "県道",
+      "address": "千葉県市川市市川3丁目",
+      "locality": "市川3丁目",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0011",
+      "name": "原木地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.944096,
+      "lat": 35.705561,
+      "dz": -5.17,
+      "hist": 0,
+      "road": "7002号線",
+      "road_type": "市道",
+      "address": "千葉県市川市原木1丁目",
+      "locality": "原木1丁目(原木地下道)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 142m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 142.4,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 781617924,
+          "osm_name": "東京メトロ東西線",
+          "confidence": "低",
+          "why": "名前が一致せず 142m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0012",
+      "name": "前原西2丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.02101,
+      "lat": 35.693679,
+      "dz": -3.11,
+      "hist": 0,
+      "road": "長沼船橋線",
+      "road_type": "県道",
+      "address": "千葉県船橋市前原西2丁目",
+      "locality": "前原西2丁目",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0013",
+      "name": "山野町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.961229,
+      "lat": 35.705992,
+      "dz": -6.46,
+      "hist": 0,
+      "road": "船橋行徳線",
+      "road_type": "県道",
+      "address": "千葉県船橋市山野町",
+      "locality": "山野町",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 213m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 213.4,
+          "matched": "道路トンネル",
+          "osm_id": 53830722,
+          "osm_name": "船橋行徳線",
+          "confidence": "高",
+          "why": "名称が一致（船橋行徳線）。ただし 213m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が -6.5m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0014",
+      "name": "本郷町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.952162,
+      "lat": 35.708598,
+      "dz": -0.12,
+      "hist": 0,
+      "road": "松戸原木線",
+      "road_type": "県道",
+      "address": "千葉県船橋市本郷町",
+      "locality": "本郷町",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0015",
+      "name": "JR総武線下・東武野田線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.982072,
+      "lat": 35.702004,
+      "dz": 2.14,
+      "hist": 0,
+      "road": "14-003号線(都市計画道路3・3・7号)",
+      "road_type": "市道",
+      "address": "千葉県船橋市海神1丁目1番",
+      "locality": "海神1丁目1番地先(JR総武線下・東武野田線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 48m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 47.7,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 215564289,
+          "osm_name": "総武緩行線",
+          "confidence": "高",
+          "why": "路線名が一致（総武緩行線）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0016",
+      "name": "JR総武線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.97091,
+      "lat": 35.702424,
+      "dz": -2.14,
+      "hist": 0,
+      "road": "06-029号線",
+      "road_type": "市道",
+      "address": "千葉県船橋市海神6丁目24番",
+      "locality": "海神6丁目24番地先(JR総武線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 28m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 27.6,
+          "matched": "道路トンネル",
+          "osm_id": 245289151,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（28m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0017",
+      "name": "JR総武線下・東武野田線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.98354,
+      "lat": 35.70202,
+      "dz": -1.79,
+      "hist": 0,
+      "road": "14-010号線",
+      "road_type": "市道",
+      "address": "千葉県船橋市本町7丁目4番",
+      "locality": "本町7丁目4番地先(JR総武線下・東武野田線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 32m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 32.5,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 209540745,
+          "osm_name": "東武野田線",
+          "confidence": "高",
+          "why": "路線名が一致（東武野田線）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0018",
+      "name": "JR総武線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.994087,
+      "lat": 35.700829,
+      "dz": -1.71,
+      "hist": 0,
+      "road": "00-033号線",
+      "road_type": "市道",
+      "address": "千葉県船橋市市場1丁目2番",
+      "locality": "市場1丁目2番地先(JR総武線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 53m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 53.0,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 195061347,
+          "osm_name": "総武本線",
+          "confidence": "高",
+          "why": "路線名が一致（総武本線）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0019",
+      "name": "東武野田線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.99237,
+      "lat": 35.742653,
+      "dz": 2.87,
+      "hist": 0,
+      "road": "00-178号線",
+      "road_type": "市道",
+      "address": "千葉県船橋市丸山1丁目1番",
+      "locality": "丸山1丁目1番地先(東武野田線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 63m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 63.3,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 387679499,
+          "osm_name": "東武野田線",
+          "confidence": "高",
+          "why": "路線名が一致（東武野田線）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0020",
+      "name": "JR武蔵野線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.963837,
+      "lat": 35.715225,
+      "dz": -1.98,
+      "hist": 0,
+      "road": "25-013号線",
+      "road_type": "市道",
+      "address": "千葉県船橋市印内2丁目2番",
+      "locality": "印内2丁目2番地先(JR武蔵野線下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 1m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1.1,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 156241239,
+          "osm_name": "JR武蔵野線",
+          "confidence": "高",
+          "why": "路線名が一致（JR武蔵野線）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0021",
+      "name": "五香立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.966992,
+      "lat": 35.796371,
+      "dz": -1.68,
+      "hist": 0,
+      "road": "松戸鎌ケ谷線",
+      "road_type": "県道",
+      "address": "千葉県松戸市五香",
+      "locality": "五香(五香立体)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 258m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 258.2,
+          "matched": "道路トンネル",
+          "osm_id": 364728245,
+          "osm_name": "五香アンダーパス",
+          "confidence": "高",
+          "why": "名称が一致（五香アンダーパス）。ただし 258m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0022",
+      "name": "指向アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.904928,
+      "lat": 35.788704,
+      "dz": -0.14,
+      "hist": 0,
+      "road": "主2-98号",
+      "road_type": "市道",
+      "address": "千葉県松戸市指向アンダーパス",
+      "locality": "指向アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 12m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 11.5,
+          "matched": "道路トンネル",
+          "osm_id": 741726444,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（12m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m",
+        "check_hint": "矢切トンネル（路線 298号）と 3m しか離れていません。こちらは路線 主2-98号 なので別の構造物のはずです"
+      }
+    },
+    {
+      "id": "chiba-0023",
+      "name": "忠仲アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.902547,
+      "lat": 35.786383,
+      "dz": -0.64,
+      "hist": 0,
+      "road": "主1-1号",
+      "road_type": "市道",
+      "address": "千葉県松戸市忠仲アンダーパス",
+      "locality": "忠仲アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 12m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 11.5,
+          "matched": "道路トンネル",
+          "osm_id": 741726444,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（12m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0024",
+      "name": "新松戸アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.9228,
+      "lat": 35.829436,
+      "dz": 0.04,
+      "hist": 0,
+      "road": "主2-7号",
+      "road_type": "市道",
+      "address": "千葉県松戸市新松戸アンダーパス",
+      "locality": "新松戸アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 21m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 20.9,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 219076986,
+          "osm_name": "北小金支線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（21m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0025",
+      "name": "じゃんけん道路",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.922911,
+      "lat": 35.824645,
+      "dz": 0.98,
+      "hist": 0,
+      "road": "1-514号",
+      "road_type": "市道",
+      "address": "千葉県松戸市幸谷アンダーパス",
+      "locality": "幸谷アンダーパス(じゃんけん道路)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 127m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 127.2,
+          "matched": "道路トンネル",
+          "osm_id": 624184854,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 127m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0026",
+      "name": "宮前アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.902043,
+      "lat": 35.786555,
+      "dz": 0.64,
+      "hist": 0,
+      "road": "主1-27号",
+      "road_type": "市道",
+      "address": "千葉県松戸市宮前アンダーパス",
+      "locality": "宮前アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 12m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 11.5,
+          "matched": "道路トンネル",
+          "osm_id": 741726444,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（12m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0027",
+      "name": "川間ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.8734,
+      "lat": 35.958214,
+      "dz": -0.48,
+      "hist": 0,
+      "road": "11019号線",
+      "road_type": "市道",
+      "address": "千葉県野田市川間ガード下",
+      "locality": "川間ガード下",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0028",
+      "name": "南流山駅ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.90556,
+      "lat": 35.836587,
+      "dz": -0.47,
+      "hist": 0,
+      "road": "106号線",
+      "road_type": "市道",
+      "address": "千葉県流山市南流山1丁目",
+      "locality": "南流山1丁目(南流山駅ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0029",
+      "name": "馬場下ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.901009,
+      "lat": 35.841452,
+      "dz": -0.71,
+      "hist": 0,
+      "road": "109号線",
+      "road_type": "市道",
+      "address": "千葉県流山市南流山4丁目",
+      "locality": "南流山4丁目(馬場下ガード)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0030",
+      "name": "中・駒木線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.92593,
+      "lat": 35.872494,
+      "dz": -0.04,
+      "hist": 0,
+      "road": "114号線",
+      "road_type": "市道",
+      "address": "千葉県流山市おおたかの森東一丁目",
+      "locality": "おおたかの森東一丁目(中・駒木線ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 118m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 117.5,
+          "matched": "道路トンネル",
+          "osm_id": 1094377832,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 118m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0031",
+      "name": "流山市南",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.902756,
+      "lat": 35.833641,
+      "dz": 0.03,
+      "hist": 0,
+      "road": "松戸野田線",
+      "road_type": "県道",
+      "address": "千葉県流山市流山市南",
+      "locality": "流山市南",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0032",
+      "name": "丸山アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.009513,
+      "lat": 35.762097,
+      "dz": 0.06,
+      "hist": 0,
+      "road": "37号線",
+      "road_type": "市道",
+      "address": "千葉県鎌ケ谷市丸山1丁目",
+      "locality": "丸山1丁目(丸山アンダー)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0033",
+      "name": "JR常磐線第4浜街道ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.008136,
+      "lat": 35.872366,
+      "dz": -6.22,
+      "hist": 0,
+      "road": "356号",
+      "road_type": "国道(県管理)",
+      "address": "千葉県我孫子市本町1丁目",
+      "locality": "本町1丁目(JR常磐線第4浜街道ガード)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 44m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 43.7,
+          "matched": "道路トンネル",
+          "osm_id": 39214153,
+          "osm_name": "国道356号",
+          "confidence": "高",
+          "why": "路線番号が一致（356）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が -6.2m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0034",
+      "name": "JR常磐線船取ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.035446,
+      "lat": 35.872605,
+      "dz": -8.39,
+      "hist": 0,
+      "road": "船橋我孫子線",
+      "road_type": "県道",
+      "address": "千葉県我孫子市泉",
+      "locality": "泉(JR常磐線船取ガード)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が -8.4m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0035",
+      "name": "利根山隧道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.035797,
+      "lat": 35.873436,
+      "dz": -9.59,
+      "hist": 0,
+      "road": "00-011号線",
+      "road_type": "市道",
+      "address": "千葉県我孫子市柴崎台1丁目",
+      "locality": "柴崎台1丁目地先(利根山隧道)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が -9.6m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0036",
+      "name": "JR常磐線中原ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.966411,
+      "lat": 35.853788,
+      "dz": -0.37,
+      "hist": 0,
+      "road": "市川柏線",
+      "road_type": "県道",
+      "address": "千葉県柏市富里",
+      "locality": "富里(JR常磐線中原ガード)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料は常磐線なのに、別の路線（東武野田線）しか近くにありません。座標は動かしていません — 地図で常磐線を探して合わせてください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap_hint": {
+          "not_applied": true,
+          "nearby": "鉄道橋（ガード下の手がかり） 東武野田線",
+          "distance_m": 144.4,
+          "why": "資料は常磐線なのに、別の路線（東武野田線）しか近くにありません",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0037",
+      "name": "北柏",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.984848,
+      "lat": 35.875107,
+      "dz": -1.95,
+      "hist": 0,
+      "road": "北柏停車場線",
+      "road_type": "県道",
+      "address": "千葉県柏市北柏",
+      "locality": "北柏",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 97m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 96.8,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 368776486,
+          "osm_name": "常磐線",
+          "confidence": "低",
+          "why": "名前が一致せず 97m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0038",
+      "name": "逆井",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.982468,
+      "lat": 35.815441,
+      "dz": 1.71,
+      "hist": 0,
+      "road": "白井流山線",
+      "road_type": "県道",
+      "address": "千葉県柏市逆井",
+      "locality": "逆井",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0039",
+      "name": "六軒ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.141125,
+      "lat": 35.840322,
+      "dz": 2.45,
+      "hist": 0,
+      "road": "08-014号線",
+      "road_type": "市道",
+      "address": "千葉県印西市大森4233-10",
+      "locality": "大森4233-10(六軒ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 119m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 119.1,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 231106141,
+          "osm_name": "成田線（我孫子支線）",
+          "confidence": "低",
+          "why": "名前が一致せず 119m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0040",
+      "name": "国道356号バイパス道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.216622,
+      "lat": 35.854722,
+      "dz": -0.97,
+      "hist": 0,
+      "road": "21037号線",
+      "road_type": "町道",
+      "address": "千葉県栄町北781-47",
+      "locality": "北781-47地先(国道356号バイパス道路ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0041",
+      "name": "国道356号バイパス道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.207962,
+      "lat": 35.857215,
+      "dz": -0.75,
+      "hist": 0,
+      "road": "24063号線",
+      "road_type": "町道",
+      "address": "千葉県栄町北80-3",
+      "locality": "北80-3地先(国道356号バイパス道路ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 32m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 32.1,
+          "matched": "道路トンネル",
+          "osm_id": 1051717539,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（32m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0042",
+      "name": "国道356号バイパス道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.205191,
+      "lat": 35.855241,
+      "dz": -0.85,
+      "hist": 0,
+      "road": "24057号線",
+      "road_type": "町道",
+      "address": "千葉県栄町北444-4",
+      "locality": "北444-4地先(国道356号バイパス道路ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0043",
+      "name": "三軒町立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 140.824585,
+      "lat": 35.732517,
+      "dz": -0.54,
+      "hist": 0,
+      "road": "126号",
+      "road_type": "国道(県管理)",
+      "address": "千葉県銚子市三軒町",
+      "locality": "三軒町(三軒町立体交差)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0044",
+      "name": "東金市山田213-2地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.359406,
+      "lat": 35.562752,
+      "dz": 0.34,
+      "hist": 0,
+      "road": "5028号線",
+      "road_type": "市道",
+      "address": "千葉県東金市東金市山田213-2",
+      "locality": "東金市山田213-2地先",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0045",
+      "name": "アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.328415,
+      "lat": 35.529552,
+      "dz": -0.27,
+      "hist": 0,
+      "road": "山田台大網白里線",
+      "road_type": "県道",
+      "address": "千葉県大網白里市大網",
+      "locality": "大網(アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0046",
+      "name": "綱田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.382957,
+      "lat": 35.36933,
+      "dz": 0.22,
+      "hist": 0,
+      "road": "3154号線",
+      "road_type": "町道",
+      "address": "千葉県一宮町一宮町綱田字麦田37-1",
+      "locality": "一宮町綱田字麦田37-1(綱田アンダー)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0047",
+      "name": "下村アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.379018,
+      "lat": 35.369315,
+      "dz": -0.04,
+      "hist": 0,
+      "road": "2156号線",
+      "road_type": "町道",
+      "address": "千葉県一宮町一宮町一宮字下村9278",
+      "locality": "一宮町一宮字下村9278(下村アンダー)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0048",
+      "name": "白子町古所3290-23地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.373608,
+      "lat": 35.45477,
+      "dz": -0.75,
+      "hist": 0,
+      "road": "3051号線",
+      "road_type": "町道",
+      "address": "千葉県白子町白子町古所3290-23",
+      "locality": "白子町古所3290-23地先",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0049",
+      "name": "椎木JR外房線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.385812,
+      "lat": 35.252466,
+      "dz": -2.68,
+      "hist": 0,
+      "road": "6129号線",
+      "road_type": "市道",
+      "address": "千葉県いすみ市いすみ市岬町椎木",
+      "locality": "いすみ市岬町椎木地先(椎木JR外房線ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0050",
+      "name": "行川いすみ鉄道鉄橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.386536,
+      "lat": 35.253512,
+      "dz": -3.21,
+      "hist": 0,
+      "road": "1415号線",
+      "road_type": "市道",
+      "address": "千葉県いすみ市いすみ市行川",
+      "locality": "いすみ市行川地先(行川いすみ鉄道鉄橋下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0051",
+      "name": "太海地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.091751,
+      "lat": 35.084508,
+      "dz": -0.82,
+      "hist": 0,
+      "road": "馬場大渕線",
+      "road_type": "市道",
+      "address": "千葉県鴨川市太海地下道",
+      "locality": "太海地下道",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0052",
+      "name": "アクアライン連絡道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.959309,
+      "lat": 35.411484,
+      "dz": -4.88,
+      "hist": 0,
+      "road": "5010号線",
+      "road_type": "市道",
+      "address": "千葉県木更津市牛袋1242番地",
+      "locality": "牛袋1242番地(アクアライン連絡道下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 116m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 115.8,
+          "matched": "道路トンネル",
+          "osm_id": 136834227,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 116m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0053",
+      "name": "アクアライン連絡道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.962766,
+      "lat": 35.407299,
+      "dz": 0.23,
+      "hist": 0,
+      "road": "112-2号線",
+      "road_type": "市道",
+      "address": "千葉県木更津市牛袋605番地",
+      "locality": "牛袋605番地(アクアライン連絡道下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0054",
+      "name": "アクアライン連絡道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.966127,
+      "lat": 35.402145,
+      "dz": 0.95,
+      "hist": 0,
+      "road": "5109号線",
+      "road_type": "市道",
+      "address": "千葉県木更津市牛袋679番地",
+      "locality": "牛袋679番地(アクアライン連絡道下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0055",
+      "name": "アクアライン連絡道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.967043,
+      "lat": 35.399992,
+      "dz": 1.19,
+      "hist": 0,
+      "road": "5041号線",
+      "road_type": "市道",
+      "address": "千葉県木更津市十日市場45-2番地",
+      "locality": "十日市場45-2番地(アクアライン連絡道下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0056",
+      "name": "小櫃立体地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.060837,
+      "lat": 35.328354,
+      "dz": -0.32,
+      "hist": 0,
+      "road": "加茂木更津線",
+      "road_type": "県道",
+      "address": "千葉県君津市末吉",
+      "locality": "末吉(小櫃立体地下道)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0057",
+      "name": "竹岡立体地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.86671,
+      "lat": 35.185465,
+      "dz": 15.46,
+      "hist": 0,
+      "road": "竹岡インター線",
+      "road_type": "県道",
+      "address": "千葉県富津市竹岡",
+      "locality": "竹岡(竹岡立体地下道)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が +15.5m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0058",
+      "name": "大堀立体地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.854515,
+      "lat": 35.33738,
+      "dz": 0.32,
+      "hist": 0,
+      "road": "大貫青堀線",
+      "road_type": "県道",
+      "address": "千葉県富津市大堀",
+      "locality": "大堀(大堀立体地下道)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0059",
+      "name": "東京湾アクアライン連絡道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.95208,
+      "lat": 35.41415,
+      "dz": -5.02,
+      "hist": 0,
+      "road": "坂戸川間尻線",
+      "road_type": "市道",
+      "address": "千葉県袖ケ浦市坂戸市場2433-4",
+      "locality": "坂戸市場2433-4(東京湾アクアライン連絡道ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 37.9,
+          "matched": "道路トンネル",
+          "osm_id": 186423292,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0060",
+      "name": "東京湾アクアライン連絡道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.953914,
+      "lat": 35.413529,
+      "dz": -2.81,
+      "hist": 0,
+      "road": "坂戸市場21号線",
+      "road_type": "市道",
+      "address": "千葉県袖ケ浦市神納4189-2",
+      "locality": "神納4189-2(東京湾アクアライン連絡道ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 57m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 57.4,
+          "matched": "道路トンネル",
+          "osm_id": 186423280,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（57m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0061",
+      "name": "東京湾アクアライン連絡道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.955681,
+      "lat": 35.413393,
+      "dz": -2.53,
+      "hist": 0,
+      "road": "坂戸市場18号線",
+      "road_type": "市道",
+      "address": "千葉県袖ケ浦市神納4191-1",
+      "locality": "神納4191-1(東京湾アクアライン連絡道ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 62m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 62.1,
+          "matched": "道路トンネル",
+          "osm_id": 186423280,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（62m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0062",
+      "name": "東京湾アクアライン連絡道ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.956165,
+      "lat": 35.41315,
+      "dz": -3.7,
+      "hist": 0,
+      "road": "坂戸市場23号線",
+      "road_type": "市道",
+      "address": "千葉県袖ケ浦市神納4207-4",
+      "locality": "神納4207-4(東京湾アクアライン連絡道ガード下)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 95m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 95.0,
+          "matched": "道路トンネル",
+          "osm_id": 186423281,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 95m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0063",
+      "name": "十余三トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.319229,
+      "lat": 35.786263,
+      "dz": 6.37,
+      "hist": 0,
+      "road": "51号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県成田市成田市十余三",
+      "locality": "成田市十余三(十余三トンネル)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 0.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "excluded"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m",
+        "dz_warning": "周囲との高低差が +6.4m と大きすぎます。座標がずれている可能性があります"
+      }
+    },
+    {
+      "id": "chiba-0064",
+      "name": "矢切トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.904953,
+      "lat": 35.788681,
+      "dz": -0.19,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県松戸市矢切トンネル",
+      "locality": "矢切トンネル",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 12m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 11.5,
+          "matched": "道路トンネル",
+          "osm_id": 741726444,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（12m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m",
+        "check_hint": "指向アンダーパス（路線 主2-98号）と 3m しか離れていません。こちらは路線 298号 なので別の構造物のはずです"
+      }
+    },
+    {
+      "id": "chiba-0065",
+      "name": "みのり町アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.160194,
+      "lat": 35.664612,
+      "dz": -0.47,
+      "hist": 0,
+      "road": "四街道鹿渡線",
+      "road_type": "市道",
+      "address": "四街道市四街道市鹿渡1046-1",
+      "locality": "四街道市鹿渡1046-1地先(みのり町アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "部分一致",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0066",
+      "name": "天王谷ランプ",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.033367,
+      "lat": 35.878188,
+      "dz": -2.52,
+      "hist": 0,
+      "road": "船橋我孫子線",
+      "road_type": "県道",
+      "address": "千葉県我孫子市柴崎",
+      "locality": "柴崎(天王谷ランプ)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0067",
+      "name": "実籾アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.065046,
+      "lat": 35.689047,
+      "dz": 0.38,
+      "hist": 0,
+      "road": "幕張八千代線",
+      "road_type": "県道",
+      "address": "千葉県習志野市実籾",
+      "locality": "実籾(実籾アンダーパス)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0068",
+      "name": "八幡1丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.930535,
+      "lat": 35.719475,
+      "dz": -0.23,
+      "hist": 0,
+      "road": "0131号線",
+      "road_type": "市道",
+      "address": "千葉県市川市八幡1丁目",
+      "locality": "八幡1丁目",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 142m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 142.3,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 160445747,
+          "osm_name": "総武本線",
+          "confidence": "低",
+          "why": "名前が一致せず 142m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0069",
+      "name": "布佐アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.136116,
+      "lat": 35.853138,
+      "dz": -0.33,
+      "hist": 0,
+      "road": "千葉龍ケ崎線",
+      "road_type": "県道",
+      "address": "千葉県我孫子市布佐アンダー",
+      "locality": "布佐アンダー",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0070",
+      "name": "袖ケ浦アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.95482,
+      "lat": 35.431368,
+      "dz": -0.44,
+      "hist": 0,
+      "road": "袖ケ浦中島木更津線",
+      "road_type": "県道",
+      "address": "千葉県袖ケ浦市袖ケ浦アンダーパス",
+      "locality": "袖ケ浦アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0071",
+      "name": "新松戸1丁目アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.92315,
+      "lat": 35.828886,
+      "dz": -3.03,
+      "hist": 0,
+      "road": "主1-5号",
+      "road_type": "市道",
+      "address": "千葉県松戸市新松戸1丁目アンダーパス",
+      "locality": "新松戸1丁目アンダーパス",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 21m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 20.9,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 219076986,
+          "osm_name": "北小金支線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（21m）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0072",
+      "name": "小塚山トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.905893,
+      "lat": 35.759334,
+      "dz": -3.74,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県市川市北国分",
+      "locality": "北国分(小塚山トンネル)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 84m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "snap": {
+          "moved_m": 83.8,
+          "matched": "道路トンネル",
+          "osm_id": 782376057,
+          "osm_name": "国道298号",
+          "confidence": "高",
+          "why": "路線番号が一致（298）",
+          "applied_at": "2026-08-21",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        },
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0073",
+      "name": "菅野トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.92751,
+      "lat": 35.72745,
+      "dz": -0.19,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県市川市菅野",
+      "locality": "菅野(菅野トンネル)",
+      "evidence": {
+        "source": "国交省千葉国道事務所 令和8年6月30日更新",
+        "confidence": 1.0,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": "2026-08-21"
+      },
+      "review": {
+        "status": "ok"
+      },
+      "params": {
+        "dz_source": "地理院標高タイル z15 r100m"
+      }
+    },
+    {
+      "id": "chiba-0074",
+      "name": "千葉県松戸市小山",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.894501,
+      "lat": 35.77317,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号(側道)",
+      "road_type": "国道(国管理)",
+      "address": "千葉県松戸市小山",
+      "locality": "千葉県松戸市小山",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0075",
+      "name": "久寺家ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 140.028336,
+      "lat": 35.864166,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道00-007号線",
+      "road_type": "市道",
+      "address": "千葉県我孫子市JR常磐線",
+      "locality": "JR常磐線(久寺家ガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0076",
+      "name": "二俣アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.958542,
+      "lat": 35.696758,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号(東京湾岸道路)",
+      "road_type": "国道(国管理)",
+      "address": "千葉県市川市二俣アンダーパス",
+      "locality": "二俣アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0077",
+      "name": "流山市おおたかの森西4丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.919556,
+      "lat": 35.874409,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "守谷流山線",
+      "road_type": "県道",
+      "address": "千葉県流山市おおたかの森西4丁目",
+      "locality": "流山市おおたかの森西4丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0078",
+      "name": "上矢切トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.888824,
+      "lat": 35.769791,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "298号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県松戸市上矢切トンネル",
+      "locality": "上矢切トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0079",
+      "name": "春日地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.103928,
+      "lat": 35.619396,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "松波新港線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区春日1、2丁目",
+      "locality": "中央区春日1、2丁目(春日地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0080",
+      "name": "商高前地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.10582,
+      "lat": 35.617069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "登戸44号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区汐見丘町",
+      "locality": "中央区汐見丘町(商高前地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0081",
+      "name": "弁天地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.117218,
+      "lat": 35.612537,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "弁天27号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区富士見1丁目",
+      "locality": "中央区富士見1丁目(弁天地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0082",
+      "name": "駅前地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.113434,
+      "lat": 35.610493,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "新町若松町線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区新町・富士見1丁目",
+      "locality": "中央区新町・富士見1丁目(駅前地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0083",
+      "name": "寒川・稲荷地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.122787,
+      "lat": 35.592529,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "寒川町20・千葉寺町70号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区寒川町3丁目",
+      "locality": "中央区寒川町3丁目(寒川・稲荷地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0084",
+      "name": "末広地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.126495,
+      "lat": 35.586319,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "西千葉駅稲荷町線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区稲荷町3丁目",
+      "locality": "中央区稲荷町3丁目(末広地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0085",
+      "name": "蘇我町線地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.131607,
+      "lat": 35.571819,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "蘇我町線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区蘇我2、3、4、5丁目",
+      "locality": "中央区蘇我2、3、4、5丁目(蘇我町線地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0086",
+      "name": "村田町JR内房線地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.129715,
+      "lat": 35.549427,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "村田町10号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区村田町",
+      "locality": "中央区村田町(村田町JR内房線地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0087",
+      "name": "千葉駅西口地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.113693,
+      "lat": 35.612926,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "千葉港黒砂台線",
+      "road_type": "市道",
+      "address": "千葉県千葉市中央区新千葉1、2丁目、新町、登戸2丁目",
+      "locality": "中央区新千葉1、2丁目、新町、登戸2丁目(千葉駅西口地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0088",
+      "name": "村田町アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.129715,
+      "lat": 35.549427,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道(国管理)",
+      "address": "千葉県千葉市中央区村田町",
+      "locality": "中央区村田町(村田町アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0089",
+      "name": "幕張昆陽地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.057922,
+      "lat": 35.667072,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "千葉鎌ヶ谷松戸線",
+      "road_type": "県道(市管理)",
+      "address": "千葉県千葉市花見川区幕張町4丁目",
+      "locality": "花見川区幕張町4丁目(幕張昆陽地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0090",
+      "name": "武石地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.056351,
+      "lat": 35.655067,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幕張366号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市花見川区幕張町5丁目",
+      "locality": "花見川区幕張町5丁目(武石地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0091",
+      "name": "新港穴川線地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.091583,
+      "lat": 35.621826,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "新港穴川線",
+      "road_type": "市道",
+      "address": "千葉県千葉市美浜区幸町2丁目~稲毛区穴川3丁目",
+      "locality": "美浜区幸町2丁目~稲毛区穴川3丁目(新港穴川線地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0092",
+      "name": "滑橋地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.164902,
+      "lat": 35.644627,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "桜木町13号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市若葉区若松町・桜木北1、2丁目",
+      "locality": "若葉区若松町・桜木北1、2丁目(滑橋地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0093",
+      "name": "鎌取地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.176941,
+      "lat": 35.560665,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "おゆみ野東南部5号線",
+      "road_type": "市道",
+      "address": "千葉県千葉市緑区おゆみ野3丁目・鎌取町",
+      "locality": "緑区おゆみ野3丁目・鎌取町(鎌取地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0094",
+      "name": "千葉市役所前アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 140.106308,
+      "lat": 35.606827,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号(東京湾岸道路)",
+      "road_type": "国道(国管理)",
+      "address": "千葉県千葉市中央区千葉港~中央区問屋町",
+      "locality": "中央区千葉港~中央区問屋町(千葉市役所前アンダーパス)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "chiba-0095",
+      "name": "つくばエクスプレスガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.890472,
+      "lat": 35.834625,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "315号",
+      "road_type": "市道",
+      "address": "千葉県流山市木地区",
+      "locality": "木地区(つくばエクスプレスガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・千葉県・千葉市 令和8年6月30日【更新】[PDF:1018KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    }
+  ]
+}

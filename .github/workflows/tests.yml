@@ -1,0 +1,40 @@
+# ツールの自己検証。push のたびに走るので、手元でテストを回す必要がない。
+# すべてネットワーク不要（フィクスチャを使用）。
+name: テスト
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r tools/requirements.txt
+      - name: ツールの検証
+        run: ./tools/run_tests.sh
+      - name: データの点検
+        run: python3 tools/validate_spots.py --spots data/spots_chiba.json || true
+
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm i playwright && npx playwright install --with-deps chromium
+      - name: プロトタイプを起動して検証
+        working-directory: prototype
+        run: |
+          python3 -m http.server 8000 &
+          sleep 2
+          node ../tools/verify_prototype.js
+          node ../tools/verify_ipad.js
+          node ../tools/verify_precision.js
+          node ../tools/verify_unknown_rain.js

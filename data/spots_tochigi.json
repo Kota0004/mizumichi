@@ -1,0 +1,2428 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "tochigi",
+  "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "tochigi-0001",
+      "name": "中央卸売市場アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.883041,
+      "lat": 36.558521,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮真岡線",
+      "road_type": "県道",
+      "address": "栃木県宇都宮市中央卸売市場アンダー",
+      "locality": "中央卸売市場アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0002",
+      "name": "西原アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.873184,
+      "lat": 36.556,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2711号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市西原アンダー",
+      "locality": "西原アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0003",
+      "name": "大和アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.864899,
+      "lat": 36.535835,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1061号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市大和アンダー",
+      "locality": "大和アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0004",
+      "name": "茂原アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.866592,
+      "lat": 36.475937,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "699号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市茂原アンダー",
+      "locality": "茂原アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0005",
+      "name": "日光高速",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.837875,
+      "lat": 36.649288,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3238号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市徳次郎アンダー",
+      "locality": "徳次郎アンダー(日光高速)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0006",
+      "name": "東北道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.837875,
+      "lat": 36.649288,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "5881号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市徳次郎アンダー",
+      "locality": "徳次郎アンダー(東北道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0007",
+      "name": "さるやまアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.91246,
+      "lat": 36.513699,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "398号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市さるやまアンダー",
+      "locality": "さるやまアンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0008",
+      "name": "根川アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.882599,
+      "lat": 36.555115,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20870号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市根川アンダー",
+      "locality": "根川アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0009",
+      "name": "東岡本アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.963394,
+      "lat": 36.617336,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "20020号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市東岡本アンダー",
+      "locality": "東岡本アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0010",
+      "name": "御幸アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.924957,
+      "lat": 36.58923,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "119号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県宇都宮市御幸アンダー",
+      "locality": "御幸アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0011",
+      "name": "花房アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.882645,
+      "lat": 36.548805,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "119号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県宇都宮市花房アンダー",
+      "locality": "花房アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0012",
+      "name": "宮環・上戸祭ミレニアムアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.899948,
+      "lat": 36.558475,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "119号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県宇都宮市宮環・上戸祭ミレニアムアンダー",
+      "locality": "宮環・上戸祭ミレニアムアンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0013",
+      "name": "宮の内アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.877655,
+      "lat": 36.507416,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県宇都宮市宮の内アンダー",
+      "locality": "宮の内アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0014",
+      "name": "塚山古墳アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.882599,
+      "lat": 36.555115,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県宇都宮市塚山古墳アンダー",
+      "locality": "塚山古墳アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0015",
+      "name": "簗瀬アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.891113,
+      "lat": 36.551975,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮笠間線",
+      "road_type": "県道",
+      "address": "栃木県宇都宮市簗瀬アンダー",
+      "locality": "簗瀬アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0016",
+      "name": "下砥上アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.843277,
+      "lat": 36.533791,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮亀和田栃木線",
+      "road_type": "県道",
+      "address": "栃木県宇都宮市下砥上アンダー",
+      "locality": "下砥上アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0017",
+      "name": "今泉アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.898909,
+      "lat": 36.563431,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮向田線",
+      "road_type": "県道",
+      "address": "栃木県宇都宮市今泉アンダー",
+      "locality": "今泉アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 186m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 185.8,
+          "matched": "道路トンネル",
+          "osm_id": 55785556,
+          "osm_name": "今泉アンダー",
+          "confidence": "高",
+          "why": "名称が一致（今泉アンダー）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0018",
+      "name": "簗瀬アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.891113,
+      "lat": 36.551975,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "6112号線",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市簗瀬アンダー",
+      "locality": "簗瀬アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0019",
+      "name": "大久保地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.506226,
+      "lat": 36.314095,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "川崎町70号線",
+      "road_type": "市道",
+      "address": "栃木県足利市大久保町",
+      "locality": "大久保町(大久保地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0020",
+      "name": "瑞穂野地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.513992,
+      "lat": 36.284473,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "瑞穂野町12号線",
+      "road_type": "市道",
+      "address": "栃木県足利市瑞穂野町",
+      "locality": "瑞穂野町(瑞穂野地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0021",
+      "name": "あずま地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.459958,
+      "lat": 36.331003,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "あずま通り",
+      "road_type": "市道",
+      "address": "栃木県足利市伊勢町1丁目",
+      "locality": "伊勢町1丁目(あずま地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 192m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 192.5,
+          "matched": "道路トンネル",
+          "osm_id": 760716469,
+          "osm_name": "あずま地下道",
+          "confidence": "高",
+          "why": "名称が一致（あずま地下道）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0022",
+      "name": "田中アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.451416,
+      "lat": 36.325909,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "293号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県足利市田中アンダー",
+      "locality": "田中アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0023",
+      "name": "山川アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.481552,
+      "lat": 36.324219,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道足利環状線",
+      "road_type": "県道",
+      "address": "栃木県足利市山川アンダー",
+      "locality": "山川アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0024",
+      "name": "東北高速道路ガードBOX栃木12",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "43275号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市木野地",
+      "locality": "木野地(東北高速道路ガードBOX栃木12)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0025",
+      "name": "東北高速道路ガードBOX栃木11",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2032号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市木野地",
+      "locality": "木野地(東北高速道路ガードBOX栃木11)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0026",
+      "name": "東北高速道路ガードBOX栃木10",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.71463,
+      "lat": 36.418446,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2031号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市細堀",
+      "locality": "細堀(東北高速道路ガードBOX栃木10)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0027",
+      "name": "東北高速道路ガードBOX栃木9",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.70932,
+      "lat": 36.411572,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1024号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市吹上",
+      "locality": "吹上(東北高速道路ガードBOX栃木9)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0028",
+      "name": "朱雀アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.578498,
+      "lat": 36.331674,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "堀米145号線",
+      "road_type": "市道",
+      "address": "栃木県佐野市朱雀アンダー",
+      "locality": "朱雀アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 1912m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1911.5,
+          "matched": "道路トンネル",
+          "osm_id": 403428785,
+          "osm_name": "朱雀アンダー",
+          "confidence": "中",
+          "why": "名称が一致（朱雀アンダー）。ただし出発点が市区町村の中心で、そこから 1912m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0029",
+      "name": "吾妻アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.578415,
+      "lat": 36.314484,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "吾妻10号線",
+      "road_type": "市道",
+      "address": "栃木県佐野市吾妻アンダー",
+      "locality": "吾妻アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0030",
+      "name": "富岡アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.594696,
+      "lat": 36.317139,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道桐生岩舟線",
+      "road_type": "県道",
+      "address": "栃木県佐野市富岡アンダー",
+      "locality": "富岡アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0031",
+      "name": "大橋町アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.56192,
+      "lat": 36.312832,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道佐野環状線",
+      "road_type": "県道",
+      "address": "栃木県佐野市大橋町アンダー",
+      "locality": "大橋町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0032",
+      "name": "鹿沼工業団地北高速道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.783752,
+      "lat": 36.543232,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0017号線",
+      "road_type": "市道",
+      "address": "栃木県鹿沼市茂呂",
+      "locality": "茂呂(鹿沼工業団地北高速道路ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0033",
+      "name": "東武線板荷踏切北ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.679733,
+      "lat": 36.63591,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "4014号線",
+      "road_type": "市道",
+      "address": "栃木県鹿沼市板荷",
+      "locality": "板荷(東武線板荷踏切北ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0034",
+      "name": "東武線野沢ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.739822,
+      "lat": 36.489796,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0360号線",
+      "road_type": "市道",
+      "address": "栃木県鹿沼市野沢町",
+      "locality": "野沢町(東武線野沢ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0035",
+      "name": "みなみ町団地東高速道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.762024,
+      "lat": 36.52327,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "3238号線",
+      "road_type": "市道",
+      "address": "栃木県鹿沼市下奈良部町",
+      "locality": "下奈良部町(みなみ町団地東高速道路ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0036",
+      "name": "JRガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.76329,
+      "lat": 36.568569,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮鹿沼線",
+      "road_type": "県道",
+      "address": "栃木県鹿沼市上野町",
+      "locality": "上野町(JRガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0037",
+      "name": "日光市役所東東武日光線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.592178,
+      "lat": 36.753086,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今1008号線",
+      "road_type": "市道",
+      "address": "栃木県日光市本町本町アンダー",
+      "locality": "本町(日光市役所東東武日光線ガード下)本町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0038",
+      "name": "如来寺北東武鬼怒川線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.697617,
+      "lat": 36.720013,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今33102号線",
+      "road_type": "市道",
+      "address": "栃木県日光市朝日町朝日町アンダー",
+      "locality": "朝日町(如来寺北東武鬼怒川線ガード下)朝日町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0039",
+      "name": "JR今市駅東ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.684204,
+      "lat": 36.714333,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今33443号線",
+      "road_type": "市道",
+      "address": "栃木県日光市千本木千本木アンダー",
+      "locality": "千本木(JR今市駅東ガード下)千本木アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0040",
+      "name": "八日市公民館北日光道下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.697617,
+      "lat": 36.720013,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今36124号線",
+      "road_type": "市道",
+      "address": "栃木県日光市八日市八日市西アンダー",
+      "locality": "八日市(八日市公民館北日光道下)八日市西アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0041",
+      "name": "日光道大沢IC東ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.751129,
+      "lat": 36.683681,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今46021号線",
+      "road_type": "市道",
+      "address": "栃木県日光市木和田島木和田島アンダー",
+      "locality": "木和田島(日光道大沢IC東ガード下)木和田島アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0042",
+      "name": "日光道大沢IC北ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.697617,
+      "lat": 36.720013,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今56019号線",
+      "road_type": "市道",
+      "address": "栃木県日光市八日市八日市東アンダー",
+      "locality": "八日市(日光道大沢IC北ガード下)八日市東アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0043",
+      "name": "星宮神社北東武日光線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.707825,
+      "lat": 36.683567,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今2040号線",
+      "road_type": "市道",
+      "address": "栃木県日光市明神明神アンダー",
+      "locality": "明神(星宮神社北東武日光線ガード下)明神アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0044",
+      "name": "豊田公民館北東武鬼怒川線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.704056,
+      "lat": 36.732651,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今35081号線",
+      "road_type": "市道",
+      "address": "栃木県日光市豊田豊田アンダー",
+      "locality": "豊田(豊田公民館北東武鬼怒川線ガード下)豊田アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0045",
+      "name": "宝殿交差点日光IC側JR日光線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.689872,
+      "lat": 36.719139,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "日14056号線",
+      "road_type": "市道",
+      "address": "栃木県日光市志渡渕志渡渕アンダー",
+      "locality": "志渡渕(宝殿交差点日光IC側JR日光線ガード下)志渡渕アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 697m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 697.1,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 1537653985,
+          "osm_name": "JR日光線",
+          "confidence": "中",
+          "why": "路線名が一致（JR日光線）。ただし出発点が市区町村の中心で、そこから 697m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0046",
+      "name": "宝殿交差点大谷川側東武日光線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.639648,
+      "lat": 36.733234,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "日34217号線",
+      "road_type": "市道",
+      "address": "栃木県日光市七里七里アンダー",
+      "locality": "七里(宝殿交差点大谷川側東武日光線ガード下)七里アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0047",
+      "name": "平ヶ崎アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.682445,
+      "lat": 36.722924,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県日光市平ヶ崎アンダー",
+      "locality": "平ヶ崎アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 904m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 903.7,
+          "matched": "道路トンネル",
+          "osm_id": 217775568,
+          "osm_name": "国道121号",
+          "confidence": "中",
+          "why": "路線番号が一致（121）。ただし出発点が市区町村の中心で、そこから 904m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0048",
+      "name": "喜沢架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.800781,
+      "lat": 36.314495,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "13号線",
+      "road_type": "市道",
+      "address": "栃木県小山市おやまアンダー2",
+      "locality": "おやまアンダー2(喜沢架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0049",
+      "name": "第一結城架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.800781,
+      "lat": 36.314495,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "15号線",
+      "road_type": "市道",
+      "address": "栃木県小山市おやまアンダー3",
+      "locality": "おやまアンダー3(第一結城架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0050",
+      "name": "城南高校通り架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.800781,
+      "lat": 36.314495,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "236号線",
+      "road_type": "市道",
+      "address": "栃木県小山市おやまアンダー4",
+      "locality": "おやまアンダー4(城南高校通り架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0051",
+      "name": "小山南通り架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.800781,
+      "lat": 36.314495,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "45号線",
+      "road_type": "市道",
+      "address": "栃木県小山市おやまアンダー5",
+      "locality": "おやまアンダー5(小山南通り架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0052",
+      "name": "羽川アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.800781,
+      "lat": 36.314495,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道小山環状線",
+      "road_type": "県道",
+      "address": "栃木県小山市おやまアンダー1",
+      "locality": "おやまアンダー1(羽川アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0053",
+      "name": "外堀アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.012451,
+      "lat": 36.440514,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮真岡線",
+      "road_type": "県道",
+      "address": "栃木県真岡市外堀アンダー",
+      "locality": "外堀アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0054",
+      "name": "富田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.931353,
+      "lat": 36.801758,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "東町・鹿島町1号線",
+      "road_type": "市道",
+      "address": "栃木県矢板市富田アンダー",
+      "locality": "富田アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 474m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 473.5,
+          "matched": "道路トンネル",
+          "osm_id": 220228933,
+          "osm_name": "富田アンダー",
+          "confidence": "中",
+          "why": "名称が一致（富田アンダー）。ただし出発点が市区町村の中心で、そこから 474m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0055",
+      "name": "幸岡",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.898209,
+      "lat": 36.775742,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幸岡・館ノ川3号線",
+      "road_type": "市道",
+      "address": "栃木県矢板市高速道アンダー北",
+      "locality": "高速道アンダー北(幸岡)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0056",
+      "name": "幸岡",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.898209,
+      "lat": 36.775742,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "栃木県矢板市高速道アンダー南",
+      "locality": "高速道アンダー南(幸岡)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0057",
+      "name": "JR東北線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.020355,
+      "lat": 36.927586,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K328号線(大門先線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市大門",
+      "locality": "大門先(JR東北線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0058",
+      "name": "東北自動車道アンダー「塩那19」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.975739,
+      "lat": 36.951817,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K286号線(芝中無栗屋線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市無栗屋",
+      "locality": "無栗屋(東北自動車道アンダー「塩那19」)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0059",
+      "name": "東北自動車道アンダー「塩那21」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.984436,
+      "lat": 36.969574,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K271号線(塩野崎百目木線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市鹿野崎",
+      "locality": "鹿野崎(東北自動車道アンダー「塩那21」)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0060",
+      "name": "東那須野西通りアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.983658,
+      "lat": 36.899399,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道大田原高林線",
+      "road_type": "県道",
+      "address": "栃木県那須塩原市東那須野西通りアンダー",
+      "locality": "東那須野西通りアンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0061",
+      "name": "接骨木アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.961884,
+      "lat": 36.927235,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道折戸西那須野線",
+      "road_type": "県道",
+      "address": "栃木県那須塩原市接骨木アンダー",
+      "locality": "接骨木アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0062",
+      "name": "蒲須坂アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.926853,
+      "lat": 36.726629,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "U1220号",
+      "road_type": "市道",
+      "address": "栃木県さくら市蒲須坂アンダー",
+      "locality": "蒲須坂アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2049m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2048.7,
+          "matched": "道路トンネル",
+          "osm_id": 109346915,
+          "osm_name": "大久保蒲須坂線",
+          "confidence": "中",
+          "why": "名称が一致（大久保蒲須坂線）。ただし出発点が市区町村の中心で、そこから 2049m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0063",
+      "name": "卯の里ふれあいアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.957443,
+      "lat": 36.683327,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "U1085号",
+      "road_type": "市道",
+      "address": "栃木県さくら市卯の里ふれあいアンダー",
+      "locality": "卯の里ふれあいアンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-6465",
+      "name": "氏家アンダー野上アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.964936,
+      "lat": 36.67783,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "293号K4346号線(野上金井線)",
+      "road_type": "国道(県管理)市道",
+      "address": "栃木県さくら市那須烏山市氏家アンダー野上アンダー",
+      "locality": "氏家アンダー野上アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 838m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 838.2,
+          "matched": "道路トンネル",
+          "osm_id": 43906245,
+          "osm_name": "氏家バイパス",
+          "confidence": "中",
+          "why": "路線番号が一致（293）。ただし出発点が市区町村の中心で、そこから 838m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0066",
+      "name": "しもつけアンダー1小金井地内アサヒビール南アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道1-12号線",
+      "road_type": "市道",
+      "address": "栃木県下野市しもつけアンダー1小金井地内アサヒビール南アンダー",
+      "locality": "しもつけアンダー1小金井地内アサヒビール南アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0067",
+      "name": "しもつけアンダー2小金井地内小山電車区南アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道7260号線",
+      "road_type": "市道",
+      "address": "栃木県下野市しもつけアンダー2小金井地内小山電車区南アンダー",
+      "locality": "しもつけアンダー2小金井地内小山電車区南アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0068",
+      "name": "しもつけアンダー4薬師寺地内自治医大北アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道1-7号線",
+      "road_type": "市道",
+      "address": "栃木県下野市しもつけアンダー4薬師寺地内自治医大北アンダー",
+      "locality": "しもつけアンダー4薬師寺地内自治医大北アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0069",
+      "name": "しもつけアンダー6薬師寺地内下原アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2-23号線",
+      "road_type": "市道",
+      "address": "栃木県下野市しもつけアンダー6薬師寺地内下原アンダー",
+      "locality": "しもつけアンダー6薬師寺地内下原アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0070",
+      "name": "大山アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道羽生田上蒲生線",
+      "road_type": "県道",
+      "address": "栃木県下野市しもつけアンダー5",
+      "locality": "しもつけアンダー5(大山アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0071",
+      "name": "自治医大アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.852005,
+      "lat": 36.395294,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道笹原二宮線",
+      "road_type": "県道",
+      "address": "栃木県下野市しもつけアンダー3",
+      "locality": "しもつけアンダー3(自治医大アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0072",
+      "name": "鞘堂アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.909897,
+      "lat": 36.439293,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1-04・1-07・3-106号線",
+      "road_type": "町道",
+      "address": "栃木県上三川町かみのかわアンダー1",
+      "locality": "かみのかわアンダー1(鞘堂アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0073",
+      "name": "にしかたアンダー2",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.7341,
+      "lat": 36.382435,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1004号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市にしかたアンダー2",
+      "locality": "にしかたアンダー2",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0074",
+      "name": "にしかたアンダー1",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.7341,
+      "lat": 36.382435,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1002号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市にしかたアンダー1",
+      "locality": "にしかたアンダー1",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0075",
+      "name": "東武鉄道日光線下皆川ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.7341,
+      "lat": 36.382435,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1045号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市下皆川",
+      "locality": "下皆川(東武鉄道日光線下皆川ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0076",
+      "name": "東武鉄道日光線富田ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.727661,
+      "lat": 36.376831,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1049号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市富田",
+      "locality": "富田(東武鉄道日光線富田ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0077",
+      "name": "佐野藤岡インター南高速道路ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.712189,
+      "lat": 36.434944,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "31121号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市都賀",
+      "locality": "都賀(佐野藤岡インター南高速道路ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0078",
+      "name": "県道中藤岡線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.697769,
+      "lat": 36.393089,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2131号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市大田和",
+      "locality": "大田和(県道中藤岡線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0079",
+      "name": "国道50号東アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.762405,
+      "lat": 36.398418,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "62104号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市国道50号東アンダーパス",
+      "locality": "国道50号東アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0080",
+      "name": "国道50号西アンダーパス",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.762405,
+      "lat": 36.398418,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "62160号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市国道50号西アンダーパス",
+      "locality": "国道50号西アンダーパス",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0081",
+      "name": "東北高速道路ガードBOX栃木16",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1018号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市木",
+      "locality": "木(東北高速道路ガードBOX栃木16)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0082",
+      "name": "東武日光線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.7341,
+      "lat": 36.382435,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "43153号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市家中",
+      "locality": "家中(東武日光線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0083",
+      "name": "東北高速道路ガードBOX栃木15",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "41152号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市木",
+      "locality": "木(東北高速道路ガードBOX栃木15)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0084",
+      "name": "東北高速道路ガードBOX栃木18",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "栃木県栃木市木",
+      "locality": "木(東北高速道路ガードBOX栃木18)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0085",
+      "name": "東北高速道路ガードBOX栃木20",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.729721,
+      "lat": 36.416519,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "栃木県栃木市木",
+      "locality": "木(東北高速道路ガードBOX栃木20)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0086",
+      "name": "大島アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.025833,
+      "lat": 37.126289,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道湯本大島線",
+      "road_type": "県道",
+      "address": "栃木県那須町大島アンダー",
+      "locality": "大島アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0087",
+      "name": "迫間地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.514668,
+      "lat": 36.314672,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "大久保町87号線",
+      "road_type": "市道",
+      "address": "栃木県足利市迫間町",
+      "locality": "迫間町(迫間地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 392m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 391.7,
+          "matched": "道路トンネル",
+          "osm_id": 1058271120,
+          "osm_name": "迫間アンダー",
+          "confidence": "中",
+          "why": "名称が一致（迫間アンダー）。ただし出発点が市区町村の中心で、そこから 392m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0088",
+      "name": "宝殿アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.626587,
+      "lat": 36.744442,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "119号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県日光市宝殿アンダー",
+      "locality": "宝殿アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0089",
+      "name": "瀬川アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.682445,
+      "lat": 36.722924,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県日光市瀬川アンダー",
+      "locality": "瀬川アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 1273m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1273.0,
+          "matched": "道路トンネル",
+          "osm_id": 217775568,
+          "osm_name": "国道121号",
+          "confidence": "中",
+          "why": "路線番号が一致（121）。ただし出発点が市区町村の中心で、そこから 1273m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0090",
+      "name": "銅庚申アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.697617,
+      "lat": 36.720013,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "122号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県日光市銅庚申アンダー",
+      "locality": "銅庚申アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0091",
+      "name": "大沢アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.772354,
+      "lat": 36.674192,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道下野大沢停車場線",
+      "road_type": "県道",
+      "address": "栃木県日光市大沢アンダー",
+      "locality": "大沢アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2691m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2690.6,
+          "matched": "道路トンネル",
+          "osm_id": 200020321,
+          "osm_name": "大沢宇都宮線",
+          "confidence": "中",
+          "why": "名称が一致（大沢宇都宮線）。ただし出発点が市区町村の中心で、そこから 2691m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0092",
+      "name": "若松アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.579374,
+      "lat": 36.32221,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道堀込停車場線",
+      "road_type": "県道",
+      "address": "栃木県佐野市若松アンダー",
+      "locality": "若松アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 366m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 366.5,
+          "matched": "道路トンネル",
+          "osm_id": 135838151,
+          "osm_name": "若松アンダー",
+          "confidence": "中",
+          "why": "名称が一致（若松アンダー）。ただし出発点が市区町村の中心で、そこから 366m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0093",
+      "name": "間々田アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.773452,
+      "lat": 36.272546,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道明野間々田線",
+      "road_type": "県道",
+      "address": "栃木県小山市間々田アンダー",
+      "locality": "間々田アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 925m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 924.8,
+          "matched": "道路トンネル",
+          "osm_id": 209014931,
+          "osm_name": "明野間々田線",
+          "confidence": "中",
+          "why": "名称が一致（明野間々田線）。ただし出発点が市区町村の中心で、そこから 925m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0094",
+      "name": "木幡アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.93026,
+      "lat": 36.793886,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "富田・木幡5号線",
+      "road_type": "市道",
+      "address": "栃木県矢板市木幡アンダー",
+      "locality": "木幡アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 682m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 681.9,
+          "matched": "道路トンネル",
+          "osm_id": 335155353,
+          "osm_name": "木幡アンダー",
+          "confidence": "中",
+          "why": "名称が一致（木幡アンダー）。ただし出発点が市区町村の中心で、そこから 682m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0095",
+      "name": "御幸町アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.919756,
+      "lat": 36.581232,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2688号",
+      "road_type": "市道",
+      "address": "栃木県宇都宮市御幸町アンダー",
+      "locality": "御幸町アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 349m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 349.1,
+          "matched": "道路トンネル",
+          "osm_id": 217962844,
+          "osm_name": "御幸町アンダー",
+          "confidence": "中",
+          "why": "名称が一致（御幸町アンダー）。ただし出発点が市区町村の中心で、そこから 349m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0096",
+      "name": "本郷通りアンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.062546,
+      "lat": 36.976761,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K631号線(本郷町下黒磯線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市本郷通りアンダー",
+      "locality": "本郷通りアンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0097",
+      "name": "茅沼アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.121017,
+      "lat": 37.01976,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道丸山・松子線",
+      "road_type": "町道",
+      "address": "栃木県那須町茅沼アンダー",
+      "locality": "茅沼アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0098",
+      "name": "芦ノ又アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.167633,
+      "lat": 36.990063,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道高福寺・芦ノ又線",
+      "road_type": "町道",
+      "address": "栃木県那須町芦ノ又アンダー",
+      "locality": "芦ノ又アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0099",
+      "name": "東狸久保アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.151489,
+      "lat": 36.967236,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道新田・田中線",
+      "road_type": "町道",
+      "address": "栃木県那須町東狸久保アンダー",
+      "locality": "東狸久保アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0100",
+      "name": "穂積アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.121017,
+      "lat": 37.01976,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道漆塚・松田線",
+      "road_type": "町道",
+      "address": "栃木県那須町穂積アンダー",
+      "locality": "穂積アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0101",
+      "name": "佐良土アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 140.116608,
+      "lat": 36.794861,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道旧東野鉄道線",
+      "road_type": "市道",
+      "address": "栃木県大田原市佐良土アンダー",
+      "locality": "佐良土アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0102",
+      "name": "東北高速道路ガードBOX栃木1",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.709625,
+      "lat": 36.395008,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1021号線",
+      "road_type": "市道",
+      "address": "栃木県栃木市新井",
+      "locality": "新井(東北高速道路ガードBOX栃木1)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0103",
+      "name": "鵤木地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.492462,
+      "lat": 36.313679,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鵤木町20号線",
+      "road_type": "市道",
+      "address": "栃木県足利市鵤木町",
+      "locality": "鵤木町(鵤木地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0104",
+      "name": "東北自動車道アンダー「矢板63」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.923416,
+      "lat": 36.8978,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "S185号線(接骨木大貫1号線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市上大貫",
+      "locality": "上大貫(東北自動車道アンダー「矢板63」)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0105",
+      "name": "山前アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.408888,
+      "lat": 36.349262,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鹿島山下通り",
+      "road_type": "市道",
+      "address": "栃木県足利市山前アンダー",
+      "locality": "山前アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 859m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 858.6,
+          "matched": "道路トンネル",
+          "osm_id": 665790512,
+          "osm_name": "山前アンダー",
+          "confidence": "中",
+          "why": "名称が一致（山前アンダー）。ただし出発点が市区町村の中心で、そこから 859m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0106",
+      "name": "東北自動車道アンダー「矢板66」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.923416,
+      "lat": 36.8978,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市上大貫",
+      "locality": "上大貫(東北自動車道アンダー「矢板66」)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0107",
+      "name": "青木(東北自動車道アンダー「塩那24」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.992004,
+      "lat": 36.996674,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K315号線(柳塩野﨑新田新田線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市青木(東北自動車道アンダー「塩那24」",
+      "locality": "青木(東北自動車道アンダー「塩那24」",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0108",
+      "name": "塩野﨑(東北自動車道アンダー「塩那23」",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.994752,
+      "lat": 36.963376,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "K505号線他(東北自動車道南1号線)",
+      "road_type": "市道",
+      "address": "栃木県那須塩原市塩野﨑(東北自動車道アンダー「塩那23」",
+      "locality": "塩野﨑(東北自動車道アンダー「塩那23」",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 85m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 84.6,
+          "matched": "道路トンネル",
+          "osm_id": 134777571,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 85m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "tochigi-0109",
+      "name": "陽東4丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.92421,
+      "lat": 36.558365,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道宇都宮向田線",
+      "road_type": "県道",
+      "address": "栃木県宇都宮市陽東4丁目",
+      "locality": "陽東4丁目",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0110",
+      "name": "富岡",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.736588,
+      "lat": 36.602909,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "121号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県鹿沼市富岡",
+      "locality": "富岡",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "tochigi-0111",
+      "name": "関谷",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.878469,
+      "lat": 36.961121,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "400号",
+      "road_type": "国道(県管理)",
+      "address": "栃木県那須塩原市関谷",
+      "locality": "関谷",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2002m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2002.0,
+          "matched": "道路トンネル",
+          "osm_id": 308511353,
+          "osm_name": "がま石トンネル",
+          "confidence": "中",
+          "why": "路線番号が一致（400）。ただし出発点が市区町村の中心で、そこから 2002m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}
