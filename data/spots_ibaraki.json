@@ -1,0 +1,1404 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "ibaraki",
+  "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "ibaraki-0001",
+      "name": "茨城東高校北交差点南側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.424728,
+      "lat": 36.286942,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県茨城町茨城東高校北交差点南側",
+      "locality": "茨城東高校北交差点南側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0002",
+      "name": "涸沼前川橋下側道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.424728,
+      "lat": 36.286942,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県茨城町涸沼前川橋下側道",
+      "locality": "涸沼前川橋下側道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0003",
+      "name": "石川川付近",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市石川川付近",
+      "locality": "石川川付近",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0004",
+      "name": "水戶市大足町と水戶市加倉井町の境界地点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道50号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市大足町と水戶市加倉井町の境界地点",
+      "locality": "水戶市大足町と水戶市加倉井町の境界地点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0005",
+      "name": "桜川高架橋下側道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道50号バイパス",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市桜川高架橋下側道",
+      "locality": "桜川高架橋下側道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0006",
+      "name": "桜の牧歩道橋東側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道50号バイパス",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市桜の牧歩道橋東側",
+      "locality": "桜の牧歩道橋東側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0007",
+      "name": "サントル千波",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道50号水戶バイパス",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市千波立体",
+      "locality": "千波立体(サントル千波)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0008",
+      "name": "大洗サンビーチ入口交差点上り線合流部",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.553055,
+      "lat": 36.306339,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県大洗町大洗サンビーチ入口交差点上り線合流部",
+      "locality": "大洗サンビーチ入口交差点上り線合流部",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0009",
+      "name": "塩崎立体交差点県道地下横断ボックス内",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県水戶市塩崎立体交差点県道地下横断ボックス内",
+      "locality": "塩崎立体交差点県道地下横断ボックス内",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0010",
+      "name": "小浮気交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.098175,
+      "lat": 35.919758,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県取手市小浮気交差点",
+      "locality": "小浮気交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0011",
+      "name": "田宮町交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.134079,
+      "lat": 35.980686,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県牛久市田宮町交差点",
+      "locality": "田宮町交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0012",
+      "name": "牛久・土浦BP歩道地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 140.076385,
+      "lat": 36.083611,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号バイパス",
+      "road_type": "国道(国管理)",
+      "address": "茨城県つくば市牛久・土浦BP歩道地下道",
+      "locality": "牛久・土浦BP歩道地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0013",
+      "name": "天川跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.174973,
+      "lat": 36.065891,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号バイパス",
+      "road_type": "国道(国管理)",
+      "address": "茨城県土浦市天川跨道橋下",
+      "locality": "天川跨道橋下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0014",
+      "name": "旭台1丁目交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.29863,
+      "lat": 36.193058,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県石岡市旭台1丁目交差点",
+      "locality": "旭台1丁目交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0015",
+      "name": "日立市大みか町6丁目交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.613159,
+      "lat": 36.512184,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市大みか町6丁目交差点",
+      "locality": "日立市大みか町6丁目交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0016",
+      "name": "金沢団地入口交差点南側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.599228,
+      "lat": 36.541477,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市金沢団地入口交差点南側",
+      "locality": "金沢団地入口交差点南側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0017",
+      "name": "諏訪五差路交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.596909,
+      "lat": 36.592133,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市諏訪五差路交差点",
+      "locality": "諏訪五差路交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0018",
+      "name": "池の川さくらアリーナ入口交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.65062,
+      "lat": 36.599152,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市池の川さくらアリーナ入口交差点",
+      "locality": "池の川さくらアリーナ入口交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0019",
+      "name": "神峰公園入口交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.653137,
+      "lat": 36.597168,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市神峰公園入口交差点",
+      "locality": "神峰公園入口交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0020",
+      "name": "国土交通省前交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.64299,
+      "lat": 36.560162,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市国土交通省前交差点",
+      "locality": "国土交通省前交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0021",
+      "name": "日立市川尻町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.691788,
+      "lat": 36.657021,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県日立市川尻町",
+      "locality": "日立市川尻町",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0022",
+      "name": "東本町交差点南側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.718338,
+      "lat": 36.711876,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県高萩市東本町交差点南側",
+      "locality": "東本町交差点南側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0023",
+      "name": "大北橋〜波平橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.789778,
+      "lat": 36.856053,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県北茨城市大北橋〜波平橋",
+      "locality": "大北橋〜波平橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2290m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2289.7,
+          "matched": "道路トンネル",
+          "osm_id": 321119781,
+          "osm_name": "陸前浜街道",
+          "confidence": "中",
+          "why": "路線番号が一致（6）。ただし出発点が市区町村の中心で、そこから 2290m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0024",
+      "name": "神岡上交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.751007,
+      "lat": 36.801899,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県北茨城市神岡上交差点",
+      "locality": "神岡上交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0025",
+      "name": "細田橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.751007,
+      "lat": 36.801899,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道6号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県北茨城市細田橋",
+      "locality": "細田橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0026",
+      "name": "大塚野",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.540192,
+      "lat": 35.944462,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県潮来市大塚野",
+      "locality": "大塚野",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0027",
+      "name": "小泉南歩道橋市道交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.57869,
+      "lat": 35.952682,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県潮来市小泉南歩道橋市道交差点",
+      "locality": "小泉南歩道橋市道交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0028",
+      "name": "宮中JR鹿島線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.640121,
+      "lat": 35.974564,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県鹿嶋市宮中JR鹿島線下",
+      "locality": "宮中JR鹿島線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0029",
+      "name": "神向寺交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.64299,
+      "lat": 35.989033,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県鹿嶋市神向寺交差点",
+      "locality": "神向寺交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0030",
+      "name": "清水交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.641174,
+      "lat": 36.005356,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県鹿嶋市清水交差点",
+      "locality": "清水交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0031",
+      "name": "荒野市道0156号線交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.632004,
+      "lat": 36.021164,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "国道51号",
+      "road_type": "国道(国管理)",
+      "address": "茨城県鹿嶋市荒野市道0156号線交差点",
+      "locality": "荒野市道0156号線交差点",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0032",
+      "name": "JR高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.660416,
+      "lat": 36.590668,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "245号線",
+      "road_type": "国道(県管理)",
+      "address": "茨城県日立市幸町",
+      "locality": "日立市幸町(JR高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0033",
+      "name": "JR高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.632843,
+      "lat": 36.554588,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "日立笠間線",
+      "road_type": "県道",
+      "address": "茨城県日立市多賀町",
+      "locality": "日立市多賀町(JR高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0034",
+      "name": "JR高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.599854,
+      "lat": 36.489838,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "293号線",
+      "road_type": "国道(県管理)",
+      "address": "茨城県日立市留町",
+      "locality": "日立市留町(JR高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0035",
+      "name": "つくばエクスプレス守谷駅下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.975555,
+      "lat": 35.951389,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "野田牛久線",
+      "road_type": "県道",
+      "address": "茨城県守谷市守谷",
+      "locality": "守谷市守谷(つくばエクスプレス守谷駅下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0036",
+      "name": "国道294号交差部",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.975555,
+      "lat": 35.951389,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "守谷流山線",
+      "road_type": "県道",
+      "address": "茨城県守谷市国道294号交差部",
+      "locality": "国道294号交差部",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0037",
+      "name": "阿見町よしわら4丁目あみプレミアムアウトレット脇阿見東ICダイレクトアクセス道路",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.23793,
+      "lat": 35.983868,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道6406号線",
+      "road_type": "町道",
+      "address": "茨城県阿見町よしわら4丁目あみプレミアムアウトレット脇阿見東ICダイレクトアクセス道路",
+      "locality": "阿見町よしわら4丁目あみプレミアムアウトレット脇阿見東ICダイレクトアクセス道路",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0038",
+      "name": "花室トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.129776,
+      "lat": 36.089111,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "土浦境線",
+      "road_type": "県道",
+      "address": "茨城県つくば市花室",
+      "locality": "つくば市花室(花室トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0039",
+      "name": "稲荷前跨道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.127502,
+      "lat": 36.049816,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "妻木赤塚線",
+      "road_type": "県道",
+      "address": "茨城県つくば市稲荷前",
+      "locality": "つくば市稲荷前(稲荷前跨道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0040",
+      "name": "JR水戶線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.979401,
+      "lat": 36.305267,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "石岡筑⻄線",
+      "road_type": "県道",
+      "address": "茨城県筑⻄市下中山",
+      "locality": "筑⻄市下中山(JR水戶線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0041",
+      "name": "水戶市桜川1-1-6地先駅南大橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "駅南2号線",
+      "road_type": "市道",
+      "address": "茨城県水戶市桜川1-1-6地先駅南大橋下",
+      "locality": "水戶市桜川1-1-6地先駅南大橋下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0042",
+      "name": "川口立体道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.211838,
+      "lat": 36.082584,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "大和4号線有明2号線",
+      "road_type": "市道",
+      "address": "茨城県土浦市川口二丁目土浦高架道JR常磐線下",
+      "locality": "川口二丁目(川口立体道)土浦高架道JR常磐線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0043",
+      "name": "佐貫駅南",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.13722,
+      "lat": 35.926466,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道1−196号市道6−16号",
+      "road_type": "市道",
+      "address": "茨城県龍ケ崎市若柴町3317-7地先県道⻯ヶ崎潮来線下",
+      "locality": "龍ケ崎市若柴町3317-7地先県道⻯ヶ崎潮来線下(佐貫駅南)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 24m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 24.4,
+          "matched": "道路トンネル",
+          "osm_id": 543272350,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（24m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0044",
+      "name": "下妻市下妻乙459-1地先国道125号下関東鉄道常総線脇",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.961219,
+      "lat": 36.183563,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2476号",
+      "road_type": "市道",
+      "address": "茨城県下妻市下妻乙459-1地先国道125号下関東鉄道常総線脇",
+      "locality": "下妻市下妻乙459-1地先国道125号下関東鉄道常総線脇",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの掘割・地下（layer<0）へ 42m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 41.9,
+          "matched": "掘割・地下（layer<0）",
+          "osm_id": 1308727493,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（42m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0045",
+      "name": "高萩市赤浜1216-4地先堺田跨道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.723206,
+      "lat": 36.743965,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道1747号",
+      "road_type": "市道",
+      "address": "茨城県高萩市赤浜1216-4地先堺田跨道橋下",
+      "locality": "高萩市赤浜1216-4地先堺田跨道橋下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0046",
+      "name": "笠間市鴻巣657-230地先JR常磐線友部駅東側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.310471,
+      "lat": 36.354012,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道(友)3031号",
+      "road_type": "市道",
+      "address": "茨城県笠間市鴻巣657-230地先JR常磐線友部駅東側",
+      "locality": "笠間市鴻巣657-230地先JR常磐線友部駅東側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0047",
+      "name": "笠間市安居2234-1地先常磐自動車道下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.329788,
+      "lat": 36.288357,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道(岩)II級19号",
+      "road_type": "市道",
+      "address": "茨城県笠間市安居2234-1地先常磐自動車道下",
+      "locality": "笠間市安居2234-1地先常磐自動車道下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0048",
+      "name": "笠間市来栖549-5地先JR水戶線下笠間駅⻄側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.240997,
+      "lat": 36.37532,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道(笠)0237号",
+      "road_type": "市道",
+      "address": "茨城県笠間市来栖549-5地先JR水戶線下笠間駅⻄側",
+      "locality": "笠間市来栖549-5地先JR水戶線下笠間駅⻄側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0049",
+      "name": "取手市新川国道6号藤代バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.126602,
+      "lat": 35.93412,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2−3268号線",
+      "road_type": "市道",
+      "address": "茨城県取手市新川国道6号藤代バイパス下",
+      "locality": "取手市新川国道6号藤代バイパス下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0050",
+      "name": "取手市新川国道6号藤代バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.126602,
+      "lat": 35.93412,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2−3271号線",
+      "road_type": "市道",
+      "address": "茨城県取手市新川国道6号藤代バイパス下",
+      "locality": "取手市新川国道6号藤代バイパス下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0051",
+      "name": "取手市大曲国道6号藤代バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.118057,
+      "lat": 35.929887,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2−3066号線",
+      "road_type": "市道",
+      "address": "茨城県取手市大曲国道6号藤代バイパス下",
+      "locality": "取手市大曲国道6号藤代バイパス下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 103m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 103.2,
+          "matched": "道路トンネル",
+          "osm_id": 198854291,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 103m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0052",
+      "name": "取手市大曲国道6号藤代バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.118057,
+      "lat": 35.929887,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道2−3098号線",
+      "road_type": "市道",
+      "address": "茨城県取手市大曲国道6号藤代バイパス下",
+      "locality": "取手市大曲国道6号藤代バイパス下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 103m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 103.2,
+          "matched": "道路トンネル",
+          "osm_id": 198854291,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 103m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0053",
+      "name": "取手市小浮気国道6号藤代バイパス下小浮気隧道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.09916,
+      "lat": 35.91919,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0219号線",
+      "road_type": "市道",
+      "address": "茨城県取手市小浮気国道6号藤代バイパス下小浮気隧道",
+      "locality": "取手市小浮気国道6号藤代バイパス下小浮気隧道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 109m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 108.9,
+          "matched": "道路トンネル",
+          "osm_id": 1305691964,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 109m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0054",
+      "name": "取手市白山5丁目関東鉄道常総線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.058985,
+      "lat": 35.908926,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0114号線",
+      "road_type": "市道",
+      "address": "茨城県取手市白山5丁目関東鉄道常総線下",
+      "locality": "取手市白山5丁目関東鉄道常総線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 142m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 142.0,
+          "matched": "道路トンネル",
+          "osm_id": 151736762,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 142m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0055",
+      "name": "牛久市ひたち野東5丁目1番地先JRひたち野うしく駅南側常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.158108,
+      "lat": 36.006785,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道63号線",
+      "road_type": "市道",
+      "address": "茨城県牛久市ひたち野東5丁目1番地先JRひたち野うしく駅南側常磐線下",
+      "locality": "牛久市ひたち野東5丁目1番地先JRひたち野うしく駅南側常磐線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 18m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 18.3,
+          "matched": "道路トンネル",
+          "osm_id": 1191361975,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（18m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0056",
+      "name": "牛久市ひたち野東1丁目22番地先JRひたち野うしく駅北側常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.159441,
+      "lat": 36.010151,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道3042号線",
+      "road_type": "市道",
+      "address": "茨城県牛久市ひたち野東1丁目22番地先JRひたち野うしく駅北側常磐線下",
+      "locality": "牛久市ひたち野東1丁目22番地先JRひたち野うしく駅北側常磐線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 125m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 124.9,
+          "matched": "道路トンネル",
+          "osm_id": 531476025,
+          "osm_name": "ひたち野大通り",
+          "confidence": "低",
+          "why": "名前が一致せず 125m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0057",
+      "name": "潮来市永山763-1地先国道51号線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.513104,
+      "lat": 35.963516,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道(牛)1019号線",
+      "road_type": "市道",
+      "address": "茨城県潮来市永山763-1地先国道51号線下",
+      "locality": "潮来市永山763-1地先国道51号線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 128m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 127.9,
+          "matched": "道路トンネル",
+          "osm_id": 122503454,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 128m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0058",
+      "name": "つくばエクスプレス高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.996218,
+      "lat": 35.952045,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道3650号",
+      "road_type": "市道",
+      "address": "茨城県守谷市ひがし野1丁目",
+      "locality": "守谷市ひがし野1丁目(つくばエクスプレス高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 206m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 205.5,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 231522739,
+          "osm_name": "つくばエクスプレス",
+          "confidence": "高",
+          "why": "名称が一致（つくばエクスプレス）。ただし 206m 動いたので元の座標がかなりずれていた可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "ibaraki-0059",
+      "name": "筑⻄市下岡崎1丁目10番地先中央図書館⻄側JR下岡崎跨道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.979401,
+      "lat": 36.305267,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道下5Bー700号線",
+      "road_type": "市道",
+      "address": "茨城県筑⻄市下岡崎1丁目10番地先中央図書館⻄側JR下岡崎跨道橋",
+      "locality": "筑⻄市下岡崎1丁目10番地先中央図書館⻄側JR下岡崎跨道橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0060",
+      "name": "桜川市加茂部JR加茂部架道橋JA岩瀬町東部支所北側",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.157516,
+      "lat": 36.351501,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "岩0112号線",
+      "road_type": "市道",
+      "address": "茨城県桜川市加茂部JR加茂部架道橋JA岩瀬町東部支所北側",
+      "locality": "桜川市加茂部JR加茂部架道橋JA岩瀬町東部支所北側",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0061",
+      "name": "谷和原ICHランプ",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.047409,
+      "lat": 35.954327,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "常磐自動車道",
+      "road_type": "高速道路",
+      "address": "茨城県つくばみらい市谷和原ICHランプ",
+      "locality": "谷和原ICHランプ",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0062",
+      "name": "日立市国分町・鮎川町JR常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.64299,
+      "lat": 36.560162,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "日立常陸太田線",
+      "road_type": "県道",
+      "address": "茨城県日立市国分町・鮎川町JR常磐線下",
+      "locality": "日立市国分町・鮎川町JR常磐線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "ibaraki-0063",
+      "name": "水戶市河和田2丁目51番地JR常磐線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 140.471588,
+      "lat": 36.365852,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "河和田244号線",
+      "road_type": "市道",
+      "address": "茨城県水戶市河和田2丁目51番地JR常磐線下",
+      "locality": "水戶市河和田2丁目51番地JR常磐線下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}

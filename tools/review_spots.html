@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>みずみち — 危険箇所レビュー</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+  :root{--bg:#0f1621;--panel:#182231;--panel2:#212d3f;--line:#2e3d52;--fg:#e8eef7;--muted:#94a3b8;
+        --accent:#4da3ff;--ok:#22c55e;--ng:#ef4444}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);
+    font-family:system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;font-size:14px}
+  #app{display:flex;height:100%}
+
+  /* ---- 左: 一覧 ---- */
+  #side{width:300px;flex:none;background:var(--panel);border-right:1px solid var(--line);
+    display:flex;flex-direction:column}
+  #side header{padding:12px 14px;border-bottom:1px solid var(--line)}
+  #side h1{font-size:15px;margin:0 0 8px}
+  .bar{height:6px;background:var(--panel2);border-radius:99px;overflow:hidden}
+  .bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .2s}
+  .stat{font-size:12px;color:var(--muted);margin-top:6px;display:flex;gap:10px}
+  .filters{display:flex;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .filters button{flex:1;background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:7px;padding:6px;font-size:12px;cursor:pointer}
+  .filters button.on{background:var(--accent);border-color:var(--accent);color:#04121f;font-weight:700}
+  #list{flex:1;overflow:auto}
+  .row{padding:9px 14px;border-bottom:1px solid #1e2a3a;cursor:pointer;display:flex;gap:8px;align-items:flex-start}
+  .row:hover{background:var(--panel2)}
+  .row.sel{background:#25415f}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none;margin-top:5px;background:#64748b}
+  .dot.ok{background:var(--ok)} .dot.excluded{background:var(--ng)}
+  .row .t{font-size:13px;line-height:1.35}
+  .row .a{font-size:11px;color:var(--muted)}
+
+  /* ---- 右: 地図 ---- */
+  #main{flex:1;position:relative;display:flex;flex-direction:column;min-width:0}
+  #map{flex:1;position:relative}
+  #basemap{position:absolute;top:10px;left:10px;z-index:5;display:flex;gap:4px}
+  #basemap button{background:rgba(24,34,49,.92);color:var(--fg);border:1px solid var(--line);
+    border-radius:6px;padding:5px 9px;font-size:12px;cursor:pointer}
+  #basemap button.on{background:var(--accent);border-color:var(--accent);color:#04121f;font-weight:700}
+  .hintbox{position:absolute;top:10px;right:10px;z-index:5;max-width:280px;
+    background:rgba(24,34,49,.94);border:1px solid var(--line);border-radius:9px;padding:9px 11px;
+    font-size:11px;color:var(--muted);line-height:1.6}
+  .hintbox b{color:var(--fg)}
+
+  /* ---- 下: 編集カード ---- */
+  #edit{border-top:1px solid var(--line);background:var(--panel);padding:12px 16px;
+    display:grid;grid-template-columns:1fr 300px;gap:16px;align-items:start}
+  #edit h2{margin:0 0 4px;font-size:17px}
+  .meta{font-size:12px;color:var(--muted);line-height:1.7}
+  .meta b{color:var(--fg);font-weight:600}
+  .fields{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;align-items:center}
+  label{font-size:12px;color:var(--muted);display:flex;gap:5px;align-items:center}
+  select,input{background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:6px;padding:5px 7px;font-size:12px}
+  input[type=number]{width:64px}
+  .actions{display:flex;flex-direction:column;gap:7px}
+  .actions button{border:0;border-radius:8px;padding:10px;font-size:13px;font-weight:700;cursor:pointer}
+  .b-ok{background:var(--ok);color:#04210f}
+  .b-ng{background:var(--panel2);color:var(--ng);border:1px solid var(--ng)!important}
+  .b-nav{background:var(--panel2);color:var(--fg);border:1px solid var(--line)!important;font-weight:400}
+  .navrow{display:flex;gap:7px}
+  .navrow button{flex:1}
+  #saved{font-size:11px;color:var(--ok);height:14px}
+
+  .marker{width:26px;height:26px;border-radius:50%;background:var(--accent);
+    border:3px solid #fff;box-shadow:0 0 0 2px rgba(0,0,0,.5);cursor:grab;touch-action:none}
+  .marker.dragging{cursor:grabbing;transform:scale(1.2)}
+
+  /* 地図の中心を示す十字（タッチで「中心にあわせる」ときの目印） */
+  #crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;
+    pointer-events:none;opacity:.55}
+  #crosshair::before,#crosshair::after{content:'';position:absolute;background:#fff;
+    box-shadow:0 0 2px #000}
+  #crosshair::before{left:-14px;top:-1px;width:28px;height:2px}
+  #crosshair::after{left:-1px;top:-14px;width:2px;height:28px}
+
+  #centerBtn{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:6;
+    background:var(--accent);color:#04121f;border:0;border-radius:99px;padding:0 20px;
+    min-height:46px;font-size:13px;font-weight:700;cursor:pointer;
+    box-shadow:0 4px 14px rgba(0,0,0,.45)}
+
+  #sideToggle{display:none}
+
+  /* --- タブレット・狭い画面 --- */
+  @media (max-width:1000px){
+    #side{position:absolute;z-index:30;left:0;top:0;bottom:0;width:260px;
+      transform:translateX(-100%);transition:transform .2s;box-shadow:4px 0 20px rgba(0,0,0,.5)}
+    #side.open{transform:none}
+    #sideToggle{display:block;position:absolute;top:10px;left:10px;z-index:31;
+      background:rgba(24,34,49,.94);color:var(--fg);border:1px solid var(--line);
+      border-radius:8px;padding:10px 13px;font-size:13px;cursor:pointer}
+    #basemap{left:auto;right:10px;top:56px}
+    .hintbox{display:none}
+    #edit{grid-template-columns:1fr;gap:10px;padding:10px 12px}
+    .actions{flex-direction:row;flex-wrap:wrap}
+    .actions button{flex:1;min-width:120px;min-height:46px}
+    .navrow{flex:1 0 100%}
+    #eName{font-size:16px}
+  }
+  /* タッチ端末では押しやすさを優先 */
+  @media (pointer:coarse){
+    .row{padding:13px 14px}
+    select,input{min-height:40px;font-size:14px}
+    .actions button{min-height:48px}
+  }
+  #empty{position:absolute;inset:0;display:none;place-items:center;background:var(--bg);z-index:20;
+    text-align:center;padding:30px;line-height:1.9}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="side">
+    <header>
+      <h1>危険箇所レビュー</h1>
+      <div class="bar"><i id="bar"></i></div>
+      <div class="stat">
+        <span id="statDone">0 / 0 件</span>
+        <span id="statExcluded"></span>
+      </div>
+    </header>
+    <div class="filters">
+      <button data-f="pending" class="on">未レビュー</button>
+      <button data-f="flagged">要確認</button>
+      <button data-f="all">すべて</button>
+    </div>
+    <div id="list"></div>
+  </aside>
+
+  <main id="main">
+    <div id="map">
+      <button id="sideToggle">☰ 一覧</button>
+      <div id="crosshair"></div>
+      <button id="centerBtn">📍 画面の中心をこの地点にする</button>
+      <div id="basemap">
+        <button data-b="std" class="on">標準</button>
+        <button data-b="pale">淡色</button>
+        <button data-b="ort">写真</button>
+      </div>
+      <div class="hintbox">
+        <b>やること</b>: 住所と地図が合っているか確認し、ズレていれば
+        <b>マーカーをドラッグ</b>／地図をタップ／地図を動かして
+        <b>［画面の中心をこの地点にする］</b>で直してから <b>［この位置でOK］</b>。<br>
+        アンダーパスは<b>「写真」</b>に切り替えると、道路が下をくぐっているか確認しやすいです。<br>
+        <b>→</b> 次へ / <b>←</b> 前へ / <b>Enter</b> OK
+      </div>
+    </div>
+
+    <div id="edit">
+      <div>
+        <h2 id="eName">—</h2>
+        <div class="meta" id="eMeta"></div>
+        <div class="fields">
+          <label>種別
+            <select id="eKind">
+              <option value="underpass_gravity">アンダーパス（自然排水）35mm/h</option>
+              <option value="underpass_pump">アンダーパス（ポンプ有）55mm/h</option>
+              <option value="lowland">低地・窪地 50mm/h</option>
+              <option value="bridge_approach">橋詰め 60mm/h</option>
+              <option value="river_adjacent">河川隣接</option>
+            </select>
+          </label>
+          <span class="meta" id="eKindSrc"></span>
+          <label>過去の冠水回数 <input type="number" id="eHist" min="0" max="20" step="1"></label>
+          <span class="meta" id="eCoord"></span>
+        </div>
+        <div class="meta" id="checkHint" style="color:#ef4444;font-weight:600"></div>
+        <div class="meta" id="snapInfo" style="color:#7dd3fc"></div>
+        <div class="meta" id="dzWarn" style="color:#e8c33c"></div>
+        <div id="saved"></div>
+      </div>
+      <div class="actions">
+        <button class="b-ok" id="bOk">✔ この位置でOK（Enter）</button>
+        <button class="b-ng" id="bNg">✖ 除外する（この箇所は使わない）</button>
+        <div class="navrow">
+          <button class="b-nav" id="bPrev">← 前</button>
+          <button class="b-nav" id="bNext">次 →</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="empty">
+      <div>
+        <div style="font-size:44px">🎉</div>
+        <h2>未レビューの地点はありません</h2>
+        <div class="meta">「すべて」に切り替えると、確認済みの地点も見直せます。<br>
+          ターミナルで <b>Ctrl+C</b> を押して終了してください。</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+(function(){
+  'use strict';
+
+  const KIND_LABEL = {
+    underpass_gravity:'アンダーパス（自然排水）', underpass_pump:'アンダーパス（ポンプ有）',
+    lowland:'低地・窪地', bridge_approach:'橋詰め', river_adjacent:'河川隣接'
+  };
+  const BASEMAPS = {
+    std : { url:'https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',  max:18 },
+    pale: { url:'https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', max:18 },
+    ort : { url:'https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', max:18 }
+  };
+  const CENTER_FALLBACK = [140.12, 35.61];   // 千葉市付近
+
+  let DATA = null, view = [], idx = 0, filter = 'pending', marker = null;
+
+  const map = new maplibregl.Map({
+    container:'map',
+    style:{ version:8,
+      sources:{ base:{ type:'raster', tiles:[BASEMAPS.std.url], tileSize:256, maxzoom:18,
+        attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>' } },
+      layers:[ {id:'bg',type:'background',paint:{'background-color':'#0f1621'}},
+               {id:'base',type:'raster',source:'base'} ] },
+    center: CENTER_FALLBACK, zoom: 16
+  });
+  map.addControl(new maplibregl.NavigationControl({showCompass:false}), 'bottom-right');
+  map.addControl(new maplibregl.ScaleControl({maxWidth:100}), 'bottom-left');
+
+  document.querySelectorAll('#basemap button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('#basemap button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    map.getSource('base').setTiles([BASEMAPS[b.dataset.b].url]);
+  }));
+
+  /* ---------- 読み込み ---------- */
+  fetch('/api/spots').then(r => r.json()).then(d => { DATA = d; rebuild(); });
+
+  function rebuild(keepId){
+    const all = DATA.spots;
+    // 「要確認」は、点検（validate_spots.py）でヒントが付いた地点。
+    // 確認済みでも、あとから疑いが見つかることがあるので拾えるようにする。
+    view = filter === 'pending'
+      ? all.filter(s => (s.review && s.review.status) === 'pending')
+      : filter === 'flagged'
+        ? all.filter(s => (s.params || {}).check_hint)
+        : all.slice();
+    if (keepId) {
+      const i = view.findIndex(s => s.id === keepId);
+      if (i >= 0) idx = i;
+    }
+    if (idx >= view.length) idx = Math.max(0, view.length - 1);
+    renderList();
+    renderProgress();
+    show();
+  }
+
+  function renderList(){
+    const el = document.getElementById('list');
+    el.innerHTML = view.map((s, i) => {
+      const st = (s.review && s.review.status) || 'pending';
+      const flag = (s.params || {}).check_hint ? ' ❗' : '';
+      return `<div class="row ${i===idx?'sel':''}" data-i="${i}">
+        <span class="dot ${st}"></span>
+        <span><span class="t">${esc(s.name || s.id)}${flag}</span><br>
+              <span class="a">${esc(s.address || s.road || '')}</span></span>
+      </div>`;
+    }).join('');
+    el.querySelectorAll('.row').forEach(r =>
+      r.addEventListener('click', () => { idx = +r.dataset.i; renderList(); show(); }));
+    const sel = el.querySelector('.row.sel');
+    if (sel) sel.scrollIntoView({ block:'nearest' });
+  }
+
+  function renderProgress(){
+    const all = DATA.spots;
+    const done = all.filter(s => (s.review && s.review.status) !== 'pending').length;
+    const ex = all.filter(s => (s.review && s.review.status) === 'excluded').length;
+    document.getElementById('bar').style.width = (all.length ? done/all.length*100 : 0) + '%';
+    document.getElementById('statDone').textContent = `${done} / ${all.length} 件 確認済み`;
+    document.getElementById('statExcluded').textContent = ex ? `除外 ${ex} 件` : '';
+  }
+
+  function current(){ return view[idx] || null; }
+
+  function show(){
+    const s = current();
+    document.getElementById('empty').style.display = s ? 'none' : 'grid';
+    if (!s) return;
+
+    document.getElementById('eName').textContent = s.name || s.id;
+    const ev = s.evidence || {};
+    const conf = ev.confidence ?? 0;
+    const confColor = conf >= 0.8 ? '#22c55e' : conf >= 0.5 ? '#e8c33c' : '#ef4444';
+    document.getElementById('eMeta').innerHTML = [
+      s.address ? `住所: <b>${esc(s.address)}</b>` : '',
+      // 資料の原文（「五井（五井アンダーパス）」など）。現地を探す手がかりになる
+      s.locality && s.locality !== s.address ? `資料の記載: <b>${esc(s.locality)}</b>` : '',
+      s.road ? `路線: ${esc(s.road)}${s.road_type ? `（${esc(s.road_type)}）` : ''}` : '',
+      `ID: ${esc(s.id)}`,
+      `機械判定の確からしさ: <b style="color:${confColor}">${conf.toFixed(2)}</b>`
+      + (ev.note ? `（${esc(ev.note)}）` : ''),
+      ev.source ? `出典: ${esc(ev.source)}` : ''
+    ].filter(Boolean).join(' ／ ');
+    document.getElementById('eKind').value = s.kind || 'lowland';
+    document.getElementById('eHist').value = s.hist || 0;
+
+    // 種別が資料由来か既定値かを出す。既定値のまま放置されると閾値が実態と合わない
+    const src = s.kind_source || '';
+    const kindSrc = document.getElementById('eKindSrc');
+    kindSrc.innerHTML = !src ? ''
+      : /既定値/.test(src)
+        ? `<b style="color:#e8c33c">⚠ 種別は${esc(src)}</b>`
+        : `（${esc(src)}）`;
+
+    // 点検で見つかった疑い。確認済みの地点にも出るようにする
+    const ch = (s.params || {}).check_hint;
+    document.getElementById('checkHint').innerHTML = ch ? `❗ ${esc(ch)}` : '';
+
+    // 標高から見て座標がずれていそうな地点は目立たせる
+    const warn = (s.params || {}).dz_warning;
+    document.getElementById('dzWarn').innerHTML = warn
+      ? `⚠ ${esc(warn)}` : '';
+
+    // OSMのトンネルへ自動で寄せた地点は、その根拠を出す（確定ではないので確認が要る）
+    const snap = (s.params || {}).snap;
+    const hint = (s.params || {}).snap_hint;
+    const snapEl = document.getElementById('snapInfo');
+    if (!snap && hint) {
+      // 資料と違う路線しか無かったので動かしていない地点。探す手がかりを出す
+      snapEl.style.color = '#e8c33c';
+      snapEl.innerHTML = `⚠ <b>座標は自動調整していません</b> — 近くにあるのは`
+        + ` ${esc(hint.nearby)}（${Math.round(hint.distance_m)}m）だけで、資料の路線と違います。`
+        + ` <b>地図で資料の路線を探して合わせてください</b>`;
+    }
+    else if (!snap) { snapEl.innerHTML = ''; }
+    else {
+      // 確からしさで色を変える。「低」は重点的に見てほしい
+      const conf = snap.confidence || '中';
+      const col = conf === '高' ? '#22c55e' : conf === '低' ? '#ef4444' : '#7dd3fc';
+      snapEl.innerHTML =
+        `📍 OSMの<b>${esc(snap.matched)}</b>へ ${Math.round(snap.moved_m)}m 寄せた位置`
+        + (snap.osm_name ? `（${esc(snap.osm_name)}）` : '')
+        + ` <b style="color:${col}">確からしさ ${esc(conf)}</b>`
+        + (snap.why ? ` — ${esc(snap.why)}` : '')
+        + (snap.osm_id ? ` <a href="https://www.openstreetmap.org/way/${encodeURIComponent(snap.osm_id)}"
+             target="_blank" rel="noopener" style="color:var(--accent)">OSMで見る ↗</a>` : '');
+      snapEl.style.color = conf === '低' ? '#ef4444' : '#7dd3fc';
+    }
+
+    const hasXY = s.lon != null && s.lat != null;
+    const pos = hasXY ? [s.lon, s.lat] : CENTER_FALLBACK;
+    map.jumpTo({ center: pos, zoom: hasXY ? 17 : 12 });
+    setMarker(pos);
+    if (!hasXY) flash('座標がありません。地図をクリックして位置を指定してください', true);
+    updateCoord();
+    renderList();
+  }
+
+  function setMarker(pos){
+    if (marker) marker.remove();
+    const el = document.createElement('div');
+    el.className = 'marker';
+    marker = new maplibregl.Marker({ element: el, draggable: true }).setLngLat(pos).addTo(map);
+    marker.on('dragstart', () => el.classList.add('dragging'));
+    marker.on('dragend', () => { el.classList.remove('dragging'); onMoved(); });
+  }
+
+  map.on('click', e => { if (marker) { marker.setLngLat(e.lngLat); onMoved(); } });
+
+  // タッチ端末では小さなマーカーのドラッグが難しいので、
+  // 「地図を動かして中心を合わせ、ボタンを押す」経路も用意する。
+  document.getElementById('centerBtn').addEventListener('click', () => {
+    if (!marker || !current()) return;
+    marker.setLngLat(map.getCenter());
+    onMoved();
+  });
+
+  const side = document.getElementById('side');
+  document.getElementById('sideToggle').addEventListener('click',
+    () => side.classList.toggle('open'));
+  document.getElementById('list').addEventListener('click',
+    () => { if (window.matchMedia('(max-width:1000px)').matches) side.classList.remove('open'); });
+
+  function onMoved(){
+    const s = current(); if (!s) return;
+    const ll = marker.getLngLat();
+    s.lon = +ll.lng.toFixed(6);
+    s.lat = +ll.lat.toFixed(6);
+    updateCoord();
+    save(s, null);
+  }
+
+  function updateCoord(){
+    const s = current(); if (!s) return;
+    document.getElementById('eCoord').innerHTML = (s.lon == null) ? '座標なし'
+      : `座標: ${s.lat.toFixed(5)}, ${s.lon.toFixed(5)}
+         <a href="https://www.google.com/maps?q=${s.lat},${s.lon}" target="_blank"
+            rel="noopener" style="color:var(--accent)">Googleマップで開く ↗</a>`;
+  }
+
+  document.getElementById('eKind').addEventListener('change', e => {
+    const s = current(); if (!s) return;
+    s.kind = e.target.value;
+    s.kind_source = '人手で確認';
+    document.getElementById('eKindSrc').innerHTML = '（人手で確認）';
+    save(s, null);
+  });
+  document.getElementById('eHist').addEventListener('change', e => {
+    const s = current(); if (!s) return;
+    s.hist = parseInt(e.target.value, 10) || 0; save(s, null);
+  });
+
+  function save(s, status){
+    if (status) { s.review = s.review || {}; s.review.status = status; }
+    fetch('/api/spot', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ id:s.id, lon:s.lon, lat:s.lat, kind:s.kind,
+                             kind_source:s.kind_source, hist:s.hist,
+                             status: status || undefined })
+    }).then(r => r.json()).then(() => {
+      flash(status === 'ok' ? '✓ 確認済みとして保存しました'
+          : status === 'excluded' ? '✓ 除外として保存しました' : '✓ 保存しました');
+      renderProgress();
+    }).catch(() => flash('保存に失敗しました（サーバが動いているか確認してください）', true));
+  }
+
+  let flashTimer = null;
+  function flash(msg, isError){
+    const el = document.getElementById('saved');
+    el.textContent = msg;
+    el.style.color = isError ? 'var(--ng)' : 'var(--ok)';
+    clearTimeout(flashTimer);
+    flashTimer = setTimeout(() => { el.textContent = ''; }, 2500);
+  }
+
+  function decide(status){
+    const s = current(); if (!s) return;
+    if (s.lon == null) { flash('先に地図をクリックして位置を指定してください', true); return; }
+    save(s, status);
+    const id = s.id;
+    setTimeout(() => {
+      if (filter === 'pending') { DATA.spots.find(x => x.id === id).review.status = status; rebuild(); }
+      else { next(); }
+    }, 120);
+  }
+  function next(){ if (idx < view.length - 1) { idx++; show(); } }
+  function prev(){ if (idx > 0) { idx--; show(); } }
+
+  document.getElementById('bOk').addEventListener('click', () => decide('ok'));
+  document.getElementById('bNg').addEventListener('click', () => decide('excluded'));
+  document.getElementById('bNext').addEventListener('click', next);
+  document.getElementById('bPrev').addEventListener('click', prev);
+  document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.filters button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    filter = b.dataset.f; idx = 0; rebuild();
+  }));
+
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+    if (e.key === 'ArrowRight') { next(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft')  { prev(); e.preventDefault(); }
+    if (e.key === 'Enter')      { decide('ok'); e.preventDefault(); }
+  });
+
+  function esc(s){ return String(s ?? '').replace(/[&<>"]/g, c =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+  window.reviewDebug = { get data(){ return DATA; }, get view(){ return view; },
+                         get idx(){ return idx; }, next, prev, decide };
+})();
+</script>
+</body>
+</html>

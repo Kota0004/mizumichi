@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>みずみち — 冠水危険箇所プロトタイプ</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%9A%A7%3C/text%3E%3C/svg%3E">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1621; --panel:#182231; --panel2:#212d3f; --line:#2e3d52;
+    --fg:#e8eef7; --muted:#95a3b8; --accent:#4da3ff;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);
+    font-family:system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;}
+  #map{position:absolute;inset:0}
+
+  .banner{position:absolute;top:0;left:0;right:0;z-index:20;background:#7a4a00;color:#ffe9c2;
+    font-size:12px;padding:6px 10px;text-align:center;border-bottom:1px solid #a76a10}
+  .banner b{color:#fff}
+
+  .panel{position:absolute;z-index:15;top:34px;left:10px;width:308px;max-width:calc(100vw - 20px);
+    background:rgba(24,34,49,.95);border:1px solid var(--line);border-radius:12px;
+    backdrop-filter:blur(6px);box-shadow:0 8px 28px rgba(0,0,0,.45);
+    max-height:calc(100vh - 48px);overflow:auto}
+  .panel h1{font-size:15px;margin:0;padding:12px 14px 10px;border-bottom:1px solid var(--line);
+    display:flex;align-items:center;gap:8px}
+  .panel h1 small{font-weight:400;color:var(--muted);font-size:11px}
+  .sec{padding:12px 14px;border-bottom:1px solid var(--line)}
+  .sec:last-child{border-bottom:none}
+  .sec h2{font-size:12px;margin:0 0 8px;color:var(--muted);font-weight:600;letter-spacing:.04em}
+
+  .rainval{font-size:30px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+  .rainval span{font-size:13px;font-weight:400;color:var(--muted);margin-left:4px}
+  input[type=range]{width:100%;accent-color:var(--accent);margin:8px 0 6px;height:24px}
+  .presets{display:flex;gap:6px;flex-wrap:wrap}
+  .presets button{flex:1;min-width:52px;background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:7px;padding:6px 4px;font-size:12px;cursor:pointer}
+  .presets button:hover{border-color:var(--accent)}
+  .presets button.on{background:var(--accent);border-color:var(--accent);color:#04121f;font-weight:700}
+  .hint{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.6}
+
+  .legend{display:flex;flex-direction:column;gap:5px}
+  .legend div{display:flex;align-items:center;gap:8px;font-size:12px}
+  .sw{width:13px;height:13px;border-radius:50%;flex:none;border:1px solid rgba(255,255,255,.35)}
+  .cnt{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+
+  .btn{width:100%;background:var(--accent);color:#04121f;border:0;border-radius:8px;
+    padding:10px;font-size:13px;font-weight:700;cursor:pointer}
+  .btn.off{background:var(--panel2);color:var(--fg);border:1px solid var(--line)}
+  .row{display:flex;align-items:center;gap:8px;font-size:12px;margin-top:8px}
+  select{background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:5px 6px;font-size:12px}
+
+  .alert{position:absolute;left:330px;right:10px;bottom:14px;z-index:30;border-radius:12px;
+    padding:14px 16px;display:none;box-shadow:0 10px 30px rgba(0,0,0,.5);color:#fff}
+  .alert.show{display:block}
+  .alert .lv{font-size:12px;opacity:.9;letter-spacing:.08em}
+  .alert .ttl{font-size:19px;font-weight:800;margin:3px 0 4px}
+  .alert .msg{font-size:13px;line-height:1.6}
+  .alert .dis{font-size:11px;opacity:.8;margin-top:8px}
+  .alert button{position:absolute;top:10px;right:10px;z-index:2;background:rgba(0,0,0,.35);border:0;color:#fff;
+    border-radius:6px;padding:6px 11px;cursor:pointer;font-size:12px}
+  /* 本文が閉じるボタンの下に潜り込まないように右側を空ける */
+  .alert .lv,.alert .ttl,.alert .msg{padding-right:84px}
+
+  .maplibregl-popup-content{background:var(--panel);color:var(--fg);border:1px solid var(--line);
+    border-radius:10px;font-size:12px;line-height:1.65;padding:12px 14px;max-width:280px}
+  .maplibregl-popup-content h3{margin:0 0 6px;font-size:14px}
+  .maplibregl-popup-tip{border-top-color:var(--panel)!important;border-bottom-color:var(--panel)!important}
+  .pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:700;color:#08111c}
+  .kv{color:var(--muted)}
+  .alertbar{position:absolute;top:28px;left:0;right:0;z-index:19;display:none;
+    background:#7a1fa2;color:#fff;padding:9px 12px;text-align:center;font-size:13px;
+    line-height:1.5;border-bottom:1px solid #a93fd0}
+  .alertbar.show{display:block}
+  .alertbar b{font-size:14px}
+
+  .ranklist{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+  .ranklist div{display:flex;gap:7px;font-size:12px;align-items:baseline;cursor:pointer;
+    padding:3px 5px;border-radius:5px}
+  .ranklist div:hover{background:var(--panel2)}
+  .ranklist .n{color:var(--muted);font-variant-numeric:tabular-nums;flex:none;width:16px}
+  .ranklist .s{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+  .apx{display:inline-block;font-size:10px;padding:1px 5px;border-radius:99px;
+       background:#5b4a86;color:#fff;margin-left:6px;vertical-align:middle}
+  .unv{display:inline-block;font-size:10px;padding:1px 5px;border-radius:99px;
+    border:1px dashed #e8c33c;color:#e8c33c;margin-left:5px}
+
+  .spot-label{display:none;font-size:11px;line-height:1.2;color:#e8eef7;white-space:nowrap;
+    text-shadow:0 0 3px #0f1621,0 0 3px #0f1621,0 0 3px #0f1621;pointer-events:none;font-weight:600}
+  #map.labels-on .spot-label{display:block}
+  .credit{position:absolute;right:8px;bottom:6px;z-index:12;font-size:10px;color:#cfd8e6;
+    background:rgba(15,22,33,.7);padding:3px 7px;border-radius:5px}
+
+  /* タッチ端末（iPad等）では指で操作できる大きさにする */
+  @media (pointer:coarse){
+    input[type=range]{height:36px}
+    .presets button{padding:11px 4px;font-size:13px}
+    .btn{padding:13px}
+    select{min-height:38px;font-size:13px}
+    .alert button{padding:9px 14px}
+  }
+
+  @media (max-width:640px){
+    .panel{top:auto;bottom:10px;left:10px;right:10px;width:auto;max-height:52vh}
+    .alert{left:10px;bottom:auto;top:40px}
+  }
+</style>
+</head>
+<body>
+
+<div class="banner" id="banner">読み込み中…</div>
+<div class="alertbar" id="extremeBar"></div>
+
+<div id="map"></div>
+
+<div class="panel">
+  <h1>みずみち <small>MizuMichi / PoC</small></h1>
+
+  <div class="sec">
+    <h2>① 降水量フィルタ（what-if）</h2>
+    <div class="rainval"><span id="rainNum">50</span><span>mm/h（時間雨量）</span></div>
+    <input type="range" id="rain" min="0" max="120" step="5" value="50">
+    <div class="row" style="margin:0 0 8px">
+      <button class="btn off" id="liveBtn" style="flex:1">🌧 いまの雨量を使う</button>
+    </div>
+    <p class="hint" id="liveStat" style="margin:0 0 8px;display:none"></p>
+    <div class="presets">
+      <button data-r="0">雨なし</button>
+      <button data-r="30">30</button>
+      <button data-r="50" class="on">50</button>
+      <button data-r="80">80</button>
+      <button data-r="100">100</button>
+    </div>
+    <p class="hint">
+      「この雨量なら、どの道が危ないか」を試せます。閾値は<b>地点ごと</b>に違うため、
+      同じ雨量でも判定が分かれます（設計の根拠 → <code>docs/04</code>）。
+    </p>
+  </div>
+
+  <div class="sec">
+    <h2>② 表示する危険度</h2>
+    <div class="row">
+      <label for="minLv">レベル</label>
+      <select id="minLv">
+        <option value="0">すべて表示</option>
+        <option value="1">1 注意 以上</option>
+        <option value="2" selected>2 警戒 以上</option>
+        <option value="3">3 危険 以上</option>
+        <option value="4">4 通行不能情報 のみ</option>
+      </select>
+    </div>
+    <div class="legend" id="legend" style="margin-top:10px"></div>
+    <h2 style="margin-top:14px">危険な順</h2>
+    <div class="ranklist" id="rank"></div>
+    <p class="hint">同じレベルでも危険度には差があります。タップするとその地点へ移動します。</p>
+  </div>
+
+  <div class="sec">
+    <h2>③ 現在地アラート</h2>
+    <button class="btn off" id="geoBtn">現在地の監視を開始</button>
+    <div class="row"><label for="radius">通知半径</label>
+      <select id="radius">
+        <option value="300">300 m</option>
+        <option value="500" selected>500 m</option>
+        <option value="1000">1,000 m</option>
+      </select>
+      <label style="margin-left:auto"><input type="checkbox" id="speak" checked> 音声で読み上げ</label>
+    </div>
+    <button class="btn off" id="speakTest" style="margin-top:8px">🔊 音声を試す</button>
+    <p class="hint" id="speakStat">
+      危険な地点に近づくと、<b>この声で読み上げます</b>。運転中に画面を見ないで済むようにするためのものです。<br>
+      iPhone・iPadでは、一度この［音声を試す］を押しておかないと読み上げが鳴らないことがあります
+      （ブラウザが、操作なしの発話を止めるため）。</p>
+    <p class="hint" id="geoStat">未開始。ブラウザの位置情報許可が必要です（HTTPS または localhost）。<br>
+      テスト用: 地図上を <b>Shift＋クリック</b> すると、そこを現在地とみなして判定します。</p>
+  </div>
+
+  <div class="sec">
+    <h2>④ 参考レイヤ</h2>
+    <label class="row" style="margin-top:0"><input type="checkbox" id="nowcast"> 降水ナウキャスト（気象庁）</label>
+    <p class="hint" id="ncStat">オフ。取得できない場合はネットワーク／CORSの制約です（→ <code>docs/05</code> の取込パイプラインでサーバ側から取得する設計）。</p>
+  </div>
+</div>
+
+<div class="alert" id="alert">
+  <button id="alertClose">閉じる</button>
+  <div class="lv" id="alertLv"></div>
+  <div class="ttl" id="alertTtl"></div>
+  <div class="msg" id="alertMsg"></div>
+  <div class="dis">※参考情報です。最終判断は現地の状況で行ってください。操作は停車してから。</div>
+</div>
+
+<div class="credit" id="credit">出典: 地理院タイル（国土地理院）／ 気象庁</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="./risk.js"></script>
+<script>
+(function(){
+  'use strict';
+  const M = window.MizuMichi;
+
+  /* ---------- 地図 ---------- */
+  const map = new maplibregl.Map({
+    container: 'map',
+    style: {
+      version: 8,
+      sources: {
+        gsi: {
+          type: 'raster',
+          tiles: ['https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png'],
+          tileSize: 256, maxzoom: 18,
+          attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>'
+        }
+      },
+      layers: [
+        { id:'bg', type:'background', paint:{ 'background-color':'#0f1621' } },
+        { id:'gsi', type:'raster', source:'gsi', paint:{ 'raster-brightness-min':0.05, 'raster-saturation':-0.25 } }
+      ]
+    },
+    center: [140.20, 35.55], zoom: 8.6,
+    // Shift＋クリックを「現在地の指定」に使うため、Shift ドラッグの矩形ズームは無効化する
+    boxZoom: false
+  });
+  window.mizumichiMap = map;   // デバッグ・テスト用に地図インスタンスを公開
+  map.addControl(new maplibregl.NavigationControl({ showCompass:false }), 'top-right');
+  map.addControl(new maplibregl.ScaleControl({ maxWidth:90 }), 'bottom-left');
+
+  /* ---------- 状態 ---------- */
+  let SPOTS = [];
+  let LIVE = null;        // 取り込み済みの実雨量（risk_latest.json）
+  let liveMode = false;
+  let started = false;
+  let rain = 50;
+  let minLv = 2;
+  let here = null;           // [lon, lat]
+  let watchId = null;
+  const notified = new Map(); // spotId -> 最終通知時刻（クールダウン用）
+  const COOLDOWN_MS = 60 * 60 * 1000; // docs/04-6
+
+  /* ---------- データ読み込み ----------
+     実データ（レビュー済みの千葉県）があればそれを使い、
+     無ければ動作確認用のサンプルにフォールバックする。 */
+  let META = null;
+
+  (async () => {
+    // 取得と解析だけを try で包む。初期化まで包むと、描画側の不具合を
+    // 「読み込み失敗」と誤認してサンプルに落ちてしまい、原因が見えなくなる。
+    let loaded = null;
+    // spots.json は複数県をまとめたもの。無ければ千葉単体、
+    // それも無ければ動作確認用のサンプルに落とす。
+    for (const [url, isReal] of [['./data/spots.json', true],
+                                 ['./data/spots_chiba.json', true],
+                                 ['./data/sample_spots.json', false]]) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) continue;
+        const d = await res.json();
+        if (!d || !Array.isArray(d.spots) || !d.spots.length) continue;
+        loaded = { real: isReal, data: d };
+        break;
+      } catch (e) {
+        console.warn('読み込めませんでした:', url, e);
+      }
+    }
+    if (!loaded) {
+      document.getElementById('banner').innerHTML =
+        '❌ データを読み込めませんでした。ローカルファイルを直接開くとブラウザに阻止されます。'
+        + '<b>prototype/ で <code>python3 -m http.server 8000</code> を実行し、'
+        + 'http://localhost:8000/ を開いてください。</b>';
+      return;
+    }
+    // 取り込み済みの実雨量があれば読む（GitHub Actions が定期更新する）
+    try {
+      const r = await fetch('./data/risk_latest.json');
+      if (r.ok) {
+        const rd = await r.json();
+        if (rd && rd.spots) LIVE = rd;
+      }
+    } catch (e) { /* 無ければ what-if だけで動く */ }
+
+    META = Object.assign({ real: loaded.real }, loaded.data);
+    SPOTS = loaded.data.spots.map(s => Object.assign({}, s, { t60: s.t60 || M.computeT60(s) }));
+    window.mizumichiData = { meta: META, spots: SPOTS };   // デバッグ・テスト用
+    showBanner();
+    tryInit();
+  })();
+
+  function showBanner(){
+    const el = document.getElementById('banner');
+    if (!META.real) {
+      el.innerHTML = '⚠️ 動作確認用の<b>ダミーデータ</b>を表示しています。実在の危険箇所ではありません。';
+      return;
+    }
+    if (META.attribution && META.attribution.length) {
+      document.getElementById('credit').innerHTML =
+        '出典: 地理院タイル（国土地理院）／ 気象庁<br>'
+        + META.attribution.map(esc).join('<br>');
+    }
+    const c = META.counts || {};
+    el.innerHTML =
+      `📍 <b>${esc(META.area || '')}の道路冠水注意箇所 ${c.total || 0} 箇所</b>`
+      + `（位置を確認済み ${c.verified || 0} ／ <span class="unv">未確認 ${c.unverified || 0}</span>）`
+      + ' — 参考情報です。通行の可否を保証しません。最終判断は現地の状況で。';
+  }
+
+  /* ---------- 初期化 ---------- */
+  // 地図のスタイル読み込みとデータ取得は順序が保証されない。
+  // また 'load' はタイル取得が失敗する環境で発火しないことがあるため、
+  // isStyleLoaded() を短周期でポーリングして「両方そろったら一度だけ」初期化する。
+  map.on('load', tryInit);
+  map.on('styledata', tryInit);
+
+  function tryInit(){
+    if (started || !SPOTS.length) return;
+    if (!map.isStyleLoaded()) { setTimeout(tryInit, 100); return; }
+    started = true;
+    init();
+  }
+
+  function init(){
+    map.addSource('spots', { type:'geojson', data: toGeoJSON() });
+
+    map.addLayer({
+      id:'spots-halo', type:'circle', source:'spots',
+      filter:['>=', ['get','level'], 3],
+      paint:{
+        'circle-radius':['interpolate',['linear'],['zoom'],10,14,16,34],
+        'circle-color':['get','color'], 'circle-opacity':0.18
+      }
+    });
+    map.addLayer({
+      id:'spots-dot', type:'circle', source:'spots',
+      paint:{
+        'circle-radius':['interpolate',['linear'],['zoom'],10,6,16,15],
+        'circle-color':['get','color'],
+        // 位置が人手で未確認の地点は、白い輪郭で区別する（確認済みと見分けられるように）
+        'circle-stroke-width':['case',['get','verified'],1.5,2.5],
+        'circle-stroke-color':[
+          'case',
+          ['==',['get','precision'],'area'],'#8a78bd',
+          ['get','verified'],'#0f1621','#e8c33c'],
+        // 位置が推定の地点は薄く描く。地点として指し示しているように
+        // 見せないための区別で、飾りではない。
+        'circle-opacity':[
+          'case',
+          ['==',['get','precision'],'area'],0.35,
+          ['get','verified'],1,0.75]
+      }
+    });
+
+    // 現在地マーカー用
+    map.addSource('me', { type:'geojson', data:{ type:'FeatureCollection', features:[] } });
+    map.addLayer({ id:'me-ring', type:'circle', source:'me',
+      paint:{ 'circle-radius':['interpolate',['linear'],['zoom'],10,10,16,26],
+              'circle-color':'#4da3ff','circle-opacity':0.15 } });
+    map.addLayer({ id:'me-dot', type:'circle', source:'me',
+      paint:{ 'circle-radius':6,'circle-color':'#4da3ff','circle-stroke-width':2,'circle-stroke-color':'#fff' } });
+
+    map.on('click','spots-dot', e => showPopup(e.features[0], e.lngLat));
+    map.on('mouseenter','spots-dot', ()=> map.getCanvas().style.cursor='pointer');
+    map.on('mouseleave','spots-dot', ()=> map.getCanvas().style.cursor='');
+    map.on('click', e => { if (e.originalEvent.shiftKey) setHere([e.lngLat.lng, e.lngLat.lat], 'テスト位置'); });
+
+    map.on('zoom', updateLabelVisibility);
+
+    buildLegend();
+    setupLive();
+    refresh();
+  }
+
+  /* データ由来の文字列をそのままHTMLに入れないためのエスケープ */
+  function esc(v){ return String(v ?? '').replace(/[&<>"]/g, c =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+  /* ---------- 危険度の再計算 ---------- */
+  function evaluate(){
+    if (liveMode && LIVE) {
+      // 取り込み済みの結果をそのまま使う（サーバ側で計算した値）
+      return SPOTS.map(s => {
+        const v = LIVE.spots[s.id];
+        // 雨量が取れていない地点を「平常」と表示してはいけない。
+        // アメダスの観測点から遠い地点は内挿できず、実運用で827件中108件が
+        // これに当たった。分からないことを安全だと言う方が、
+        // 何も言わないより危ない。
+        if (!v) return Object.assign({}, s, M.score(s, { r60: 0 }),
+                                     { unknown: true, level: 0,
+                                       reason: '近くに雨量の観測点がなく、いまの雨量が分かりません' });
+        return Object.assign({}, s, {
+          score: v.score, level: v.level, reason: v.reason,
+          t60: v.t60 != null ? v.t60 : s.t60
+        });
+      });
+    }
+    return SPOTS.map(s => {
+      const r = M.score(s, { r60: rain });
+      return Object.assign({}, s, r);
+    });
+  }
+
+  /* ---------- いまの雨量モード ----------
+     鮮度は必ず出す。古い情報を最新と誤認させないため（docs/07）。 */
+  function setupLive(){
+    const btn = document.getElementById('liveBtn');
+    const stat = document.getElementById('liveStat');
+    if (!LIVE) {
+      btn.disabled = true;
+      btn.style.opacity = .5;
+      btn.textContent = '🌧 いまの雨量（未取得）';
+      stat.style.display = 'block';
+      stat.innerHTML = 'まだ雨量が取り込まれていません。'
+        + 'GitHub Actions が定期的に取得すると、ここで実際の雨量が使えるようになります。';
+      return;
+    }
+    btn.addEventListener('click', () => {
+      liveMode = !liveMode;
+      btn.classList.toggle('off', !liveMode);
+      btn.textContent = liveMode ? '🌧 いまの雨量を使用中（解除）' : '🌧 いまの雨量を使う';
+      document.getElementById('rain').disabled = liveMode;
+      document.querySelectorAll('.presets button').forEach(b => b.disabled = liveMode);
+      updateLiveStat();
+      refresh();
+    });
+    updateLiveStat();
+  }
+
+  function updateLiveStat(){
+    const stat = document.getElementById('liveStat');
+    if (!LIVE) return;
+    const t = new Date(LIVE.generated_at);
+    const mins = Math.round((Date.now() - t.getTime()) / 60000);
+    const stale = mins > 15;
+    stat.style.display = 'block';
+    stat.innerHTML =
+      `観測時刻 <b>${t.toLocaleString('ja-JP')}</b>（${mins}分前）`
+      + (stale ? '<br><b style="color:#e8c33c">⚠ 情報が最新ではありません。'
+                 + '参考程度にしてください。</b>' : '')
+      + (liveMode ? '' : '<br>ボタンを押すと、この雨量で判定します。');
+  }
+
+  function toGeoJSON(){
+    const evaluated = evaluate();
+    return {
+      type:'FeatureCollection',
+      features: evaluated
+        .filter(s => s.level >= minLv)
+        .map(s => ({
+          type:'Feature',
+          geometry:{ type:'Point', coordinates:[s.lon, s.lat] },
+          properties:{
+            id:s.id, name:s.name, kind:s.kind, verified: s.verified !== false,
+            precision: s.precision || 'point',
+            unknown: !!s.unknown,
+            kindLabel: M.KIND_LABEL[s.kind] || s.kind,
+            level:s.level, score:Math.round(s.score),
+            color: s.unknown ? UNKNOWN_COLOR : M.LEVELS[s.level].color,
+            t60: s.t60.toFixed(0), hist: s.hist||0, dz: s.dz||0,
+            reason: s.reason, note: s.note || ''
+          }
+        }))
+    };
+  }
+
+  function refresh(){
+    const data = toGeoJSON();
+    const src = map.getSource('spots');
+    if (src) src.setData(data);
+    renderLabels(data);
+    updateLegendCounts();
+    renderRank();
+    updateExtremeBar();
+    if (here) checkProximity();
+  }
+
+  /* ---------- 危険な順 ----------
+     同じレベルでも危険度には差がある。レベルだけでは「どこを避けるか」を
+     決められないので、スコア順の上位を出して判断材料にする。 */
+  function renderRank(){
+    const top = evaluate().sort((a,b) => b.score - a.score).slice(0, 6);
+    const el = document.getElementById('rank');
+    el.innerHTML = top.map((s,i) => {
+      const lv = M.LEVELS[s.level];
+      return `<div data-id="${esc(s.id)}">
+        <span class="n">${i+1}</span>
+        <span class="sw" style="background:${lv.color};width:9px;height:9px"></span>
+        <span>${esc(s.name)}${s.unknown ? '<span class="apx">雨量不明</span>' : ''}${
+          s.verified === false ? '<span class="unv">未確認</span>' : ''}${
+          s.precision === 'area' ? '<span class="apx">位置は推定</span>' : ''}</span>
+        <span class="s">${Math.round(s.score)}</span></div>`;
+    }).join('');
+    el.querySelectorAll('div').forEach(row => row.addEventListener('click', () => {
+      const s = SPOTS.find(x => x.id === row.dataset.id);
+      if (s) map.flyTo({ center:[s.lon, s.lat], zoom: 15 });
+    }));
+  }
+
+  /* ---------- 全部が同じ判定になったときの伝え方 ----------
+     時間雨量が閾値をはるかに超えると、どの地点も同じレベルになる。
+     そこで「この道が危ない」と言い続けても選びようがないので、
+     「どの道も危ない＝運転を控える」に切り替えて伝える。 */
+  function updateExtremeBar(){
+    const ev = evaluate();
+    const bar = document.getElementById('extremeBar');
+    if (!ev.length) { bar.classList.remove('show'); return; }
+    const maxLv = Math.max(...ev.map(s => s.level));
+    const share = ev.filter(s => s.level === maxLv).length / ev.length;
+    if (maxLv >= 3 && share >= 0.9) {
+      bar.innerHTML =
+        `<b>${liveMode ? 'いまの雨' : '時間雨量 ' + rain + 'mm'}では、`
+        + `${Math.round(share*100)}% の地点が「${M.LEVELS[maxLv].name}」です。</b><br>`
+        + 'この雨量では避けられる道がほとんどありません。<b>運転を控えてください。</b>';
+      bar.classList.add('show');
+    } else {
+      bar.classList.remove('show');
+    }
+  }
+
+  /* ---------- 地点名ラベル ----------
+     symbol レイヤは glyphs サーバ（外部）が必須で、通信が細ると日本語ラベルが
+     まるごと出なくなる。防災用途では「通信が死んでも情報が残る」ことを優先し、
+     HTML マーカーで描画する（地点数が数千規模になったら symbol + 自前 glyphs に移行する）。 */
+  let labelMarkers = [];
+  function renderLabels(data){
+    labelMarkers.forEach(m => m.remove());
+    labelMarkers = data.features.map(f => {
+      const el = document.createElement('div');
+      el.className = 'spot-label';
+      el.textContent = f.properties.name;
+      return new maplibregl.Marker({ element: el, anchor: 'top', offset: [0, 10] })
+        .setLngLat(f.geometry.coordinates).addTo(map);
+    });
+    updateLabelVisibility();
+  }
+  function updateLabelVisibility(){
+    document.getElementById('map').classList.toggle('labels-on', map.getZoom() >= 12);
+  }
+
+  /* ---------- 凡例 ---------- */
+  const UNKNOWN_COLOR = '#5b7383';
+  function buildLegend(){
+    document.getElementById('legend').innerHTML = M.LEVELS.map(l =>
+      `<div><span class="sw" style="background:${l.color}"></span>${l.lv} ${l.name}<span class="cnt" data-lv="${l.lv}">0</span></div>`
+    ).join('')
+    // 「雨量が分からない」は平常とは別に数える。平常に混ぜると、
+    // 観測点の無い地域がまるごと安全に見えてしまう。
+    + `<div><span class="sw" style="background:${UNKNOWN_COLOR}"></span>― 不明`
+    + `<span class="cnt" data-lv="unknown">0</span></div>`;
+  }
+  function updateLegendCounts(){
+    const counts = [0,0,0,0,0];
+    let unknown = 0;
+    evaluate().forEach(s => { if (s.unknown) unknown++; else counts[s.level]++; });
+    document.querySelectorAll('.cnt').forEach(el => {
+      el.textContent = (el.dataset.lv === 'unknown' ? unknown : counts[+el.dataset.lv]) + ' 件';
+    });
+  }
+
+  /* ---------- ポップアップ ---------- */
+  function showPopup(f, lngLat){
+    const p = f.properties;
+    const lv = p.unknown
+      ? { lv: '―', name: '不明', color: UNKNOWN_COLOR,
+          text: '近くに雨量の観測点がなく、いまの雨量が分かりません。'
+              + '雨量スライダーで「もしこの雨なら」を確かめてください' }
+      : M.LEVELS[p.level];
+    new maplibregl.Popup({ offset:14, maxWidth:'300px' })
+      .setLngLat(lngLat)
+      .setHTML(`
+        <h3>${p.name}${p.verified ? '' : '<span class="unv">位置は未確認</span>'}${
+          p.precision === 'area' ? '<span class="apx">位置は推定</span>' : ''}</h3>
+        ${p.precision === 'area' ? '<p style="margin:.4em 0;color:#8a78bd">'
+          + '資料に番地が無く、市区町村レベルの推定です。'
+          + 'この地点では現在地アラートを鳴らしません。</p>' : ''}
+        <div><span class="pill" style="background:${lv.color}">レベル${p.level} ${lv.name}</span>
+             <span class="kv" style="margin-left:6px">スコア ${p.score}</span></div>
+        <p style="margin:8px 0 6px">${lv.text}</p>
+        <div class="kv">種別: ${p.kindLabel}</div>
+        <div class="kv">この地点の冠水閾値: <b style="color:var(--fg)">${p.t60} mm/h</b>（周辺との標高差 ${p.dz}m ／ 過去 ${p.hist} 回）</div>
+        <div class="kv" style="margin-top:6px">判定理由: ${p.reason}</div>
+        ${p.note ? `<div class="kv" style="margin-top:6px">${p.note}</div>` : ''}
+        <div class="kv" style="margin-top:8px;font-size:10px">※ダミーデータ。実在の箇所ではありません</div>
+      `)
+      .addTo(map);
+  }
+
+  /* ---------- 現在地とアラート ---------- */
+  function setHere(coord, label){
+    here = coord;
+    map.getSource('me').setData({
+      type:'FeatureCollection',
+      features:[{ type:'Feature', geometry:{ type:'Point', coordinates:coord }, properties:{} }]
+    });
+    document.getElementById('geoStat').innerHTML =
+      `${label}: ${coord[1].toFixed(5)}, ${coord[0].toFixed(5)} を現在地として判定中。`;
+    checkProximity();
+  }
+
+  function checkProximity(){
+    const radius = +document.getElementById('radius').value;
+    const near = evaluate()
+      // 位置が市区町村レベルの推定でしかない地点は、地点として鳴らさない。
+      // 資料に番地が無い県（東京都など）では座標が区の中心付近になり、
+      // 実際の構造物と数km離れることがある。そこで鳴らすと、本当に危ない場所で
+      // 鳴らず無関係な場所で鳴るので、地点を持たないより悪くなる。
+      .filter(s => s.precision !== 'area')
+      // 雨量が分からない地点は、危険とも安全とも言えないので鳴らさない。
+      // 画面では「不明」と出して、判断を利用者に委ねる。
+      .filter(s => !s.unknown)
+      .filter(s => s.level >= Math.max(minLv, 2))          // レベル1は通知しない（docs/04-6）
+      .map(s => Object.assign({}, s, { dist: M.distanceM(here[0], here[1], s.lon, s.lat) }))
+      .filter(s => s.dist <= radius)
+      .sort((a,b) => b.level - a.level || a.dist - b.dist);
+
+    if (!near.length) { hideAlert(); return; }
+
+    const top = near[0];
+    const last = notified.get(top.id) || 0;
+    if (Date.now() - last < COOLDOWN_MS) return;          // クールダウン
+    notified.set(top.id, Date.now());
+    fireAlert(top);
+  }
+
+  function fireAlert(s){
+    const lv = M.LEVELS[s.level];
+    const el = document.getElementById('alert');
+    el.style.background = lv.color;
+    document.getElementById('alertLv').textContent = `レベル${s.level}　${lv.name}`;
+    document.getElementById('alertTtl').textContent =
+      `${Math.round(s.dist/10)*10}m先　${M.KIND_LABEL[s.kind] || ''}`;
+    document.getElementById('alertMsg').innerHTML =
+      `<b>${s.name}</b>${s.verified === false
+          ? '<span class="unv">位置は未確認</span>' : ''}<br>`
+      + `${lv.text}<br><span style="opacity:.85">${s.reason}</span>`;
+    el.classList.add('show');
+
+    speak(`${Math.round(s.dist/100)*100}メートル先、${M.KIND_LABEL[s.kind]}。${lv.text}。`);
+  }
+
+  /* ---------- 読み上げ ----------
+     iOS Safari は「利用者の操作をきっかけにした発話」しか許可しないため、
+     位置情報のコールバックから直接しゃべらせても無音になることがある。
+     一度［音声を試す］を押してもらうと以降は鳴るので、押されたかを覚えておき、
+     未解錠のまま通知が出たときは画面で案内する。 */
+  let speechUnlocked = false;
+
+  function speak(text){
+    if (!document.getElementById('speak').checked) return;
+    if (!('speechSynthesis' in window)) return;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'ja-JP'; u.rate = 1.05;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+    if (!speechUnlocked) {
+      document.getElementById('speakStat').innerHTML =
+        '読み上げが鳴らない場合は、上の <b>［🔊 音声を試す］</b> を一度押してから、' +
+        'もう一度お試しください（端末の音量とサイレントスイッチもご確認を）。';
+    }
+  }
+
+  document.getElementById('speakTest').addEventListener('click', () => {
+    const stat = document.getElementById('speakStat');
+    if (!('speechSynthesis' in window)) {
+      stat.textContent = 'このブラウザは読み上げに対応していません。通知は画面表示のみになります。';
+      return;
+    }
+    document.getElementById('speak').checked = true;
+    speechUnlocked = true;
+    speak('500メートル先、地下道。冠水の可能性が高い場所です。迂回を検討してください。');
+    stat.innerHTML = '再生しました。実際の通知でもこの声で読み上げます。<br>' +
+      '聞こえない場合は、端末の音量と<b>サイレントスイッチ</b>を確認してください。';
+  });
+  function hideAlert(){ document.getElementById('alert').classList.remove('show'); }
+
+  /* ---------- UI 配線 ---------- */
+  const rangeEl = document.getElementById('rain');
+  rangeEl.addEventListener('input', e => {
+    rain = +e.target.value;
+    document.getElementById('rainNum').textContent = rain;
+    document.querySelectorAll('.presets button').forEach(b =>
+      b.classList.toggle('on', +b.dataset.r === rain));
+    refresh();
+  });
+  document.querySelectorAll('.presets button').forEach(b => {
+    b.addEventListener('click', () => {
+      rangeEl.value = b.dataset.r;
+      rangeEl.dispatchEvent(new Event('input'));
+    });
+  });
+  document.getElementById('minLv').addEventListener('change', e => { minLv = +e.target.value; refresh(); });
+  document.getElementById('radius').addEventListener('change', () => { notified.clear(); if (here) checkProximity(); });
+  document.getElementById('alertClose').addEventListener('click', hideAlert);
+
+  document.getElementById('geoBtn').addEventListener('click', function(){
+    const btn = this;
+    if (watchId != null) {
+      navigator.geolocation.clearWatch(watchId); watchId = null;
+      btn.textContent = '現在地の監視を開始'; btn.classList.add('off');
+      document.getElementById('geoStat').textContent = '停止しました。';
+      return;
+    }
+    if (!navigator.geolocation) {
+      document.getElementById('geoStat').textContent = 'この環境では位置情報を利用できません。Shift＋クリックで代用してください。';
+      return;
+    }
+    document.getElementById('geoStat').textContent = '位置情報を取得中…';
+    watchId = navigator.geolocation.watchPosition(
+      pos => { setHere([pos.coords.longitude, pos.coords.latitude], '現在地'); },
+      err => { document.getElementById('geoStat').innerHTML =
+                 '取得できませんでした（' + err.message + '）。<br>Shift＋クリックで現在地を指定できます。'; },
+      { enableHighAccuracy:true, maximumAge:10000, timeout:15000 }
+    );
+    btn.textContent = '監視を停止'; btn.classList.remove('off');
+  });
+
+  /* ---------- 降水ナウキャスト（参考・失敗しても本体に影響しない） ---------- */
+  document.getElementById('nowcast').addEventListener('change', async function(){
+    const stat = document.getElementById('ncStat');
+    if (!this.checked) {
+      if (map.getLayer('nowcast')) map.removeLayer('nowcast');
+      if (map.getSource('nowcast')) map.removeSource('nowcast');
+      stat.textContent = 'オフ。';
+      return;
+    }
+    stat.textContent = '時刻情報を取得中…';
+    try {
+      const res = await fetch('https://www.jma.go.jp/bosai/jmatile/data/nowc/targetTimes_N1.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const times = await res.json();
+      const t = times.find(x => x.validtime === x.basetime) || times[0];
+      map.addSource('nowcast', {
+        type:'raster', tileSize:256, minzoom:4, maxzoom:10,
+        tiles:[`https://www.jma.go.jp/bosai/jmatile/data/nowc/${t.basetime}/none/${t.validtime}/surf/hrpns/{z}/{x}/{y}.png`],
+        attribution:'気象庁 高解像度降水ナウキャスト'
+      });
+      map.addLayer({ id:'nowcast', type:'raster', source:'nowcast', paint:{ 'raster-opacity':0.55 } }, 'spots-halo');
+      stat.innerHTML = `表示中（基準時刻 ${t.basetime}）。<br>※本番ではサーバ側で取得し、色→雨量に変換して危険度計算に使う設計です。`;
+    } catch (e) {
+      this.checked = false;
+      stat.innerHTML = '取得できませんでした（' + e.message + '）。ブラウザから直接叩くとCORS等で失敗することがあります。'
+        + '本番は<b>サーバ側で取得</b>する設計です（<code>docs/05-4-1</code>）。';
+    }
+  });
+})();
+</script>
+</body>
+</html>

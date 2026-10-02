@@ -1,0 +1,8 @@
+{
+  "_note": "テスト用のダミー観測値。[観測値, 品質フラグ] の構造は気象庁 map/{時刻}.json に合わせてある。実際の観測値ではない。",
+  "90001": { "temp": [26.1, 0], "precipitation10m": [8.5, 0], "precipitation1h": [48.0, 0], "precipitation3h": [92.0, 0], "precipitation24h": [140.0, 0] },
+  "90002": { "temp": [25.8, 0], "precipitation10m": [3.0, 0], "precipitation1h": [18.0, 0], "precipitation3h": [40.0, 0], "precipitation24h": [70.0, 0] },
+  "90003": { "temp": [26.4, 0], "precipitation10m": [0.5, 0], "precipitation1h": [4.0, 0],  "precipitation3h": [9.0, 0],   "precipitation24h": [12.0, 0] },
+  "90004": { "temp": [25.2, 0], "precipitation10m": [null, 1], "precipitation1h": [null, 1], "precipitation3h": [null, 1] },
+  "90099": { "temp": [30.0, 0], "precipitation10m": [0.0, 0], "precipitation1h": [0.0, 0],  "precipitation3h": [0.0, 0] }
+}

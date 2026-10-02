@@ -1,0 +1,2941 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "kanagawa",
+  "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "kanagawa-0001",
+      "name": "須馬地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.370697,
+      "lat": 35.320698,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "129号",
+      "road_type": "国道(県管理)",
+      "address": "神奈川県平塚市須馬地下道",
+      "locality": "須馬地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0002",
+      "name": "二宮地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.264586,
+      "lat": 35.310848,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県二宮町二宮地下道",
+      "locality": "二宮地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 947m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 946.9,
+          "matched": "道路トンネル",
+          "osm_id": 1038020671,
+          "osm_name": "二宮大磯隧道",
+          "confidence": "中",
+          "why": "名称が一致（二宮大磯隧道）。ただし出発点が市区町村の中心で、そこから 947m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0003",
+      "name": "岡崎第2地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.315506,
+      "lat": 35.378708,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県伊勢原市岡崎第2地下道",
+      "locality": "岡崎第2地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.7,
+        "note": "住所に丁目・番地が無い（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0004",
+      "name": "下糟屋地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.328445,
+      "lat": 35.403839,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県伊勢原市下糟屋地下道",
+      "locality": "下糟屋地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0005",
+      "name": "国府地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.272491,
+      "lat": 35.303722,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県大磯町国府地下道",
+      "locality": "国府地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0006",
+      "name": "浜岳地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.349579,
+      "lat": 35.335224,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県平塚市浜岳地下道",
+      "locality": "浜岳地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0007",
+      "name": "花水地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.311371,
+      "lat": 35.306812,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県大磯町花水地下道",
+      "locality": "花水地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0008",
+      "name": "平沢地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.205231,
+      "lat": 35.36816,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県秦野市平沢地下道",
+      "locality": "平沢地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0009",
+      "name": "桜台小田急アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.312714,
+      "lat": 35.392834,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県伊勢原市桜台小田急アンダー",
+      "locality": "桜台小田急アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0010",
+      "name": "八幡ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.546936,
+      "lat": 35.319225,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県鎌倉市八幡ガード",
+      "locality": "八幡ガード",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0011",
+      "name": "中島地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.375122,
+      "lat": 35.328484,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県茅ヶ崎市中島地下道",
+      "locality": "中島地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0012",
+      "name": "寒川地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.38385,
+      "lat": 35.372971,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県寒川町寒川地下道",
+      "locality": "寒川地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0013",
+      "name": "湘南辻堂地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.469269,
+      "lat": 35.394341,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道",
+      "road_type": "県道",
+      "address": "神奈川県藤沢市湘南辻堂地下道",
+      "locality": "湘南辻堂地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0014",
+      "name": "高倉小田急アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.47142,
+      "lat": 35.412781,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県藤沢市高倉小田急アンダー",
+      "locality": "高倉小田急アンダー",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0015",
+      "name": "葛原地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.432602,
+      "lat": 35.407352,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県藤沢市葛原地下道",
+      "locality": "葛原地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0016",
+      "name": "小田急線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.514771,
+      "lat": 35.341122,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県藤沢市小田急線高架下",
+      "locality": "小田急線高架下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0017",
+      "name": "畝田ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.152222,
+      "lat": 35.264725,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道",
+      "road_type": "県道",
+      "address": "神奈川県小田原市畝田ガード",
+      "locality": "畝田ガード",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0018",
+      "name": "中津トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.369659,
+      "lat": 35.477604,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "129号",
+      "road_type": "国道(県管理)",
+      "address": "神奈川県厚木市中津トンネル",
+      "locality": "中津トンネル",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0019",
+      "name": "河原立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.156387,
+      "lat": 35.326668,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県大井町河原立体",
+      "locality": "河原立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0020",
+      "name": "御殿場線ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.083893,
+      "lat": 35.360558,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県山北町御殿場線ガード",
+      "locality": "御殿場線ガード",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0021",
+      "name": "西久保地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.3936,
+      "lat": 35.347977,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道",
+      "road_type": "県道",
+      "address": "神奈川県茅ヶ崎市西久保地下道",
+      "locality": "西久保地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0022",
+      "name": "矢作",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.195389,
+      "lat": 35.272972,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道",
+      "road_type": "県道",
+      "address": "神奈川県小田原市小田原厚木道路アンダー",
+      "locality": "小田原厚木道路アンダー(矢作)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0023",
+      "name": "戸田立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.363998,
+      "lat": 35.401203,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "129号",
+      "road_type": "国道(県管理)",
+      "address": "神奈川県厚木市戸田立体",
+      "locality": "戸田立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0024",
+      "name": "中央地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.335403,
+      "lat": 35.342587,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道幹道43号海岸南中線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市中央地下道",
+      "locality": "中央地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0025",
+      "name": "本宿地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.349579,
+      "lat": 35.335224,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道幹道45号平塚海岸秦野線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市本宿地下道",
+      "locality": "本宿地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0026",
+      "name": "岡崎地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.303482,
+      "lat": 35.374817,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道幹道23号大句丸島線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市岡崎地下道",
+      "locality": "岡崎地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0027",
+      "name": "小厚65",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.331665,
+      "lat": 35.376118,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道小鍋島26号線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市小厚65",
+      "locality": "小厚65",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0028",
+      "name": "小厚64",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.331665,
+      "lat": 35.376118,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道小鍋島25号線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市小厚64",
+      "locality": "小厚64",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0029",
+      "name": "小厚62",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.331665,
+      "lat": 35.376118,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道城所1号線",
+      "road_type": "市道",
+      "address": "神奈川県平塚市小厚62",
+      "locality": "小厚62",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0030",
+      "name": "小厚48",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.331665,
+      "lat": 35.376118,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "神奈川県平塚市小厚48",
+      "locality": "小厚48",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0031",
+      "name": "小塚地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.514771,
+      "lat": 35.341122,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "村岡小塚線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市小塚地下道",
+      "locality": "小塚地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0032",
+      "name": "高山地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.47142,
+      "lat": 35.412781,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鵠沼海岸引地線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市高山地下道",
+      "locality": "高山地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0033",
+      "name": "中学通り線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.491241,
+      "lat": 35.338879,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "中学通り線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市中学通り線高架下",
+      "locality": "中学通り線高架下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0034",
+      "name": "土棚石川線湘南台第一地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.452484,
+      "lat": 35.400936,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "土棚石川線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市土棚石川線湘南台第一地下道",
+      "locality": "土棚石川線湘南台第一地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0035",
+      "name": "高倉遠藤線湘南台地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.47142,
+      "lat": 35.412781,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "高倉遠藤線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市高倉遠藤線湘南台地下道",
+      "locality": "高倉遠藤線湘南台地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0036",
+      "name": "土棚石川線湘南台第二地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.452484,
+      "lat": 35.400936,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "土棚石川線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市土棚石川線湘南台第二地下道",
+      "locality": "土棚石川線湘南台第二地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0037",
+      "name": "西富地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.487335,
+      "lat": 35.348228,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "藤沢436号線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市西富地下道",
+      "locality": "西富地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0038",
+      "name": "城南地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.445343,
+      "lat": 35.346447,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "明治137号線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市城南地下道",
+      "locality": "城南地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0039",
+      "name": "藤沢駅北口地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.482986,
+      "lat": 35.347878,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "藤沢38号線",
+      "road_type": "市道",
+      "address": "神奈川県藤沢市藤沢駅北口地下道",
+      "locality": "藤沢駅北口地下道",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0040",
+      "name": "扇町荻窪線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.158339,
+      "lat": 35.259707,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0084",
+      "road_type": "市道",
+      "address": "神奈川県小田原市扇町一丁目1番",
+      "locality": "扇町一丁目1番地先(扇町荻窪線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 44m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 43.5,
+          "matched": "道路トンネル",
+          "osm_id": 320432593,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（44m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0041",
+      "name": "小田原駅西口東町線",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.158271,
+      "lat": 35.26369,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0005",
+      "road_type": "市道",
+      "address": "神奈川県小田原市扇町一丁目25番22号",
+      "locality": "扇町一丁目25番22号地先(小田原駅西口東町線)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 16m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 15.5,
+          "matched": "道路トンネル",
+          "osm_id": 320425480,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（16m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0042",
+      "name": "鴨宮129番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.183692,
+      "lat": 35.276486,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0058",
+      "road_type": "市道",
+      "address": "神奈川県小田原市鴨宮129番",
+      "locality": "鴨宮129番地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 28m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 28.5,
+          "matched": "道路トンネル",
+          "osm_id": 995988293,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（28m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0043",
+      "name": "田島899番地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.199326,
+      "lat": 35.294865,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0089",
+      "road_type": "市道",
+      "address": "神奈川県小田原市田島899番",
+      "locality": "田島899番地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0044",
+      "name": "曽我岸202番地1号地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.185898,
+      "lat": 35.313808,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0068",
+      "road_type": "市道",
+      "address": "神奈川県小田原市曽我岸202番地1号",
+      "locality": "曽我岸202番地1号地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0045",
+      "name": "前川876番地7号地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.229279,
+      "lat": 35.287659,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道5019",
+      "road_type": "市道",
+      "address": "神奈川県小田原市前川876番地7号",
+      "locality": "前川876番地7号地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0046",
+      "name": "小八幡4丁目10番地19号地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.198876,
+      "lat": 35.278701,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道0060",
+      "road_type": "市道",
+      "address": "神奈川県小田原市小八幡4丁目10番地19号",
+      "locality": "小八幡4丁目10番地19号地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 41m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 41.4,
+          "matched": "道路トンネル",
+          "osm_id": 320047973,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（41m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0047",
+      "name": "本村地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.414812,
+      "lat": 35.333006,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0101号線",
+      "road_type": "市道",
+      "address": "神奈川県茅ヶ崎市若松町2番地",
+      "locality": "若松町2番地(本村地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "OSMの道路トンネルへ 59m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 59.3,
+          "matched": "道路トンネル",
+          "osm_id": 43104055,
+          "osm_name": "一中通り",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（59m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0048",
+      "name": "鳥井戸地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.39183,
+      "lat": 35.328808,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "0202号線",
+      "road_type": "市道",
+      "address": "神奈川県茅ヶ崎市南湖一丁目",
+      "locality": "南湖一丁目(鳥井戸地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0049",
+      "name": "厚木市金田1294",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.375941,
+      "lat": 35.464679,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "B-1号線",
+      "road_type": "市道",
+      "address": "神奈川県厚木市金田1294",
+      "locality": "厚木市金田1294",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 100m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 100.4,
+          "matched": "道路トンネル",
+          "osm_id": 406773577,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 100m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0050",
+      "name": "厚木市林5-3-9",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.353487,
+      "lat": 35.457426,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "E-419号線",
+      "road_type": "市道",
+      "address": "神奈川県厚木市林5-3-9",
+      "locality": "厚木市林5-3-9",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 48m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 48.5,
+          "matched": "道路トンネル",
+          "osm_id": 172339541,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（48m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0051",
+      "name": "厚木市戸田2530-3",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.366928,
+      "lat": 35.405964,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "厚木戸田線",
+      "road_type": "市道",
+      "address": "神奈川県厚木市戸田2530-3",
+      "locality": "厚木市戸田2530-3",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0052",
+      "name": "厚木市愛名1307",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.327226,
+      "lat": 35.442831,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "F-541号線",
+      "road_type": "市道",
+      "address": "神奈川県厚木市愛名1307",
+      "locality": "厚木市愛名1307",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 43m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 43.1,
+          "matched": "道路トンネル",
+          "osm_id": 312062471,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（43m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0053",
+      "name": "小田急線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.465058,
+      "lat": 35.436462,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "中福田南庭線",
+      "road_type": "市道",
+      "address": "神奈川県大和市渋谷1-9-11先南側",
+      "locality": "渋谷1-9-11先南側(小田急線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 58m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 58.2,
+          "matched": "道路トンネル",
+          "osm_id": 160490924,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（58m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0054",
+      "name": "二ツ橋北側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.315506,
+      "lat": 35.378708,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "167号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市岡崎",
+      "locality": "岡崎(二ツ橋北側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0055",
+      "name": "伊勢原IC南側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.328278,
+      "lat": 35.386017,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1049号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市上平間・下平間",
+      "locality": "上平間・下平間(伊勢原IC南側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0056",
+      "name": "八反地橋南西側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.324615,
+      "lat": 35.395275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "神奈川県伊勢原市沼目・沼目6丁目",
+      "locality": "沼目・沼目6丁目(八反地橋南西側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0057",
+      "name": "筒川・沼目橋南側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.333008,
+      "lat": 35.394424,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "農道724号線",
+      "road_type": "認定外道路",
+      "address": "神奈川県伊勢原市沼目7丁目",
+      "locality": "沼目7丁目(筒川・沼目橋南側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "部分一致",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0058",
+      "name": "筒川・沼目橋北側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.324615,
+      "lat": 35.395275,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路",
+      "road_type": "認定外道路",
+      "address": "神奈川県伊勢原市沼目",
+      "locality": "沼目(筒川・沼目橋北側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0059",
+      "name": "渋田川・渋田川橋北側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.328445,
+      "lat": 35.403839,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "967号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市下糟屋",
+      "locality": "下糟屋(渋田川・渋田川橋北側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0060",
+      "name": "見附島歩道橋南西側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.340179,
+      "lat": 35.405212,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "812号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市見附島",
+      "locality": "見附島(見附島歩道橋南西側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0061",
+      "name": "石田小学校西側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.341003,
+      "lat": 35.416183,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "810号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市石田",
+      "locality": "石田(石田小学校西側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0062",
+      "name": "伊志田高校南側国道271号線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.341003,
+      "lat": 35.416183,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "62号線",
+      "road_type": "市道",
+      "address": "神奈川県伊勢原市石田",
+      "locality": "石田(伊志田高校南側国道271号線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0063",
+      "name": "国道246号線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.402756,
+      "lat": 35.464054,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1964号線",
+      "road_type": "市道",
+      "address": "神奈川県海老名市国分地下道",
+      "locality": "国分地下道(国道246号線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2163m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2162.7,
+          "matched": "道路トンネル",
+          "osm_id": 200402741,
+          "osm_name": "1964",
+          "confidence": "中",
+          "why": "路線番号が一致（1964）。ただし出発点が市区町村の中心で、そこから 2163m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0064",
+      "name": "田中架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.298172,
+      "lat": 35.313038,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線2号線",
+      "road_type": "町道",
+      "address": "神奈川県大磯町西小磯626番",
+      "locality": "大磯町西小磯626番地先(田中架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0065",
+      "name": "城山架道橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.293695,
+      "lat": 35.307307,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "幹線18号線",
+      "road_type": "町道",
+      "address": "神奈川県大磯町西小磯542番",
+      "locality": "大磯町西小磯542番地先(城山架道橋)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 71m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 71.2,
+          "matched": "道路トンネル",
+          "osm_id": 201896888,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（71m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0066",
+      "name": "松浦地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.24855,
+      "lat": 35.295391,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2級町道11号線",
+      "road_type": "町道",
+      "address": "神奈川県二宮町山西",
+      "locality": "二宮町山西(松浦地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0067",
+      "name": "御殿場線架道橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.142577,
+      "lat": 35.346093,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "町道5号線",
+      "road_type": "町道",
+      "address": "神奈川県松田町松田惣領1156-7",
+      "locality": "松田惣領1156-7地先(御殿場線架道橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 42m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 42.4,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 999322564,
+          "osm_name": "小田急小田原線・JR御殿場線連絡線",
+          "confidence": "高",
+          "why": "路線名が一致（小田急小田原線・JR御殿場線連絡線）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0068",
+      "name": "下寺尾地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.395029,
+      "lat": 35.362437,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "7677号線",
+      "road_type": "市道",
+      "address": "神奈川県茅ヶ崎市下寺尾156",
+      "locality": "下寺尾156(下寺尾地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 38.0,
+          "matched": "道路トンネル",
+          "osm_id": 165944000,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0069",
+      "name": "東海道線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.679977,
+      "lat": 35.512283,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鶴見溝ノ口",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県横浜市鶴見区鶴見中央二丁目",
+      "locality": "鶴見区鶴見中央二丁目(東海道線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0070",
+      "name": "貨物線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.687012,
+      "lat": 35.520908,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市場38号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市鶴見区市場上町",
+      "locality": "鶴見区市場上町(貨物線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0071",
+      "name": "東海道線下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.63147,
+      "lat": 35.479839,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "認定外道路(東神奈川駅北側地下道)",
+      "road_type": "認定外道路",
+      "address": "神奈川県横浜市神奈川区西神奈川一丁目",
+      "locality": "神奈川区西神奈川一丁目(東海道線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0072",
+      "name": "国道1号オンランプ下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.622055,
+      "lat": 35.463444,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "高島台207号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市西区高島二丁目",
+      "locality": "西区高島二丁目(国道1号オンランプ下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0073",
+      "name": "紅葉橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.627945,
+      "lat": 35.453476,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "高島関内線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市西区桜木町",
+      "locality": "西区桜木町(紅葉橋下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0074",
+      "name": "環2東川島ランプ",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.575043,
+      "lat": 35.47636,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "環状2号線(東川島ランプ)",
+      "road_type": "市道",
+      "address": "神奈川県横浜市保土ケ谷区東川島町",
+      "locality": "保土ケ谷区東川島町(環2東川島ランプ)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0075",
+      "name": "東海道線下・元町ガード",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.580368,
+      "lat": 35.449574,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "保土ケ谷二俣川線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市保土ケ谷区初音ケ丘",
+      "locality": "保土ケ谷区初音ケ丘(東海道線下・元町ガード)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0076",
+      "name": "隧道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.572007,
+      "lat": 35.452562,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "今井249号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市保土ケ谷区今井町",
+      "locality": "保土ケ谷区今井町(隧道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 1632m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1631.6,
+          "matched": "道路トンネル",
+          "osm_id": 125705635,
+          "osm_name": "藤塚隧道",
+          "confidence": "中",
+          "why": "名称が一致（藤塚隧道）。ただし出発点が市区町村の中心で、そこから 1632m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0077",
+      "name": "保土ヶ谷バイパス下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.497543,
+      "lat": 35.492565,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "上川井34号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市旭区上川井町",
+      "locality": "旭区上川井町(保土ヶ谷バイパス下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0078",
+      "name": "根岸線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.629425,
+      "lat": 35.413628,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "磯子181号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市磯子区原町",
+      "locality": "磯子区原町(根岸線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0079",
+      "name": "新幹線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.604141,
+      "lat": 35.505978,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "小机355号線(新横浜通り)",
+      "road_type": "市道",
+      "address": "神奈川県横浜市港北区鳥山町",
+      "locality": "港北区鳥山町(新幹線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0080",
+      "name": "大和バイパス下・滝沢隧道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.48912,
+      "lat": 35.520386,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "環状4号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市緑区長津田町",
+      "locality": "緑区長津田町(大和バイパス下・滝沢隧道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0081",
+      "name": "根岸線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.537064,
+      "lat": 35.371319,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "飯島302号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市栄区飯島町",
+      "locality": "栄区飯島町(根岸線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0082",
+      "name": "中田さちが丘線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.522125,
+      "lat": 35.427601,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "上矢部112号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市泉区岡津町",
+      "locality": "泉区岡津町(中田さちが丘線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0083",
+      "name": "相鉄線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.49733,
+      "lat": 35.469978,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "丸子中山茅ヶ崎",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県横浜市瀬谷区二ツ橋町",
+      "locality": "瀬谷区二ツ橋町(相鉄線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0084",
+      "name": "JR貨物線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.630966,
+      "lat": 35.46991,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "高島台51号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市神奈川区栄町",
+      "locality": "神奈川区栄町(JR貨物線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0085",
+      "name": "首都高みなとみらい出口下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.630646,
+      "lat": 35.457123,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "西戸部182号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市西区みなとみらい三丁目",
+      "locality": "西区みなとみらい三丁目(首都高みなとみらい出口下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0086",
+      "name": "京急線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.618958,
+      "lat": 35.32177,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "六浦103号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市金沢区六浦東二丁目",
+      "locality": "金沢区六浦東二丁目(京急線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0087",
+      "name": "赤関ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.551712,
+      "lat": 35.423767,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "平戸246号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市戸塚区前田町",
+      "locality": "戸塚区前田町(赤関ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0088",
+      "name": "国道1号下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.531281,
+      "lat": 35.419777,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "矢部111号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市戸塚区上矢部町",
+      "locality": "戸塚区上矢部町(国道1号下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0089",
+      "name": "新幹線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.485992,
+      "lat": 35.40535,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "宮沢92号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市泉区和泉町",
+      "locality": "泉区和泉町(新幹線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0090",
+      "name": "東急鉄道東横線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.654785,
+      "lat": 35.554909,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "日吉39号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市港北区日吉三丁目",
+      "locality": "港北区日吉三丁目(東急鉄道東横線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0091",
+      "name": "入之谷第1隧道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.550334,
+      "lat": 35.445363,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "大池348号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市保土ケ谷区今井町1030番",
+      "locality": "保土ケ谷区今井町1030番地先(入之谷第1隧道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 28m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 28.2,
+          "matched": "道路トンネル",
+          "osm_id": 1443418342,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（28m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0092",
+      "name": "JR線下国道1号線とつか地下道",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「地下道」から推定",
+      "lon": 139.527344,
+      "lat": 35.391075,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "戸塚559号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市戸塚区戸塚町5150-4",
+      "locality": "戸塚区戸塚町5150-4(JR線下国道1号線とつか地下道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0093",
+      "name": "首都高速横浜環状北線下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.604666,
+      "lat": 35.517703,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "川向284号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市港北区新羽町2754-2",
+      "locality": "港北区新羽町2754-2(首都高速横浜環状北線下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 8m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 7.8,
+          "matched": "道路トンネル",
+          "osm_id": 481562174,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（8m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0094",
+      "name": "JR線・京浜急行ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.703973,
+      "lat": 35.53493,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "409号",
+      "road_type": "国道(市管理)",
+      "address": "神奈川県川崎市川崎区本町2丁目2番地",
+      "locality": "川崎区本町2丁目2番地(JR線・京浜急行ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの掘割・地下（layer<0）へ 38m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 37.9,
+          "matched": "掘割・地下（layer<0）",
+          "osm_id": 1387430892,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（38m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0095",
+      "name": "JR線・京浜急行ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.699731,
+      "lat": 35.533345,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道川崎府中",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県川崎市川崎区駅前本町19番地",
+      "locality": "川崎区駅前本町19番地(JR線・京浜急行ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "OSMの掘割・地下（layer<0）へ 19m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 18.9,
+          "matched": "掘割・地下（layer<0）",
+          "osm_id": 1013013138,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（19m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0096",
+      "name": "JR貨物線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.716016,
+      "lat": 35.511448,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鋼管通63号線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市川崎区鋼管通5丁目2番地",
+      "locality": "川崎区鋼管通5丁目2番地(JR貨物線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 20m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 19.9,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 161396348,
+          "osm_name": "東海道貨物線",
+          "confidence": "高",
+          "why": "路線名が一致（東海道貨物線）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0097",
+      "name": "JR貨物線高架下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.715457,
+      "lat": 35.511089,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "鋼管通61号線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市川崎区鋼管通5丁目3番地",
+      "locality": "川崎区鋼管通5丁目3番地(JR貨物線高架下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 55m 寄せた位置（確からしさ 高）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 54.8,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 161396348,
+          "osm_name": "東海道貨物線",
+          "confidence": "高",
+          "why": "路線名が一致（東海道貨物線）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0098",
+      "name": "JR南武支線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.700403,
+      "lat": 35.51732,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "貝塚京町線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市川崎区小田1丁目4番地",
+      "locality": "川崎区小田1丁目4番地(JR南武支線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 87m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 87.4,
+          "matched": "道路トンネル",
+          "osm_id": 628815654,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 87m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0099",
+      "name": "JR線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.693068,
+      "lat": 35.528253,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "川崎町田",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県川崎市幸区大宮町31番地",
+      "locality": "幸区大宮町31番地(JR線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 73m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 72.9,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 136161641,
+          "osm_name": "JR南武線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（73m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0100",
+      "name": "国道1号ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.692673,
+      "lat": 35.553471,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道幸多摩線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市幸区東古市場1番地",
+      "locality": "幸区東古市場1番地(国道1号ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "住所の末尾（丁目・番地）が一致しない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0101",
+      "name": "JR南武線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.656355,
+      "lat": 35.57597,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "小杉町19号線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市中原区小杉町3丁目269番地",
+      "locality": "中原区小杉町3丁目269番地(JR南武線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 7m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 6.7,
+          "matched": "道路トンネル",
+          "osm_id": 1346619331,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（7m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0102",
+      "name": "東急鉄道東横線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.650406,
+      "lat": 35.558846,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "木月144号線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市中原区木月3丁目42番",
+      "locality": "中原区木月3丁目42番地先(東急鉄道東横線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "資料は東急鉄道東横線なのに、別の路線（東急東横線）しか近くにありません。座標は動かしていません — 地図で東急鉄道東横線を探して合わせてください",
+        "verified_at": null
+      },
+      "params": {
+        "snap_hint": {
+          "not_applied": true,
+          "nearby": "鉄道橋（ガード下の手がかり） 東急東横線",
+          "distance_m": 13.5,
+          "why": "資料は東急鉄道東横線なのに、別の路線（東急東横線）しか近くにありません",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0103",
+      "name": "第3京浜及びJR南武線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.623624,
+      "lat": 35.590373,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "二子千年線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市高津区末長1429番地",
+      "locality": "高津区末長1429番地(第3京浜及びJR南武線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 1.0,
+        "note": "OSMの道路トンネルへ 5m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 5.2,
+          "matched": "道路トンネル",
+          "osm_id": 46875292,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（5m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0104",
+      "name": "矢掛立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "一般県道相模原立川",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県相模原市矢掛立体交差",
+      "locality": "矢掛立体交差",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0105",
+      "name": "新昭和橋下",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道鍛冶谷相模原",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県相模原市新昭和橋下",
+      "locality": "新昭和橋下",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0106",
+      "name": "淵野辺立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道相模原大蔵町",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県相模原市淵野辺立体",
+      "locality": "淵野辺立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0107",
+      "name": "やすらぎの道立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道東橋本大山",
+      "road_type": "市道",
+      "address": "神奈川県相模原市やすらぎの道立体",
+      "locality": "やすらぎの道立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0108",
+      "name": "共和嶽之内立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道嶽之内当麻",
+      "road_type": "市道",
+      "address": "神奈川県相模原市共和嶽之内立体",
+      "locality": "共和嶽之内立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0109",
+      "name": "南大野立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 139.430466,
+      "lat": 35.530323,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道南大野",
+      "road_type": "市道",
+      "address": "神奈川県相模原市南大野立体交差",
+      "locality": "南大野立体交差",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0110",
+      "name": "相模大野立体交差",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「立体交差」から推定",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道相模大野東通",
+      "road_type": "市道",
+      "address": "神奈川県相模原市相模大野立体交差",
+      "locality": "相模大野立体交差",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0111",
+      "name": "橋本小山ふれあい立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.353123,
+      "lat": 35.58818,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道大山氷川",
+      "road_type": "市道",
+      "address": "神奈川県相模原市橋本小山ふれあい立体",
+      "locality": "橋本小山ふれあい立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 2613m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 2613.1,
+          "matched": "道路トンネル",
+          "osm_id": 110281409,
+          "osm_name": "橋本小山ふれあい立体",
+          "confidence": "中",
+          "why": "名称が一致（橋本小山ふれあい立体）。ただし出発点が市区町村の中心で、そこから 2613m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0112",
+      "name": "鶴の台立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道上鶴間",
+      "road_type": "市道",
+      "address": "神奈川県相模原市鶴の台立体",
+      "locality": "鶴の台立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0113",
+      "name": "下当麻立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "主要地方道相模原町田",
+      "road_type": "県道(市管理)",
+      "address": "神奈川県相模原市下当麻立体",
+      "locality": "下当麻立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0114",
+      "name": "相原元橋本立体",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.373337,
+      "lat": 35.571388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道相原宮下",
+      "road_type": "市道",
+      "address": "神奈川県相模原市相原元橋本立体",
+      "locality": "相原元橋本立体",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0115",
+      "name": "高島トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.625412,
+      "lat": 35.46199,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1号",
+      "road_type": "国道",
+      "address": "神奈川県横浜市西区高島町",
+      "locality": "横浜市西区高島町(高島トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0116",
+      "name": "箱根町山崎地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.106949,
+      "lat": 35.232388,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1号",
+      "road_type": "国道",
+      "address": "神奈川県箱根町山崎",
+      "locality": "箱根町山崎地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0117",
+      "name": "原宿トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.519898,
+      "lat": 35.388484,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "1号",
+      "road_type": "国道",
+      "address": "神奈川県横浜市戸塚区",
+      "locality": "横浜市戸塚区(原宿トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "OSMの道路トンネルへ 1779m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 1778.6,
+          "matched": "道路トンネル",
+          "osm_id": 160105576,
+          "osm_name": "国道1号",
+          "confidence": "中",
+          "why": "路線番号が一致（1）。ただし出発点が市区町村の中心で、そこから 1779m 寄せています。同名の別の構造物でないか確認してください",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0118",
+      "name": "下鶴間トンネル",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.459305,
+      "lat": 35.497635,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "神奈川県大和市下鶴間",
+      "locality": "大和市下鶴間(下鶴間トンネル)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0119",
+      "name": "浮島公園前交差点付近",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.776184,
+      "lat": 35.522869,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "409号",
+      "road_type": "国道",
+      "address": "神奈川県川崎市川崎区浮島町",
+      "locality": "川崎区浮島町地先(浮島公園前交差点付近)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0120",
+      "name": "目黒交差点付近の側道",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.469711,
+      "lat": 35.49575,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "神奈川県横浜市瀬谷区目黒町",
+      "locality": "瀬谷区目黒町地先(目黒交差点付近の側道)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0121",
+      "name": "本町三丁目交差点付近",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.662231,
+      "lat": 35.281929,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "16号",
+      "road_type": "国道",
+      "address": "神奈川県横須賀市本町三丁目",
+      "locality": "横須賀市本町三丁目地先(本町三丁目交差点付近)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0122",
+      "name": "JR相模線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.390853,
+      "lat": 35.446146,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "479号線",
+      "road_type": "市道",
+      "address": "神奈川県海老名市市道53号線バイパス",
+      "locality": "市道53号線バイパス(JR相模線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.5,
+        "note": "OSMの道路トンネルへ 27m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 26.9,
+          "matched": "道路トンネル",
+          "osm_id": 968860956,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（27m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0123",
+      "name": "東急鉄道東横線ガード下",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「ガード」から推定",
+      "lon": 139.655183,
+      "lat": 35.566727,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "中原9号線",
+      "road_type": "市道",
+      "address": "神奈川県川崎市中原区木月伊勢町8番",
+      "locality": "川崎市中原区木月伊勢町8番地先(東急鉄道東横線ガード下)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 1.0,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 139m 寄せた位置（確からしさ 低）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 139.1,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 1160699701,
+          "osm_name": "",
+          "confidence": "低",
+          "why": "名前が一致せず 139m 離れている。別の構造物を掴んでいる可能性があります",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0124",
+      "name": "西部水再生センター前",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.494171,
+      "lat": 35.367359,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "影取41号線",
+      "road_type": "市道",
+      "address": "神奈川県横浜市戸塚区東俣野町",
+      "locality": "戸塚区東俣野町(西部水再生センター前)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0125",
+      "name": "伊勢原市串橋",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.288956,
+      "lat": 35.388004,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "246号",
+      "road_type": "国道",
+      "address": "神奈川県伊勢原市串橋",
+      "locality": "伊勢原市串橋",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0126",
+      "name": "JR相模線アンダー",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダーパス」から推定",
+      "lon": 139.38179,
+      "lat": 35.455582,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "2671号",
+      "road_type": "市道",
+      "address": "神奈川県海老名市上郷河原口線アンダーパス",
+      "locality": "上郷河原口線アンダーパス(JR相模線アンダー)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "kanagawa-0127",
+      "name": "早川二丁目1番地4号地先",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.145387,
+      "lat": 35.243667,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道1072",
+      "road_type": "市道",
+      "address": "神奈川県小田原市早川二丁目1番地4号",
+      "locality": "早川二丁目1番地4号地先",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.8,
+        "note": "OSMの鉄道橋（ガード下の手がかり）へ 12m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 12.5,
+          "matched": "鉄道橋（ガード下の手がかり）",
+          "osm_id": 797345745,
+          "osm_name": "東海道新幹線",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（12m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "kanagawa-0128",
+      "name": "聖天川西側交差点",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.627792,
+      "lat": 35.389683,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "357号",
+      "road_type": "国道",
+      "address": "神奈川県横浜市磯子区新杉田町",
+      "locality": "横浜市磯子区新杉田町(聖天川西側交差点)",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}

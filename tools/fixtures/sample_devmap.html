@@ -1,0 +1,17 @@
+<!doctype html>
+<!-- probe_endpoints.py の抽出ロジック確認用のダミーHTML。実在のページの複製ではない。 -->
+<html lang="ja"><meta charset="utf-8"><title>サンプル 冠水情報マップ</title>
+<link rel="stylesheet" href="https://example.invalid/assets/app.css">
+<script src="https://example.invalid/assets/vendor/leaflet.js"></script>
+<img src="https://example.invalid/img/logo.png">
+<div id="map"></div>
+<script>
+  const BASE = "https://example.invalid";
+  // 地点マスタ
+  fetch("https://example.invalid/api/v1/devices.json").then(r => r.json());
+  // 5分ごとに通行可否を更新
+  setInterval(() => fetch(BASE + "/api/v1/status?area=sample").then(r => r.json()), 300000);
+  const layer = "https://example.invalid/data/underpass.geojson";
+  const legend = "/assets/legend.svg";
+</script>
+</html>

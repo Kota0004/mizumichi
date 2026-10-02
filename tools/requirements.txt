@@ -1,0 +1,5 @@
+# みずみち 取込・データ整備ツール
+pdfplumber>=0.11      # 道路冠水注意箇所の一覧PDFから表を抽出する
+cffi>=1.16            # pdfminer が依存する cryptography のバックエンド
+Pillow>=10.0          # 標高タイル・降水タイルのPNG画素を読む
+requests>=2.31        # 気象庁JSON・ジオコーディングAPIの取得

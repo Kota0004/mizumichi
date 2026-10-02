@@ -1,0 +1,183 @@
+# 地方整備局の索引ページから県別PDFを集めて取り込む（手動実行）
+#
+# 開発コンテナからは mlit.go.jp / gsi.go.jp に出られないので、
+# ネットワークに出られる Actions 側で実行する。
+#
+# ⚠️ 国土地理院の住所検索を1件1秒で叩く。首都圏9県だと1000件規模＝20分ほど。
+#    何度も回すものではないので、まず --limit で少数を試してから全件にすること。
+name: 地域のデータを取り込む
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: "地域（data/regions.json のキー）"
+        required: true
+        default: "kanto"
+        type: string
+      only:
+        description: "特定の都道府県だけ（例: 東京都。空なら全部）"
+        required: false
+        default: ""
+        type: string
+      limit:
+        description: "各県の先頭N件だけ（0で全件。まずは 5 で試す）"
+        required: true
+        default: "5"
+        type: string
+      enrich:
+        description: "標高とOSMへの寄せまで行う（時間がかかる）"
+        required: true
+        default: true
+        type: boolean
+      commit:
+        description: "結果をコミットする"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-region
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r tools/requirements.txt
+
+      # 索引ページの作りが変わっていないかを先に見る。
+      # ここで県が拾えなければ、取得に進んでも無駄。
+      - name: 索引ページから県別PDFを一覧する
+        run: |
+          python3 tools/build_region.py \
+            --region "${{ inputs.region }}" \
+            ${{ inputs.only && format('--only {0}', inputs.only) || '' }} \
+            --list | tee /tmp/list.txt
+          {
+            echo "### 索引ページで見つかったPDF"
+            echo '```'
+            cat /tmp/list.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 取り込む
+        run: |
+          set -o pipefail
+          python3 tools/build_region.py \
+            --region "${{ inputs.region }}" \
+            ${{ inputs.only && format('--only {0}', inputs.only) || '' }} \
+            --limit "${{ inputs.limit }}" \
+            --outdir data 2>&1 | tee /tmp/build.txt
+          {
+            echo "### 取り込み結果"
+            echo '```'
+            tail -30 /tmp/build.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 標高と、OSMのトンネル情報への寄せ。
+      # 東京都のように資料の住所が区までしかない県は、ジオコーディングだけでは
+      # 区の中心に落ちてしまい、運転中のアラートには使えない。名称が一致する
+      # 構造物へ寄せて初めて地点の粒度になる。
+      - name: 標高を付けてOSMへ寄せる
+        if: ${{ inputs.enrich }}
+        run: |
+          set -o pipefail
+          for f in data/spots_*.json; do
+            case "$f" in *spots_chiba.json) continue;; esac
+            echo "########## $f ##########"
+            python3 tools/enrich_dem.py --spots "$f" 2>&1 | tail -12 || true
+            # 県ごとに取得範囲が変わるので、キャッシュも県ごとに分ける
+            cache="data/osm_$(basename "$f" .json).json"
+            python3 tools/osm_snap.py --spots "$f" --cache "$cache" --fetch 2>&1 | tail -5 || true
+            python3 tools/osm_snap.py --spots "$f" --cache "$cache" --apply 2>&1 | tail -20 || true
+            echo
+          done
+
+      # 取り込んだ中身を実際に見る。件数と警告だけでは、
+      # 住所の粒度やジオコーディングの当たり方までは分からない。
+      - name: 取り込んだ中身をいくつか見せる
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, collections
+          for f in sorted(pathlib.Path("data").glob("spots_*.json")):
+              if f.name == "spots_chiba.json":
+                  continue
+              d = json.loads(f.read_text(encoding="utf-8"))
+              sp = d.get("spots", [])
+              print(f"########## {f.name}: {len(sp)} 件 ##########")
+              conf = collections.Counter(
+                  round(s.get("evidence", {}).get("confidence", 0), 1) for s in sp)
+              print("  確からしさの分布:", dict(sorted(conf.items())))
+              nocoord = sum(1 for s in sp if s.get("lon") is None)
+              print(f"  座標なし: {nocoord} 件")
+              for s in sp[:8]:
+                  ev = s.get("evidence", {})
+                  print(f"    {s['id']} {s['name']}")
+                  print(f"        住所='{s.get('address','')}' 路線='{s.get('road','')}'")
+                  print(f"        座標=({s.get('lon')}, {s.get('lat')}) "
+                        f"確からしさ={ev.get('confidence')} 理由={ev.get('note','')}")
+              print()
+          PY
+
+      # 取り込んだ中身を点検して、おかしなものが混ざっていないかを見る。
+      - name: 取り込んだデータを点検する
+        run: |
+          for f in data/spots_*.json; do
+            case "$f" in *spots_chiba.json) continue;; esac
+            echo "########## $f ##########"
+            python3 tools/validate_spots.py --spots "$f" 2>&1 | tail -25 || true
+            echo
+          done
+
+      # アプリが読む形に書き出す。ここで初めて「地点として使えるか」が
+      # precision として付き、推定でしかない地点は警報から外れる。
+      - name: アプリ用にまとめて書き出す
+        run: |
+          set -o pipefail
+          python3 tools/export_prototype_data.py \
+            --in data/spots_*.json \
+            --out prototype/data/spots.json \
+            --area-name "関東" 2>&1 | tee /tmp/export.txt
+          # 雨量の取り込みも全県を対象にする
+          python3 - <<'PY2'
+          import json, pathlib
+          spots = []
+          for f in sorted(pathlib.Path("data").glob("spots_*.json")):
+              spots += json.loads(f.read_text(encoding="utf-8"))["spots"]
+          pathlib.Path("data/_amedas_targets.json").write_text(
+              json.dumps({"spots": spots}, ensure_ascii=False), encoding="utf-8")
+          print(f"data/_amedas_targets.json: {len(spots)} 件")
+          PY2
+          {
+            echo "### アプリ用の書き出し"
+            echo '```'
+            cat /tmp/export.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 結果をコミットする
+        if: ${{ inputs.commit }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # data/*.json は既定で除外してある（人手レビュー前のものを
+          # 誤って公開しないため）。ここは意図的な更新なので -f で入れる。
+          git add -f data/spots_*.json data/osm_spots_*.json data/regions.json \
+                    data/_amedas_targets.json \
+                    prototype/data/spots.json
+          if git diff --cached --quiet; then
+            echo "変化なし。コミットしません。"
+            exit 0
+          fi
+          git commit -m "${{ inputs.region }} の危険箇所を取り込む"
+          git push

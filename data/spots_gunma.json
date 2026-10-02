@@ -1,0 +1,244 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-09-17",
+  "area": "gunma",
+  "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+  "note": "★人手レビュー前のデータです。evidence.verified_at が null の地点は未確認。",
+  "spots": [
+    {
+      "id": "gunma-0042",
+      "name": "29",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.060154,
+      "lat": 36.390095,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "太田藪塚",
+      "road_type": "",
+      "address": "",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.7,
+        "note": "OSMの道路トンネルへ 72m 寄せた位置（確からしさ 中）。目視で確認してください",
+        "verified_at": null
+      },
+      "params": {
+        "snap": {
+          "moved_m": 71.5,
+          "matched": "道路トンネル",
+          "osm_id": 322996802,
+          "osm_name": "",
+          "confidence": "中",
+          "why": "名前は一致しないが近い（72m）",
+          "applied_at": "2026-09-17",
+          "source": "© OpenStreetMap contributors (ODbL)"
+        }
+      }
+    },
+    {
+      "id": "gunma-0037",
+      "name": "国土交通省高崎河川国道事務所管理",
+      "kind": "river_adjacent",
+      "kind_source": "資料の「河川」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "緑",
+      "road_type": "",
+      "address": "",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0001",
+      "name": "前橋市石倉町",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(主)前橋高崎線",
+      "road_type": "",
+      "address": "群馬県(石倉アンダ-)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0002",
+      "name": "前橋市岩神町四丁目",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "市道番号なし",
+      "road_type": "",
+      "address": "群馬県(国体道路)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.4,
+        "note": "資料の住所が町名までしかない（現地の位置は要確認）",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0003",
+      "name": "高崎市江木町",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(国)354号",
+      "road_type": "",
+      "address": "群馬県(江木アンダ-)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0004",
+      "name": "高崎市高砂町",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(主)高崎駒形線",
+      "road_type": "",
+      "address": "群馬県(高駒アンダ-)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0005",
+      "name": "高崎市下和田町四丁目314-3",
+      "kind": "underpass_gravity",
+      "kind_source": "手がかりなし（既定値・要確認）",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(市)競馬場通り線",
+      "road_type": "",
+      "address": "群馬県(競馬場通り線地下道)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0006",
+      "name": "高崎市旭町154-1",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(市)広小路栄町線",
+      "road_type": "",
+      "address": "群馬県(広小路栄町線地下道)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0007",
+      "name": "高崎市倉賀野町4329-5",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(市)東部縦貫道線",
+      "road_type": "",
+      "address": "群馬県(東部縦貫道線倉賀野地下道)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0008",
+      "name": "高崎市中尾町1383",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(市)D1154号線",
+      "road_type": "",
+      "address": "群馬県(前橋インター地下道)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    },
+    {
+      "id": "gunma-0009",
+      "name": "高崎市京目町468-3",
+      "kind": "underpass_gravity",
+      "kind_source": "資料の「アンダー」から推定",
+      "lon": 139.060455,
+      "lat": 36.39069,
+      "dz": 0.0,
+      "hist": 0,
+      "road": "(市)E785号線",
+      "road_type": "",
+      "address": "群馬県(高崎インター地下道)",
+      "locality": "",
+      "evidence": {
+        "source": "国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB]",
+        "confidence": 0.3,
+        "note": "市区町村レベルまでしか特定できていない",
+        "verified_at": null
+      }
+    }
+  ],
+  "attribution": [
+    "© OpenStreetMap contributors (ODbL)"
+  ]
+}

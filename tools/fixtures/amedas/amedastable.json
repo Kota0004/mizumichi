@@ -1,0 +1,8 @@
+{
+  "_note": "テスト用のダミー観測点表。気象庁 amedastable.json と同じ構造（lat/lon は [度, 分]）にしてある。実際の観測点・観測値ではない。",
+  "90001": { "type": "A", "elems": "11111", "lat": [35, 35.9], "lon": [140, 6.2],  "alt": 4,  "kjName": "テスト観測点A", "knName": "テストカンソクテンA", "enName": "TestA" },
+  "90002": { "type": "A", "elems": "11111", "lat": [35, 41.9], "lon": [139, 59.2], "alt": 3,  "kjName": "テスト観測点B", "knName": "テストカンソクテンB", "enName": "TestB" },
+  "90003": { "type": "A", "elems": "11111", "lat": [35, 23.8], "lon": [139, 55.4], "alt": 2,  "kjName": "テスト観測点C", "knName": "テストカンソクテンC", "enName": "TestC" },
+  "90004": { "type": "A", "elems": "11111", "lat": [35, 43.6], "lon": [140, 13.6], "alt": 30, "kjName": "テスト観測点D", "knName": "テストカンソクテンD", "enName": "TestD" },
+  "90099": { "type": "A", "elems": "11111", "lat": [34, 40.9], "lon": [135, 31.4], "alt": 23, "kjName": "範囲外観測点", "knName": "ハンイガイ", "enName": "OutOfBbox" }
+}

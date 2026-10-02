@@ -1,0 +1,60 @@
+{
+  "_note": [
+    "道路冠水注意箇所は全国統一のデータが存在せず、地方整備局ごとにPDFで公表されている。",
+    "重ねるハザードマップの掲載状況一覧（kansuisouteikasyo.csv）も47都道府県すべて",
+    "「各地方整備局等データ」と書いてあるだけで、箇所そのものは載っていなかった。",
+    "そのため整備局ごとに索引ページを登録し、県別PDFのリンクを毎回そこから読む。",
+    "PDFのURLは更新のたびに通し番号が変わるので、URLは書かない。",
+    "",
+    "status の意味:",
+    "  ready    … 表の作りを確認済み。build_region.py で取り込める",
+    "  untested … 索引ページは分かっているが、表の作りが同じかは未確認"
+  ],
+  "kanto": {
+    "name": "関東地方整備局（首都圏＋甲信）",
+    "status": "ready",
+    "index_url": "https://www.ktr.mlit.go.jp/road/bousai/road_bousai00000001.html",
+    "source_note": "国交省 関東地方整備局",
+    "prefs": [
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県"
+    ],
+    "checked": "2026-09-17: 7県を取り込み（833件）。東京都のPDFで列構成が千葉と同一であることを確認",
+    "no_table": {
+      "_note": "PDFが地図画像だけで、一覧表が入っていない県。パーサの問題ではないので、毎回取りに行かない。",
+      "山梨県": "2026-09-18 確認: 1ページ・文字数11・表0個（「令和8年6月15日時点」のみ）",
+      "長野県": "2026-09-18 確認: 2ページ・文字数23と0・表から文字が取れない"
+    }
+  },
+  "chubu": {
+    "name": "中部地方整備局",
+    "status": "untested",
+    "index_url": "https://www.cbr.mlit.go.jp/road/kansuimap/index.htm",
+    "source_note": "国交省 中部地方整備局",
+    "prefs": [
+      "岐阜県",
+      "静岡県",
+      "愛知県",
+      "三重県"
+    ]
+  },
+  "kinki": {
+    "name": "近畿地方整備局",
+    "status": "untested",
+    "index_url": "https://www.kkr.mlit.go.jp/road/doro_bosaijoho_webmap/main/index.html",
+    "source_note": "国交省 近畿地方整備局",
+    "prefs": [
+      "滋賀県",
+      "京都府",
+      "大阪府",
+      "兵庫県",
+      "奈良県",
+      "和歌山県"
+    ]
+  }
+}

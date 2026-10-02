@@ -1,0 +1,27 @@
+# 入手した資料そのもの。再配布にあたるため置かない（data/README.md 参照）。
+*.pdf
+
+# 取込ツールの出力。既定では共有しない（人手レビュー前のものを誤って公開しないため）。
+# レビューが済んで共有したくなったら git add -f で明示的に追加する。
+data/*.json
+data/*.csv
+data/*.bak
+data/amedastable_cache.json
+data/*.pre-snap.bak
+!data/.gitkeep
+!data/README.md
+# 取り込み先の設定。出力ではなく手で保守するものなので追跡する。
+!data/regions.json
+
+# 依存
+node_modules/
+__pycache__/
+
+# 検証スクリプトの出力（スクリーンショット・npm の作業ファイル）
+tools/v_*.png
+tools/package.json
+tools/package-lock.json
+
+# 雨量の取込結果。GitHub Actions が毎時書き出すもので、手元の
+# フィクスチャ（架空の観測値）を誤って共有しないよう除外する。
+prototype/data/risk_latest.json

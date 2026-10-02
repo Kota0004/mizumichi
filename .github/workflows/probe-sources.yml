@@ -1,0 +1,141 @@
+# 全国展開に使えるデータ入手口を調べる（手動実行・1回限りの調査用）
+#
+# 開発コンテナからは mlit.go.jp / gsi.go.jp に出られないため、
+# ネットワークに出られる Actions 側で調べて結果をログに出す。
+#
+# ⚠️ 調査のための1回きりの取得。定期的な自動取得は意図していない。
+#    各サイトの利用条件に従うこと。
+name: データ入手口の調査
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r tools/requirements.txt
+
+      # ① 首都圏: 関東地方整備局は1都7県を所管していて、千葉のPDFもここ由来。
+      #    同じ整備局なら表の作りも揃っている見込みがあるので、県別PDFの一覧を取る。
+      - name: 関東地方整備局の県別PDFを探す
+        run: |
+          python3 - <<'PY'
+          import re, urllib.request, urllib.parse
+          URL = "https://www.ktr.mlit.go.jp/road/bousai/road_bousai00000001.html"
+          req = urllib.request.Request(URL, headers={"User-Agent": "mizumichi-research/0.1"})
+          html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+          print(f"取得: {URL}  ({len(html)} bytes)\n")
+
+          # リンクテキストと href を組で拾う
+          pairs = re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S | re.I)
+          hits = []
+          for href, text in pairs:
+              t = re.sub(r"<[^>]+>", "", text)
+              t = re.sub(r"\s+", " ", t).strip()
+              if ".pdf" in href.lower() and any(k in t for k in
+                      ("都", "県", "冠水", "マップ")):
+                  hits.append((t, urllib.parse.urljoin(URL, href)))
+          print(f"県別PDFらしきリンク: {len(hits)} 件")
+          for t, u in hits:
+              print(f"  {t}\n      {u}")
+          PY
+
+      # ② 全国: 重ねるハザードマップの「道路冠水想定箇所」レイヤ。
+      #    全国分が1つの機械可読な形で出ているなら、これが本命になる。
+      - name: 重ねるハザードマップの道路防災レイヤを調べる
+        run: |
+          for u in \
+            "https://disaportal.gsi.go.jp/hazardmap/copyright/kansuisouteikasyo.html" \
+            "https://disaportal.gsi.go.jp/maps/index.html?layerset=douro" ; do
+            echo "=============================================="
+            echo "  $u"
+            echo "=============================================="
+            python3 tools/probe_endpoints.py --url "$u" || echo "(失敗)"
+            echo
+          done
+
+      # ③ 掲載状況一覧に CSV があるかを直接見る
+      - name: 掲載状況一覧の中身を見る
+        run: |
+          python3 - <<'PY'
+          import re, urllib.request, urllib.parse
+          URL = "https://disaportal.gsi.go.jp/hazardmap/copyright/kansuisouteikasyo.html"
+          try:
+              req = urllib.request.Request(URL, headers={"User-Agent": "mizumichi-research/0.1"})
+              html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+          except Exception as e:
+              print("取得できませんでした:", e); raise SystemExit(0)
+          print(f"{len(html)} bytes\n")
+          for href in re.findall(r'href="([^"]+)"', html):
+              if any(href.lower().endswith(e) for e in (".csv", ".xlsx", ".xls", ".json", ".geojson")):
+                  print("  データファイル:", urllib.parse.urljoin(URL, href))
+          # 表の行数と、都道府県名がいくつ出てくるか
+          rows = len(re.findall(r"<tr", html, re.I))
+          print(f"\n表の行数: {rows}")
+          PY
+
+      # ④ 全国: 掲載状況一覧のCSVが実在した。中身を見て全国の全体像をつかむ。
+      - name: 掲載状況一覧CSVを取得して中身を見る
+        run: |
+          curl -sS -A "mizumichi-research/0.1" \
+            -o /tmp/kansui.csv \
+            "https://disaportal.gsi.go.jp/hazardmap/copyright/csv/kansuisouteikasyo.csv"
+          echo "サイズ: $(wc -c < /tmp/kansui.csv) bytes / 行数: $(wc -l < /tmp/kansui.csv)"
+          echo "--- 先頭20行（文字コード変換して表示） ---"
+          python3 - <<'PY'
+          import pathlib
+          raw = pathlib.Path("/tmp/kansui.csv").read_bytes()
+          for enc in ("utf-8-sig", "cp932", "utf-8"):
+              try:
+                  text = raw.decode(enc); print(f"[{enc} で読めた]"); break
+              except UnicodeDecodeError:
+                  continue
+          else:
+              raise SystemExit("文字コード不明")
+          lines = text.splitlines()
+          for l in lines[:20]:
+              print(" ", l)
+          print(f"\n合計 {len(lines)} 行")
+          PY
+
+      # ⑤ 首都圏の成否を決める確認:
+      #    千葉以外のPDFに、いまのパーサがそのまま通るか。
+      #    同じ整備局でも表の作りが違えば、県ごとに対応が要る。
+      - name: 東京都のPDFに既存パーサが通るか試す
+        run: |
+          curl -sS -A "mizumichi-research/0.1" \
+            -o /tmp/tokyo.pdf \
+            "https://www.ktr.mlit.go.jp/ktr_content/content/000752436.pdf"
+          echo "サイズ: $(wc -c < /tmp/tokyo.pdf) bytes"
+          echo
+          echo "########## 一覧表のページを探す ##########"
+          python3 tools/build_spots.py --pdf /tmp/tokyo.pdf --inspect || echo "(inspect 失敗)"
+          echo
+          echo "########## 表の構造を見る ##########"
+          python3 tools/build_spots.py --pdf /tmp/tokyo.pdf --dump-table --page 2 2>&1 | head -40 || true
+
+      # ⑥ 山梨県・長野県は抽出0件だった。表の作りを見て原因を特定する。
+      - name: 山梨・長野のPDFの中身を見る
+        run: |
+          set -o pipefail
+          python3 tools/build_region.py --region kanto --list > /tmp/list.txt
+          for pref in 山梨県 長野県; do
+            url=$(grep -A1 "^  ${pref}" /tmp/list.txt | tail -1 | tr -d ' ')
+            echo "=============================================="
+            echo "  $pref  $url"
+            echo "=============================================="
+            curl -sS -A "mizumichi-research/0.1" -o /tmp/p.pdf "$url"
+            echo "サイズ: $(wc -c < /tmp/p.pdf) bytes"
+            python3 tools/build_spots.py --pdf /tmp/p.pdf --inspect || echo "(inspect 失敗)"
+            echo "--- 1ページ目のテキスト（先頭） ---"
+            python3 tools/build_spots.py --pdf /tmp/p.pdf --dump-text --page 1 2>&1 | head -25 || true
+            echo
+          done
