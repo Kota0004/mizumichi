@@ -19,6 +19,8 @@ __pycache__/
 
 # 検証スクリプトの出力（スクリーンショット・npm の作業ファイル）
 tools/v_*.png
+# CI と同じく prototype/ で動かすと、ここに書き出される
+prototype/v_*.png
 tools/package.json
 tools/package-lock.json
 

@@ -108,7 +108,52 @@ check("出典を県ぶんつなぐ",
       and "東京国道事務所" in pay["attribution"][0],
       pay and pay["attribution"][0])
 check("推定が含まれることを免責に書く",
-      pay and "市区町村レベルの推定" in pay["disclaimer"])
+      pay and "市区町村" in pay["disclaimer"] and "位置は推定" in pay["disclaimer"])
+
+# 位置の根拠の書き方は、住所の実際の細かさに合わせる。
+# 以前は「市区町村まで」でない地点を一律に「資料に番地までの住所がある」と書いていて、
+# 丁目まで・名称だけ・住所なしの地点も「番地まである」と表示されていた。
+def unverified(i, address, **over):
+    return spot(i, address=address,
+                evidence={"confidence": 0.9, "note": "", "verified_at": None,
+                          "source": "国交省千葉国道事務所"},
+                review={"status": "pending"}, **over)
+
+
+def note_of(s):
+    r, pay = run([[s]])
+    return pay and (pay["spots"][0]["precision"], pay["spots"][0]["precision_note"])
+
+
+cases = [
+    ("番地まで", unverified(1, "千葉県試験市本町3丁目11番"), ("point", "資料に番地までの住所がある")),
+    ("全角の番地", unverified(2, "袖ケ浦１丁目１１番地先"), ("point", "資料に番地までの住所がある")),
+    ("ハイフンの番地", unverified(3, "試験市本町3-5"), ("point", "資料に番地までの住所がある")),
+    ("丁目まで", unverified(4, "千葉県試験市本町3丁目"), ("point", "資料の住所は丁目まで")),
+    ("複数の丁目", unverified(5, "試験市本町1・2丁目"),
+     ("point", "資料の住所は丁目まで（複数の丁目にまたがる）")),
+    ("名称だけ", unverified(6, "試験市 試験駅前交差点"),
+     ("point", "資料の住所に番地が無く、名称などから推定")),
+]
+for label, s, want in cases:
+    got = note_of(s)
+    check(f"位置の根拠: {label}", got == want, str(got))
+
+# 住所が空の地点（群馬の資料の一部）は、何を手がかりに置いたかたどれない。
+# 名称の一致しない構造物へ寄せただけなら、地点として警報を鳴らさない。
+no_addr = unverified(7, "", params={"snap": {"moved_m": 71.5, "confidence": "中",
+                                              "matched": "道路トンネル"}})
+got = note_of(no_addr)
+check("住所が無く名称も一致しない地点は area", got and got[0] == "area", str(got))
+check("住所が無いことを書く", got and "住所が無く" in got[1], str(got))
+check("住所が無い地点を「番地まである」と書かない",
+      got and "番地まで" not in got[1], str(got))
+no_addr_snap = unverified(8, "", params={"snap": {"moved_m": 40, "confidence": "高",
+                                                   "matched": "道路トンネル"}})
+got = note_of(no_addr_snap)
+check("住所が無くても名称一致で短距離に寄せたら point", got and got[0] == "point", str(got))
+got = note_of(unverified(9, "   "))
+check("空白だけの住所も住所なし", got and got == ("area", "資料に住所が無く、位置は推定"), str(got))
 
 # IDが衝突したら止まる。黙って片方を落とすと、
 # 取り込み済み雨量の紐付けが狂ったまま公開されてしまう。

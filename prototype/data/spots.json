@@ -1,20 +1,20 @@
 {
  "version": "1.0.0",
- "generated_at": "2026-09-17",
+ "generated_at": "2026-10-04",
  "area": "関東",
  "counts": {
   "total": 827,
   "verified": 67,
   "unverified": 760,
-  "point": 246,
-  "area": 581
+  "point": 245,
+  "area": 582
  },
  "attribution": [
   "危険箇所: 国交省千葉国道事務所 令和8年6月30日更新 ／ 国交省 関東地方整備局 ・群馬県 令和8年6月15日【更新】[PDF:498KB] ／ 国交省 関東地方整備局 ・茨城県 令和8年9月8日【更新】[PDF:9.4MB] ／ 国交省 関東地方整備局 ・神奈川県・川崎市・横浜市・相模原市 令和8年6月1日【更新】[PDF:716KB] ／ 国交省 関東地方整備局 ・埼玉県・さいたま市 令和8年6月10日【更新】[PDF:2.3MB] ／ 国交省 関東地方整備局 ・栃木県 令和8年6月1日【更新】[PDF:2.1MB] ／ 国交省 関東地方整備局 ・東京都 令和8年6月15日【更新】[PDF:3.5MB]",
   "位置の補正: © OpenStreetMap contributors (ODbL)",
   "地図・標高: 地理院タイル（国土地理院）"
  ],
- "disclaimer": "参考情報です。通行の可否を保証するものではありません。最終判断は現地の状況で行ってください。位置が人手で未確認の地点が 760 件含まれます。うち 581 件は資料に番地が無く、位置は市区町村レベルの推定です（地点の警報は鳴らしません）。",
+ "disclaimer": "参考情報です。通行の可否を保証するものではありません。最終判断は現地の状況で行ってください。位置が人手で未確認の地点が 760 件含まれます。うち 582 件は資料の住所が市区町村までか住所が無く、位置は推定です（地点の警報は鳴らしません）。",
  "spots": [
   {
    "id": "chiba-0001",
@@ -1289,7 +1289,7 @@
    "address": "千葉県流山市おおたかの森西4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1321,7 +1321,7 @@
    "address": "千葉県千葉市中央区春日1、2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1353,7 +1353,7 @@
    "address": "千葉県千葉市中央区富士見1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1369,7 +1369,7 @@
    "address": "千葉県千葉市中央区新町・富士見1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1385,7 +1385,7 @@
    "address": "千葉県千葉市中央区寒川町3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1401,7 +1401,7 @@
    "address": "千葉県千葉市中央区稲荷町3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1417,7 +1417,7 @@
    "address": "千葉県千葉市中央区蘇我2、3、4、5丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1449,7 +1449,7 @@
    "address": "千葉県千葉市中央区新千葉1、2丁目、新町、登戸2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1481,7 +1481,7 @@
    "address": "千葉県千葉市花見川区幕張町4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1497,7 +1497,7 @@
    "address": "千葉県千葉市花見川区幕張町5丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1513,7 +1513,7 @@
    "address": "千葉県千葉市美浜区幸町2丁目~稲毛区穴川3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1529,7 +1529,7 @@
    "address": "千葉県千葉市若葉区若松町・桜木北1、2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1545,7 +1545,7 @@
    "address": "千葉県千葉市緑区おゆみ野3丁目・鎌取町",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -1592,8 +1592,8 @@
    "road_type": "",
    "address": "",
    "verified": false,
-   "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision": "area",
+   "precision_note": "資料に住所が無く、推定した位置から 72m 寄せたもの",
    "t60": 35.0,
    "snap": {
     "moved_m": 71.5,
@@ -1614,7 +1614,7 @@
    "address": "",
    "verified": false,
    "precision": "area",
-   "precision_note": "資料の住所が市区町村までしかない",
+   "precision_note": "資料に住所が無く、位置は推定",
    "t60": 50.0
   },
   {
@@ -1982,7 +1982,7 @@
    "address": "茨城県石岡市旭台1丁目交差点",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -1998,7 +1998,7 @@
    "address": "茨城県日立市大みか町6丁目交差点",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -2355,7 +2355,7 @@
    "address": "茨城県阿見町よしわら4丁目あみプレミアムアウトレット脇阿見東ICダイレクトアクセス道路",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -2652,7 +2652,7 @@
    "address": "茨城県取手市白山5丁目関東鉄道常総線下",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 142.0,
@@ -2736,7 +2736,7 @@
    "address": "茨城県守谷市ひがし野1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 205.5,
@@ -2874,7 +2874,7 @@
    "address": "神奈川県伊勢原市岡崎第2地下道",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所に番地が無く、名称などから推定",
    "t60": 35.0
   },
   {
@@ -3767,7 +3767,7 @@
    "address": "神奈川県伊勢原市沼目・沼目6丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -3783,7 +3783,7 @@
    "address": "神奈川県伊勢原市沼目7丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -9451,7 +9451,7 @@
    "address": "埼玉県川口市北原台2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -9499,7 +9499,7 @@
    "address": "埼玉県川越市今成4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 171.1,
@@ -9898,7 +9898,7 @@
    "address": "栃木県足利市伊勢町1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 192.5,
@@ -10733,7 +10733,7 @@
    "address": "栃木県上三川町かみのかわアンダー1",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所に番地が無く、名称などから推定",
    "t60": 35.0
   },
   {
@@ -11333,7 +11333,7 @@
    "address": "栃木県那須塩原市青木(東北自動車道アンダー「塩那24」",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所に番地が無く、名称などから推定",
    "t60": 35.0
   },
   {
@@ -11349,7 +11349,7 @@
    "address": "栃木県那須塩原市塩野﨑(東北自動車道アンダー「塩那23」",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所に番地が無く、名称などから推定",
    "t60": 35.0,
    "snap": {
     "moved_m": 84.6,
@@ -11370,7 +11370,7 @@
    "address": "栃木県宇都宮市陽東4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -12089,7 +12089,7 @@
    "address": "東京都新宿区百人町1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 105.5,
@@ -12158,7 +12158,7 @@
    "address": "東京都杉並区和泉4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -12254,7 +12254,7 @@
    "address": "東京都中央区日本橋1丁目~日本橋2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 90.2,
@@ -12275,7 +12275,7 @@
    "address": "東京都中央区日本橋2丁目~京橋1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 126.8,
@@ -12296,7 +12296,7 @@
    "address": "東京都中央区京橋2丁目~銀座1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 122.1,
@@ -12317,7 +12317,7 @@
    "address": "東京都中央区銀座1丁目~銀座7丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 158.7,
@@ -12354,7 +12354,7 @@
    "address": "東京都千代田区千・日比谷公園~中・銀座5丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -12598,7 +12598,7 @@
    "address": "東京都青梅市河辺町5丁目・7丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0
   },
   {
@@ -12726,7 +12726,7 @@
    "address": "東京都羽村市小作台1丁目・5丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 266.1,
@@ -12895,7 +12895,7 @@
    "address": "東京都世田谷区桜1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 94.9,
@@ -13033,7 +13033,7 @@
    "address": "東京都足立区栗原2~4丁目栗原立体交差",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 211.3,
@@ -13054,7 +13054,7 @@
    "address": "東京都足立区栗原3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 92.9,
@@ -13091,7 +13091,7 @@
    "address": "東京都足立区加平3丁目~谷中5丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで（複数の丁目にまたがる）",
    "t60": 35.0,
    "snap": {
     "moved_m": 199.5,
@@ -13160,7 +13160,7 @@
    "address": "東京都荒川区南千住二丁目第2南千住架道橋",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 121.5,
@@ -13250,7 +13250,7 @@
    "address": "東京都渋谷区代々木3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 291.7,
@@ -13271,7 +13271,7 @@
    "address": "東京都渋谷区渋谷2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13335,7 +13335,7 @@
    "address": "東京都豊島区南池袋1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 6.6,
@@ -13441,7 +13441,7 @@
    "address": "東京都品川区大崎1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 68.3,
@@ -13462,7 +13462,7 @@
    "address": "東京都品川区北品川1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 52.2,
@@ -13499,7 +13499,7 @@
    "address": "東京都北区中十条4丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 18.6,
@@ -13520,7 +13520,7 @@
    "address": "東京都北区王子1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 251.1,
@@ -13541,7 +13541,7 @@
    "address": "東京都調布市小島町3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 59.2,
@@ -13625,7 +13625,7 @@
    "address": "東京都昭島市拝島町6丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13788,7 +13788,7 @@
    "address": "東京都羽村市栄町2丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13852,7 +13852,7 @@
    "address": "東京都府中市武蔵台1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13868,7 +13868,7 @@
    "address": "東京都府中市武蔵台1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13884,7 +13884,7 @@
    "address": "東京都府中市矢崎町1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 41.0,
@@ -13905,7 +13905,7 @@
    "address": "東京都府中市是政3丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13921,7 +13921,7 @@
    "address": "東京都府中市是政6丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0
   },
   {
@@ -13969,7 +13969,7 @@
    "address": "東京都府中市矢崎町1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 41.0,
@@ -13990,7 +13990,7 @@
    "address": "東京都府中市矢崎町1丁目",
    "verified": false,
    "precision": "point",
-   "precision_note": "資料に番地までの住所がある",
+   "precision_note": "資料の住所は丁目まで",
    "t60": 35.0,
    "snap": {
     "moved_m": 41.0,

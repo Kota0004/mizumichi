@@ -451,6 +451,7 @@
           properties:{
             id:s.id, name:s.name, kind:s.kind, verified: s.verified !== false,
             precision: s.precision || 'point',
+            precisionNote: s.precision_note || '',
             unknown: !!s.unknown,
             kindLabel: M.KIND_LABEL[s.kind] || s.kind,
             level:s.level, score:Math.round(s.score),
@@ -570,7 +571,7 @@
         <h3>${p.name}${p.verified ? '' : '<span class="unv">位置は未確認</span>'}${
           p.precision === 'area' ? '<span class="apx">位置は推定</span>' : ''}</h3>
         ${p.precision === 'area' ? '<p style="margin:.4em 0;color:#8a78bd">'
-          + '資料に番地が無く、市区町村レベルの推定です。'
+          + '位置は推定です（' + esc(p.precisionNote || '資料の住所が市区町村までしかない') + '）。'
           + 'この地点では現在地アラートを鳴らしません。</p>' : ''}
         <div><span class="pill" style="background:${lv.color}">レベル${p.level} ${lv.name}</span>
              <span class="kv" style="margin-left:6px">スコア ${p.score}</span></div>
@@ -579,7 +580,9 @@
         <div class="kv">この地点の冠水閾値: <b style="color:var(--fg)">${p.t60} mm/h</b>（周辺との標高差 ${p.dz}m ／ 過去 ${p.hist} 回）</div>
         <div class="kv" style="margin-top:6px">判定理由: ${p.reason}</div>
         ${p.note ? `<div class="kv" style="margin-top:6px">${p.note}</div>` : ''}
-        <div class="kv" style="margin-top:8px;font-size:10px">※ダミーデータ。実在の箇所ではありません</div>
+        ${p.precision !== 'area' && p.precisionNote
+          ? `<div class="kv" style="margin-top:6px">位置の根拠: ${esc(p.precisionNote)}</div>` : ''}
+        ${META.real ? '' : '<div class="kv" style="margin-top:8px;font-size:10px">※ダミーデータ。実在の箇所ではありません</div>'}
       `)
       .addTo(map);
   }
