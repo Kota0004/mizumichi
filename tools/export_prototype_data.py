@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -31,9 +32,10 @@ KEEP = ("id", "name", "kind", "lon", "lat", "dz", "hist", "road", "road_type", "
 
 # 位置の確からしさ。アプリはこれを見て、地点アラートを鳴らすかどうかを決める。
 #
-#   point … 資料に番地までの住所があるか、名称が一致する構造物へ短距離で寄せた。
-#           その地点に立っていると言ってよい。
-#   area  … 資料の住所が市区町村までしかなく、座標は区の中心か、そこから
+#   point … 資料に市区町村より細かい住所（番地・丁目・施設や交差点の名称）があるか、
+#           名称が一致する構造物へ短距離で寄せた。その地点に立っていると言ってよい。
+#           どこまで細かい住所かは precision_note に正直に書く（address_detail）。
+#   area  … 資料の住所が市区町村までしかない（または住所が無い）。座標は区の中心か、そこから
 #           名称の部分一致だけで遠くへ寄せたもの。「この付近にある」以上のことは
 #           言えないので、地点として警報を鳴らしてはいけない。
 #
@@ -42,6 +44,27 @@ KEEP = ("id", "name", "kind", "lon", "lat", "dz", "hist", "road", "road_type", "
 # 無関係な場所で鳴る。それは地点を持たないより悪い。
 COARSE_CONF = 0.45
 SHORT_SNAP_M = 300.0
+
+# 住所に番地（「11番」「3-5」など）まであるか。全角の数字も \d に入る。
+BANCHI_RE = re.compile(r"\d+\s*(番|号)|\d+\s*[-－‐]\s*\d+|\D\d{2,}$")
+
+
+def address_detail(address) -> str:
+    """資料の住所がどこまで細かいかを、実際の文字列から言う。
+
+    以前は「市区町村まで」でない地点をまとめて「資料に番地までの住所がある」と
+    書いていたが、丁目まで・名称だけ・住所なしの地点も混じっていた（2026-10-03 確認）。
+    """
+    a = str(address or "").strip()
+    if not a:
+        return "資料に住所が無い"
+    if BANCHI_RE.search(a):
+        return "資料に番地までの住所がある"
+    if "丁目" in a:
+        if re.search(r"[、~〜・]", a):
+            return "資料の住所は丁目まで（複数の丁目にまたがる）"
+        return "資料の住所は丁目まで"
+    return "資料の住所に番地が無く、名称などから推定"
 
 
 def position_precision(spot: dict) -> tuple[str, str]:
@@ -52,13 +75,21 @@ def position_precision(spot: dict) -> tuple[str, str]:
     coarse_source = (isinstance(conf, (int, float)) and conf <= COARSE_CONF) \
         or "市区町村" in str(ev.get("note", ""))
 
+    # 住所が空の地点は、何を手がかりに置いたのかが資料からたどれない。
+    # 名称が一致する構造物へ短距離で寄せたのでなければ、地点とは呼ばない。
+    no_address = not str(spot.get("address") or "").strip()
+
     if ev.get("verified_at"):
         return "point", "人手で位置を確認済み"
-    if not coarse_source:
-        return "point", "資料に番地までの住所がある"
+    if not coarse_source and not no_address:
+        return "point", address_detail(spot.get("address"))
     moved = snap.get("moved_m")
     if moved is not None and moved <= SHORT_SNAP_M and snap.get("confidence") == "高":
         return "point", f"名称が一致する構造物へ {moved:.0f}m 寄せた"
+    if no_address:
+        if moved is not None:
+            return "area", f"資料に住所が無く、推定した位置から {moved:.0f}m 寄せたもの"
+        return "area", "資料に住所が無く、位置は推定"
     if moved is not None:
         return "area", (f"資料の住所が市区町村までで、そこから {moved:.0f}m 寄せた推定位置")
     return "area", "資料の住所が市区町村までしかない"
@@ -123,8 +154,8 @@ def main() -> int:
             "参考情報です。通行の可否を保証するものではありません。"
             "最終判断は現地の状況で行ってください。"
             f"位置が人手で未確認の地点が {len(out) - verified} 件含まれます。"
-            + (f"うち {area_only} 件は資料に番地が無く、位置は市区町村レベルの"
-               "推定です（地点の警報は鳴らしません）。" if area_only else "")),
+            + (f"うち {area_only} 件は資料の住所が市区町村までか住所が無く、位置は推定です"
+               "（地点の警報は鳴らしません）。" if area_only else "")),
         "spots": out,
     }
     dst = Path(args.dst)
@@ -135,7 +166,7 @@ def main() -> int:
     print(f"  {len(out)} 件（確認済み {verified} / 未確認 {len(out)-verified}）"
           f" ／ 除外・座標なしで省いた {skipped} 件")
     print(f"  位置: 地点として使える {len(out)-area_only} 件 / "
-          f"市区町村レベルの推定 {area_only} 件")
+          f"位置が推定（市区町村まで・住所なし） {area_only} 件")
     print(f"  閾値 T60: {min(r['t60'] for r in out):.0f}〜{max(r['t60'] for r in out):.0f} mm/h")
     return 0
 
